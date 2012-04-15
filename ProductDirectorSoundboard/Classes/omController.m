@@ -49,7 +49,6 @@
 
 
 #import "omController.h"
-#include "CALevelMeter.h"
 
 // amount to skip on rewind or fast forward
 #define SKIP_TIME 1.0			
@@ -100,7 +99,6 @@ void RouteChangeListener(	void *                  inClientData,
 	if (p.playing)
 	{
 		[playButton setImage:((p.playing == YES) ? pauseBtnBG : playBtnBG) forState:UIControlStateNormal];
-		[lvlMeter_in setPlayer:p];
 		updateTimer = [NSTimer scheduledTimerWithTimeInterval:.01 target:self selector:@selector(updateCurrentTime) userInfo:p repeats:YES];
 	}
 	else
