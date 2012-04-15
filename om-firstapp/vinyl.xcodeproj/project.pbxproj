@@ -67,6 +67,8 @@
 		5AF2006A11F6EAC4001B40B2 /* music.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5AF2006911F6EAC4001B40B2 /* music.caf */; };
 		5AF2017211F7BD19001B40B2 /* reset_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AF2017111F7BD19001B40B2 /* reset_button.png */; };
 		5AF2FFDD11F6C137001B40B2 /* balloonpop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5AF2FFDC11F6C137001B40B2 /* balloonpop.caf */; };
+		87D8F81C152CA00E00DB1B72 /* _appIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D8F81B152CA00E00DB1B72 /* _appIcon@2x.png */; };
+		87D8F81F152CA01100DB1B72 /* _appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D8F81E152CA01100DB1B72 /* _appIcon.png */; };
 		A13512F611986265007C9395 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13512F511986265007C9395 /* QuartzCore.framework */; };
 		A13512F811986270007C9395 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13512F711986270007C9395 /* OpenGLES.framework */; };
 		A13512FD11986427007C9395 /* BalloonGameTutorialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13512FC11986427007C9395 /* BalloonGameTutorialAppDelegate.m */; };
@@ -80,11 +82,11 @@
 /* Begin PBXFileReference section */
 		0181A0471522E05600FD6C0E /* scratchiti2_023.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = scratchiti2_023.caf; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* OM-FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OM-FirstApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* vinyl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vinyl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* OM-FirstApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OM-FirstApp_Prefix.pch"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* vinyl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vinyl_Prefix.pch; sourceTree = "<group>"; };
 		5A46FF1913027FF50093CDDE /* SPAVSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAVSound.h; sourceTree = "<group>"; };
 		5A46FF1A13027FF50093CDDE /* SPAVSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAVSound.m; sourceTree = "<group>"; };
 		5A46FF1B13027FF50093CDDE /* SPAVSoundChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAVSoundChannel.h; sourceTree = "<group>"; };
@@ -191,7 +193,9 @@
 		5AF2006911F6EAC4001B40B2 /* music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.caf; sourceTree = "<group>"; };
 		5AF2017111F7BD19001B40B2 /* reset_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_button.png; sourceTree = "<group>"; };
 		5AF2FFDC11F6C137001B40B2 /* balloonpop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = balloonpop.caf; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* OM-FirstApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OM-FirstApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		87D8F81B152CA00E00DB1B72 /* _appIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_appIcon@2x.png"; sourceTree = "<group>"; };
+		87D8F81E152CA01100DB1B72 /* _appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _appIcon.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* vinyl-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "vinyl-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A13512F511986265007C9395 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A13512F711986270007C9395 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A13512FB11986427007C9395 /* BalloonGameTutorialAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalloonGameTutorialAppDelegate.h; sourceTree = "<group>"; };
@@ -238,7 +242,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* OM-FirstApp.app */,
+				1D6058910D05DD3D006BFB54 /* vinyl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +250,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				87D8F81E152CA01100DB1B72 /* _appIcon.png */,
+				87D8F81B152CA00E00DB1B72 /* _appIcon@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -258,7 +264,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* OM-FirstApp_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* vinyl_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -281,7 +287,7 @@
 				5AF2006911F6EAC4001B40B2 /* music.caf */,
 				5AF2FFDC11F6C137001B40B2 /* balloonpop.caf */,
 				A1351399119868D9007C9395 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* OM-FirstApp-Info.plist */,
+				8D1107310486CEB800E47090 /* vinyl-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -518,9 +524,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* OM-FirstApp */ = {
+		1D6058900D05DD3D006BFB54 /* vinyl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OM-FirstApp" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "vinyl" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -530,9 +536,9 @@
 			);
 			dependencies = (
 			);
-			name = "OM-FirstApp";
+			name = vinyl;
 			productName = BalloonGameTutorial;
-			productReference = 1D6058910D05DD3D006BFB54 /* OM-FirstApp.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* vinyl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -543,7 +549,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OM-FirstApp" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "vinyl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -557,7 +563,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* OM-FirstApp */,
+				1D6058900D05DD3D006BFB54 /* vinyl */,
 			);
 		};
 /* End PBXProject section */
@@ -580,6 +586,8 @@
 				5ADBE9EF11F90F4600D4F61E /* violettutorial.png in Resources */,
 				5ADBE9F011F90F4600D4F61E /* yellowtutorial.png in Resources */,
 				5A4D49C91303EF91004870C0 /* screenoverlay.png in Resources */,
+				87D8F81C152CA00E00DB1B72 /* _appIcon@2x.png in Resources */,
+				87D8F81F152CA01100DB1B72 /* _appIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,11 +659,11 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OM-FirstApp_Prefix.pch";
+				GCC_PREFIX_HEADER = vinyl_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "OM-FirstApp-Info.plist";
+				INFOPLIST_FILE = "vinyl-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "OM-FirstApp";
+				PRODUCT_NAME = vinyl;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = NO;
@@ -668,11 +676,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OM-FirstApp_Prefix.pch";
+				GCC_PREFIX_HEADER = vinyl_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "OM-FirstApp-Info.plist";
+				INFOPLIST_FILE = "vinyl-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "OM-FirstApp";
+				PRODUCT_NAME = vinyl;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = NO;
@@ -683,7 +691,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nicholas Kaye (324MKBWE59)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nicholas Kaye (324MKBWE59)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -691,7 +700,8 @@
 					"-ObjC",
 					"-all_load",
 				);
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "4ACBDA28-2A37-43E2-82F3-9E1ED8170B48";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4ACBDA28-2A37-43E2-82F3-9E1ED8170B48";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -700,7 +710,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Kaye";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nicholas Kaye";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -709,7 +720,8 @@
 					"-ObjC",
 					"-all_load",
 				);
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "5EE32284-E49E-4604-A090-4A58B6C2A7FB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5EE32284-E49E-4604-A090-4A58B6C2A7FB";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -717,7 +729,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OM-FirstApp" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "vinyl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -726,7 +738,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OM-FirstApp" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "vinyl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
