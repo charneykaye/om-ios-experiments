@@ -43,4 +43,13 @@
 -(IBAction) btnPressCanYouDelineateTheWhatFromTheHow;
 -(IBAction) btnPressWhatIsTheOutput;
 
+-(void) setActiveWhatsTheBusinessProblem;
+-(void) setActiveWhatIsTheAsk;
+-(void) setActiveWhyDoYouReallyWantThat;
+-(void) setActiveWhyIsThatAPriority;
+-(void) setActiveWhatsTheValue;
+-(void) setActiveWhyShouldntThatGoStraightToTheBacklog;
+-(void) setActiveCanYouDelineateTheWhatFromTheHow;
+-(void) setActiveWhatIsTheOutput;
+
 @end

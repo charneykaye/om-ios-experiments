@@ -11,7 +11,7 @@
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
 
-@class CALevelMeter;
+@class omViewController;
 
 @interface omController : NSObject <UIPickerViewDelegate, AVAudioPlayerDelegate> {
     
@@ -39,13 +39,17 @@
 -(void) playWhyShouldntThatGoStraightToTheBacklog;
 -(void) playCanYouDelineateTheWhatFromTheHow;
 -(void) playWhatIsTheOutput;
+-(BOOL) playTogglePlayer: (AVAudioPlayer *) p;
 
 - (IBAction)buttonPressed:(UIButton*)sender;
 
 - (void)registerForBackgroundNotifications;
 
 @property (nonatomic, assign)	AVAudioPlayer	*player;
+@property (nonatomic, assign)   NSURL * tempUrl;
 @property (nonatomic, assign)	NSError	* playerError;
+
+@property (nonatomic, assign)   omViewController * viewController;
 
 @property (nonatomic, assign) AVAudioPlayer	* playerWhatsTheBusinessProblem;
 @property (nonatomic, assign) AVAudioPlayer	* playerWhatIsTheAsk;
