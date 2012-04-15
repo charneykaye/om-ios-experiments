@@ -42,10 +42,11 @@
 		87E9A999153A5AE600994FBB /* WhyIsThatAPriority.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A991153A5AE600994FBB /* WhyIsThatAPriority.m4a */; };
 		87E9A99A153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A992153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */; };
 		87E9A99C153A5B1200994FBB /* omViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A99B153A5B1100994FBB /* omViewController.xib */; };
+		87E9A99D153A640600994FBB /* ProductDirectorSoundboard.app in Resources */ = {isa = PBXBuildFile; fileRef = 1D6058910D05DD3D006BFB54 /* ProductDirectorSoundboard.app */; };
+		87E9A9A3153A648200994FBB /* omController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A9A2153A648200994FBB /* omController.m */; };
 		F768E6710E7859DD00715E09 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E6700E7859DD00715E09 /* OpenGLES.framework */; };
 		F768E6770E7859F000715E09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E6760E7859F000715E09 /* QuartzCore.framework */; };
 		F7BEC5F30E95414B00E56EE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BEC5F20E95414B00E56EE2 /* AVFoundation.framework */; };
-		F7C4694C0E7B12DF00A2E1ED /* omController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C4694B0E7B12DF00A2E1ED /* omController.m */; };
 		F7C81C5E1015272A00E57710 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C81C5D1015272A00E57710 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,12 +90,12 @@
 		87E9A991153A5AE600994FBB /* WhyIsThatAPriority.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyIsThatAPriority.m4a; path = audio/WhyIsThatAPriority.m4a; sourceTree = "<group>"; };
 		87E9A992153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyShouldntThatGoStraightToTheBacklog.m4a; path = audio/WhyShouldntThatGoStraightToTheBacklog.m4a; sourceTree = "<group>"; };
 		87E9A99B153A5B1100994FBB /* omViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = omViewController.xib; sourceTree = "<group>"; };
+		87E9A9A1153A648200994FBB /* omController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omController.h; sourceTree = "<group>"; };
+		87E9A9A2153A648200994FBB /* omController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F768E6700E7859DD00715E09 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		F768E6760E7859F000715E09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F77554350E771B2200A99FCA /* omController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omController.h; sourceTree = "<group>"; };
 		F7BEC5F20E95414B00E56EE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F7C4694B0E7B12DF00A2E1ED /* omController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omController.m; sourceTree = "<group>"; };
 		F7C81C5D1015272A00E57710 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -119,12 +120,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				87E9A9A1153A648200994FBB /* omController.h */,
+				87E9A9A2153A648200994FBB /* omController.m */,
 				1D3623240D0F684500981E51 /* omAppDelegate.h */,
 				1D3623250D0F684500981E51 /* omAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* omViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* omViewController.m */,
-				F77554350E771B2200A99FCA /* omController.h */,
-				F7C4694B0E7B12DF00A2E1ED /* omController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -306,6 +307,7 @@
 				87E9A999153A5AE600994FBB /* WhyIsThatAPriority.m4a in Resources */,
 				87E9A99A153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */,
 				87E9A99C153A5B1200994FBB /* omViewController.xib in Resources */,
+				87E9A99D153A640600994FBB /* ProductDirectorSoundboard.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +321,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* omAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* omViewController.m in Sources */,
-				F7C4694C0E7B12DF00A2E1ED /* omController.m in Sources */,
+				87E9A9A3153A648200994FBB /* omController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
