@@ -1,51 +1,11 @@
-/*
- 
- File: omController.mm
- Abstract: n/a
- Version: 1.4.1
- 
- Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
- Inc. ("Apple") in consideration of your agreement to the following
- terms, and your use, installation, modification or redistribution of
- this Apple software constitutes acceptance of these terms.  If you do
- not agree with these terms, please do not use, install, modify or
- redistribute this Apple software.
- 
- In consideration of your agreement to abide by the following terms, and
- subject to these terms, Apple grants you a personal, non-exclusive
- license, under Apple's copyrights in this original Apple software (the
- "Apple Software"), to use, reproduce, modify and redistribute the Apple
- Software, with or without modifications, in source and/or binary forms;
- provided that if you redistribute the Apple Software in its entirety and
- without modifications, you must retain this notice and the following
- text and disclaimers in all such redistributions of the Apple Software.
- Neither the name, trademarks, service marks or logos of Apple Inc. may
- be used to endorse or promote products derived from the Apple Software
- without specific prior written permission from Apple.  Except as
- expressly stated in this notice, no other rights or licenses, express or
- implied, are granted by Apple herein, including but not limited to any
- patent rights that may be infringed by your derivative works or by other
- works in which the Apple Software may be incorporated.
- 
- The Apple Software is provided by Apple on an "AS IS" basis.  APPLE
- MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
- THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS
- FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND
- OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
- 
- IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL
- OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION,
- MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED
- AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
- STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
- 
- Copyright (C) 2010 Apple Inc. All Rights Reserved.
- 
- 
- */
+//
+//  omController.m
+//  ProductDirectorSoundboard
+//
+//  Created by Nick Kaye on 4/14/12.
+//  Copyright (c) 2012 Outright Mental. All rights reserved.
+//
+
 
 
 #import "omController.h"
@@ -57,125 +17,111 @@
 
 @implementation omController
 
-@synthesize fileName;
-@synthesize playButton;
-@synthesize ffwButton;
-@synthesize rewButton;
-@synthesize volumeSlider;
-@synthesize progressBar;
-@synthesize currentTime;
-@synthesize duration;
-@synthesize lvlMeter_in;
-
-@synthesize updateTimer;
 @synthesize player;
+@synthesize playerError;
 
 @synthesize inBackground;
 
+@synthesize playerWhatsTheBusinessProblem, playerWhatIsTheAsk, playerWhyDoYouReallyWantThat, playerWhyIsThatAPriority, playerWhatsTheValue, playerWhyShouldntThatGoStraightToTheBacklog, playerCanYouDelineateTheWhatFromTheHow, playerWhatIsTheOutput; 
 
 void RouteChangeListener(	void *                  inClientData,
 							AudioSessionPropertyID	inID,
 							UInt32                  inDataSize,
 							const void *            inData);
-															
+
+-(omController *) init {
+    [super init];
+    [self initAudio];
+    return self;
+}
+
+-(void) playWhatsTheBusinessProblem
+{
+    NSLog(@"What's the business problem? play:%@",
+          [playerWhatsTheBusinessProblem play]
+          ? @"YES" : @"NO");
+}
+
+-(void) playWhatIsTheAsk
+{
+    NSLog(@"What's the ask? play:%@",
+          [playerWhatIsTheAsk play]
+          ? @"YES" : @"NO");
+}
+
+-(void) playWhyDoYouReallyWantThat
+{
+    NSLog(@"Why do you really want that? play:%@",
+          [playerWhyDoYouReallyWantThat play]
+          ? @"YES" : @"NO");
+}
+
+-(void) playWhyIsThatAPriority
+{
+    NSLog(@"Why is that a priority? play:%@",
+          [playerWhyIsThatAPriority play]
+          ? @"YES" : @"NO");
+}
+
+-(void) playWhatsTheValue
+{
+    NSLog(@"What's the value? play:%@",
+          [playerWhatsTheValue play]
+          ? @"YES" : @"NO");
+}
+
+-(void) playWhyShouldntThatGoStraightToTheBacklog
+{
+    NSLog(@"Why shouldn't that go straight to the backlog? play:%@",
+          [playerWhyShouldntThatGoStraightToTheBacklog play]
+          ? @"YES" : @"NO");
+}
+
+-(void) playCanYouDelineateTheWhatFromTheHow
+{
+    NSLog(@"Can you delineate the what from the how? play:%@",
+          [playerCanYouDelineateTheWhatFromTheHow play]
+          ? @"YES" : @"NO");
+}
+
+-(void) playWhatIsTheOutput
+{
+    NSLog(@"What is the output? play:%@",
+          [playerWhatIsTheOutput play]
+          ? @"YES" : @"NO");
+}
+
 -(void)updateCurrentTimeForPlayer:(AVAudioPlayer *)p
 {
-	currentTime.text = [NSString stringWithFormat:@"%d:%02d", (int)p.currentTime / 60, (int)p.currentTime % 60, nil];
-	progressBar.value = p.currentTime;
+    NSLog(@"updateCurrentTimeForPlayer");
 }
 
 - (void)updateCurrentTime
 {
-	[self updateCurrentTimeForPlayer:self.player];
+    NSLog(@"updateCurrentTime");
 }
 
 - (void)updateViewForPlayerState:(AVAudioPlayer *)p
 {
-	[self updateCurrentTimeForPlayer:p];
-
-	if (updateTimer) 
-		[updateTimer invalidate];
-		
-	if (p.playing)
-	{
-		[playButton setImage:((p.playing == YES) ? pauseBtnBG : playBtnBG) forState:UIControlStateNormal];
-		updateTimer = [NSTimer scheduledTimerWithTimeInterval:.01 target:self selector:@selector(updateCurrentTime) userInfo:p repeats:YES];
-	}
-	else
-	{
-		[playButton setImage:((p.playing == YES) ? pauseBtnBG : playBtnBG) forState:UIControlStateNormal];
-		[lvlMeter_in setPlayer:nil];
-		updateTimer = nil;
-	}
-	
+    NSLog(@"updateViewForPlayerState");	
 }
 
 - (void)updateViewForPlayerStateInBackground:(AVAudioPlayer *)p
 {
-	[self updateCurrentTimeForPlayer:p];
-	
-	if (p.playing)
-	{
-		[playButton setImage:((p.playing == YES) ? pauseBtnBG : playBtnBG) forState:UIControlStateNormal];
-	}
-	else
-	{
-		[playButton setImage:((p.playing == YES) ? pauseBtnBG : playBtnBG) forState:UIControlStateNormal];
-	}	
+    NSLog(@"updateViewForPlayerStateInBackground");
 }
 
 -(void)updateViewForPlayerInfo:(AVAudioPlayer*)p
 {
-	duration.text = [NSString stringWithFormat:@"%d:%02d", (int)p.duration / 60, (int)p.duration % 60, nil];
-	progressBar.maximumValue = p.duration;
-	volumeSlider.value = p.volume;
+    NSLog(@"updateViewForPlayerInfo");
 }
 
-- (void)rewind
-{
-	AVAudioPlayer *p = rewTimer.userInfo;
-	p.currentTime-= SKIP_TIME;
-	[self updateCurrentTimeForPlayer:p];
-}
 
-- (void)ffwd
+- (void)initAudio
 {
-	AVAudioPlayer *p = ffwTimer.userInfo;
-	p.currentTime+= SKIP_TIME;	
-	[self updateCurrentTimeForPlayer:p];
-}
-
-- (void)awakeFromNib
-{
-	playBtnBG = [[UIImage imageNamed:@"play.png"] retain];
-	pauseBtnBG = [[UIImage imageNamed:@"pause.png"] retain];
-
-	[playButton setImage:playBtnBG forState:UIControlStateNormal];
-	
 	[self registerForBackgroundNotifications];
+    [self initAudioPlayers];
 			
-	updateTimer = nil;
-	rewTimer = nil;
-	ffwTimer = nil;
-	
-	duration.adjustsFontSizeToFitWidth = YES;
-	currentTime.adjustsFontSizeToFitWidth = YES;
-	progressBar.minimumValue = 0.0;	
-	
-	// Load the the sample file, use mono or stero sample
-	NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: [[NSBundle mainBundle] pathForResource:@"sample" ofType:@"m4a"]];
-    //NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: [[NSBundle mainBundle] pathForResource:@"sample2ch" ofType:@"m4a"]];
-
-	self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:nil];	
-	if (self.player)
-	{
-		fileName.text = [NSString stringWithFormat: @"%@ (%d ch.)", [[player.url relativePath] lastPathComponent], player.numberOfChannels, nil];
-		[self updateViewForPlayerInfo:player];
-		[self updateViewForPlayerState:player];
-		player.numberOfLoops = 1;
-		player.delegate = self;
-	}
-	
 	OSStatus result = AudioSessionInitialize(NULL, NULL, NULL, NULL);
 	if (result)
 		NSLog(@"Error initializing audio session! %ld", result);
@@ -190,7 +136,26 @@ void RouteChangeListener(	void *                  inClientData,
 	if (result) 
 		NSLog(@"Could not add property listener! %ld", result);
 	
-	[fileURL release];
+}
+
+-(void)initAudioPlayers
+{
+	playerWhatsTheBusinessProblem = [self initGetAudioPlayerFromFile:@"WhatsTheBusinessProblem"];
+	playerWhatIsTheAsk = [self initGetAudioPlayerFromFile:@"WhatIsTheAsk"];
+	playerWhatIsTheOutput = [self initGetAudioPlayerFromFile:@"WhatIsTheOutput"];
+	playerWhatsTheValue = [self initGetAudioPlayerFromFile:@"WhatsTheValue"];
+	playerCanYouDelineateTheWhatFromTheHow = [self initGetAudioPlayerFromFile:@"CanYouDelineateTheWhatFromTheHow"];
+	playerWhyDoYouReallyWantThat = [self initGetAudioPlayerFromFile:@"WhyDoYouReallyWantThat"];
+	playerWhyIsThatAPriority = [self initGetAudioPlayerFromFile:@"WhyIsThatAPriority"];
+	playerWhyShouldntThatGoStraightToTheBacklog = [self initGetAudioPlayerFromFile:@"WhyShouldntThatGoStraightToTheBacklog"];
+}
+
+-(AVAudioPlayer*) initGetAudioPlayerFromFile:(NSString*) f{
+    NSURL * url = [[NSURL alloc] initFileURLWithPath: [[NSBundle mainBundle] pathForResource:f ofType:@"m4a"]];
+    AVAudioPlayer * p = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    p.delegate = self;
+    NSLog(@"Initialized %@ from file %@.mp4",[[p class] description],f);
+    return p;
 }
 
 -(void)pausePlaybackForPlayer:(AVAudioPlayer*)p
@@ -209,7 +174,7 @@ void RouteChangeListener(	void *                  inClientData,
 		NSLog(@"Could not play %@\n", p.url);
 }
 
-- (IBAction)playButtonPressed:(UIButton *)sender
+- (IBAction)buttonPressed:(UIButton *)sender
 {
 	if (player.playing == YES)
 		[self pausePlaybackForPlayer: player];
@@ -217,60 +182,12 @@ void RouteChangeListener(	void *                  inClientData,
 		[self startPlaybackForPlayer: player];
 }
 
-- (IBAction)rewButtonPressed:(UIButton *)sender
-{
-	if (rewTimer) [rewTimer invalidate];
-	rewTimer = [NSTimer scheduledTimerWithTimeInterval:SKIP_INTERVAL target:self selector:@selector(rewind) userInfo:player repeats:YES];
-}
-
-- (IBAction)rewButtonReleased:(UIButton *)sender
-{
-	if (rewTimer) [rewTimer invalidate];
-	rewTimer = nil;
-}
-
-- (IBAction)ffwButtonPressed:(UIButton *)sender
-{
-	if (ffwTimer) [ffwTimer invalidate];
-	ffwTimer = [NSTimer scheduledTimerWithTimeInterval:SKIP_INTERVAL target:self selector:@selector(ffwd) userInfo:player repeats:YES];
-}
-
-- (IBAction)ffwButtonReleased:(UIButton *)sender
-{
-	if (ffwTimer) [ffwTimer invalidate];
-	ffwTimer = nil;
-}
-
-- (IBAction)volumeSliderMoved:(UISlider *)sender
-{
-	player.volume = [sender value];
-}
-
-- (IBAction)progressSliderMoved:(UISlider *)sender
-{
-	player.currentTime = sender.value;
-	[self updateCurrentTimeForPlayer:player];
-}
-
 - (void)dealloc
 {
 	[super dealloc];
 	
-	[fileName release];
-	[playButton release];
-	[ffwButton release];
-	[rewButton release];
-	[volumeSlider release];
-	[progressBar release];
-	[currentTime release];
-	[duration release];
-	[lvlMeter_in release];
-	
-	[updateTimer release];
 	[player release];
 	
-	[playBtnBG release];
-	[pauseBtnBG release];	
 }
 
 #pragma mark AudioSession handlers

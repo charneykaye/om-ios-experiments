@@ -35,14 +35,13 @@
 		87E9A98A153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A979153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg */; };
 		87E9A993153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98B153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */; };
 		87E9A994153A5AE600994FBB /* WhatIsTheAsk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98C153A5AE600994FBB /* WhatIsTheAsk.m4a */; };
-		87E9A995153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98D153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a */; };
+		87E9A995153A5AE600994FBB /* WhatsTheBusinessProblem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98D153A5AE600994FBB /* WhatsTheBusinessProblem.m4a */; };
 		87E9A996153A5AE600994FBB /* WhatIsTheOutput.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98E153A5AE600994FBB /* WhatIsTheOutput.m4a */; };
 		87E9A997153A5AE600994FBB /* WhatsTheValue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98F153A5AE600994FBB /* WhatsTheValue.m4a */; };
 		87E9A998153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A990153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a */; };
 		87E9A999153A5AE600994FBB /* WhyIsThatAPriority.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A991153A5AE600994FBB /* WhyIsThatAPriority.m4a */; };
 		87E9A99A153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A992153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */; };
 		87E9A99C153A5B1200994FBB /* omViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A99B153A5B1100994FBB /* omViewController.xib */; };
-		87E9A99D153A640600994FBB /* ProductDirectorSoundboard.app in Resources */ = {isa = PBXBuildFile; fileRef = 1D6058910D05DD3D006BFB54 /* ProductDirectorSoundboard.app */; };
 		87E9A9A3153A648200994FBB /* omController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A9A2153A648200994FBB /* omController.m */; };
 		F768E6710E7859DD00715E09 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E6700E7859DD00715E09 /* OpenGLES.framework */; };
 		F768E6770E7859F000715E09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E6760E7859F000715E09 /* QuartzCore.framework */; };
@@ -83,7 +82,7 @@
 		87E9A979153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ProductDirectorSoundboard-Background.jpg"; sourceTree = "<group>"; };
 		87E9A98B153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = CanYouDelineateTheWhatFromTheHow.m4a; path = audio/CanYouDelineateTheWhatFromTheHow.m4a; sourceTree = "<group>"; };
 		87E9A98C153A5AE600994FBB /* WhatIsTheAsk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheAsk.m4a; path = audio/WhatIsTheAsk.m4a; sourceTree = "<group>"; };
-		87E9A98D153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheBusinessProblem.m4a; path = audio/WhatIsTheBusinessProblem.m4a; sourceTree = "<group>"; };
+		87E9A98D153A5AE600994FBB /* WhatsTheBusinessProblem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatsTheBusinessProblem.m4a; path = audio/WhatsTheBusinessProblem.m4a; sourceTree = "<group>"; };
 		87E9A98E153A5AE600994FBB /* WhatIsTheOutput.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheOutput.m4a; path = audio/WhatIsTheOutput.m4a; sourceTree = "<group>"; };
 		87E9A98F153A5AE600994FBB /* WhatsTheValue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatsTheValue.m4a; path = audio/WhatsTheValue.m4a; sourceTree = "<group>"; };
 		87E9A990153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyDoYouReallyWantThat.m4a; path = audio/WhyDoYouReallyWantThat.m4a; sourceTree = "<group>"; };
@@ -216,7 +215,7 @@
 			children = (
 				87E9A98B153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */,
 				87E9A98C153A5AE600994FBB /* WhatIsTheAsk.m4a */,
-				87E9A98D153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a */,
+				87E9A98D153A5AE600994FBB /* WhatsTheBusinessProblem.m4a */,
 				87E9A98E153A5AE600994FBB /* WhatIsTheOutput.m4a */,
 				87E9A98F153A5AE600994FBB /* WhatsTheValue.m4a */,
 				87E9A990153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a */,
@@ -300,14 +299,13 @@
 				87E9A98A153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */,
 				87E9A993153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */,
 				87E9A994153A5AE600994FBB /* WhatIsTheAsk.m4a in Resources */,
-				87E9A995153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a in Resources */,
+				87E9A995153A5AE600994FBB /* WhatsTheBusinessProblem.m4a in Resources */,
 				87E9A996153A5AE600994FBB /* WhatIsTheOutput.m4a in Resources */,
 				87E9A997153A5AE600994FBB /* WhatsTheValue.m4a in Resources */,
 				87E9A998153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a in Resources */,
 				87E9A999153A5AE600994FBB /* WhyIsThatAPriority.m4a in Resources */,
 				87E9A99A153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */,
 				87E9A99C153A5B1200994FBB /* omViewController.xib in Resources */,
-				87E9A99D153A640600994FBB /* ProductDirectorSoundboard.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +335,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ProductDirectorSoundboard_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = ProductDirectorSoundboard;
@@ -350,6 +349,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ProductDirectorSoundboard_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = ProductDirectorSoundboard;
@@ -360,12 +360,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nicholas Kaye (324MKBWE59)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "B1E59D98-8DD1-4214-8CA4-7D41DEE12C33";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -374,11 +374,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Kaye";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "DAFCB6DF-89FF-4F55-84A9-3C0D9B3407C7";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

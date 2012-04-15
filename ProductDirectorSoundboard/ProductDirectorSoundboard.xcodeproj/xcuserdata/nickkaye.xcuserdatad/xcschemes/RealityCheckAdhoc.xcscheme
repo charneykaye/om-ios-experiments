@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87E9A8E4153A2C9900994FBB"
+               BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "ProductDirectorSoundboard.app"
                BlueprintName = "ProductDirectorSoundboard"
                ReferencedContainer = "container:ProductDirectorSoundboard.xcodeproj">
@@ -27,21 +27,11 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87E9A905153A2C9900994FBB"
-               BuildableName = "ProductDirectorSoundboardTests.octest"
-               BlueprintName = "ProductDirectorSoundboardTests"
-               ReferencedContainer = "container:ProductDirectorSoundboard.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87E9A8E4153A2C9900994FBB"
+            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "ProductDirectorSoundboard.app"
             BlueprintName = "ProductDirectorSoundboard"
             ReferencedContainer = "container:ProductDirectorSoundboard.xcodeproj">
@@ -60,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87E9A8E4153A2C9900994FBB"
+            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "ProductDirectorSoundboard.app"
             BlueprintName = "ProductDirectorSoundboard"
             ReferencedContainer = "container:ProductDirectorSoundboard.xcodeproj">
@@ -78,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87E9A8E4153A2C9900994FBB"
+            BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "ProductDirectorSoundboard.app"
             BlueprintName = "ProductDirectorSoundboard"
             ReferencedContainer = "container:ProductDirectorSoundboard.xcodeproj">
