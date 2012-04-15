@@ -23,143 +23,59 @@
 
 @synthesize controller;
 
+@synthesize btnCanYouDelineateTheWhatFromTheHow, btnWhatIsTheAsk, btnWhatsTheValue, btnWhatIsTheOutput, btnWhyIsThatAPriority, btnWhyDoYouReallyWantThat, btnWhatsTheBusinessProblem, btnWhyShouldntThatGoStraightToTheBacklog;
+
 -(IBAction) btnPressWhatsTheBusinessProblem
 {
-    [controller playWhatsTheBusinessProblem];
+    [controller pressedWhatsTheBusinessProblem];
 }
 
 -(IBAction) btnPressWhatIsTheAsk
 {
-    [controller playWhatIsTheAsk];
+    [controller pressedWhatIsTheAsk];
 }
 
 -(IBAction) btnPressWhyDoYouReallyWantThat
 {
-    [controller playWhyDoYouReallyWantThat];
+    [controller pressedWhyDoYouReallyWantThat];
 }
 
 -(IBAction) btnPressWhyIsThatAPriority
 {
-    [controller playWhyIsThatAPriority];
+    [controller pressedWhyIsThatAPriority];
 }
 
 -(IBAction) btnPressWhatsTheValue
 {
-    [controller playWhatsTheValue];
+    [controller pressedWhatsTheValue];
 }
 
 -(IBAction) btnPressWhyShouldntThatGoStraightToTheBacklog
 {
-    [controller playWhyShouldntThatGoStraightToTheBacklog];
+    [controller pressedWhyShouldntThatGoStraightToTheBacklog];
 }
 
 -(IBAction) btnPressCanYouDelineateTheWhatFromTheHow
 {
-    [controller playCanYouDelineateTheWhatFromTheHow];
+    [controller pressedCanYouDelineateTheWhatFromTheHow];
 }
 
 -(IBAction) btnPressWhatIsTheOutput
 {
-    [controller playWhatIsTheOutput];
+    [controller pressedWhatIsTheOutput];
 }
 
--(void) setActiveWhatsTheBusinessProblem
+-(void) setBtnStatePlaying: (UIButton *) btn
 {
-	BOOL a = [[controller playerWhatsTheBusinessProblem] isPlaying];
-//    NSLog(@"setActiveWhatsTheBusinessProblem: %@", a?@"YES":@"NO");
-    if(a)
-        [btnWhatsTheBusinessProblem setAlpha:0.5];
-    else
-        [btnWhatsTheBusinessProblem setAlpha:1.0];
+//    NSLog(@"setBtnStatePlaying: %@", [[btn class] description]);
+    [btn setAlpha:0.5];
 }
 
--(void) setActiveWhatIsTheAsk
+-(void) setBtnStateStopped: (UIButton *) btn
 {
-	BOOL a = [[controller playerWhatIsTheAsk] isPlaying];
-//    NSLog(@"setActiveWhatIsTheAsk: %@", a?@"YES":@"NO");
-    if(a)
-        [btnWhatIsTheAsk setAlpha:0.5];
-    else
-        [btnWhatIsTheAsk setAlpha:1.0];
+//    NSLog(@"setBtnStateStopped: %@", [[btn class] description]);
+    [btn setAlpha:1.0];
 }
-
--(void) setActiveWhyDoYouReallyWantThat
-{
-	BOOL a = [[controller playerWhyDoYouReallyWantThat] isPlaying];
-//    NSLog(@"setActiveWhyDoYouReallyWantThat: %@", a?@"YES":@"NO");
-    if(a)
-        [btnWhyDoYouReallyWantThat setAlpha:0.5];
-    else
-        [btnWhyDoYouReallyWantThat setAlpha:1.0];    
-}
-
--(void) setActiveWhyIsThatAPriority
-{
-	BOOL a = [[controller playerWhyIsThatAPriority] isPlaying];
-//    NSLog(@"setActiveWhyIsThatAPriority: %@", a?@"YES":@"NO");
-    if(a)
-        [btnWhyIsThatAPriority setAlpha:0.5];
-    else
-        [btnWhyIsThatAPriority setAlpha:1.0];
-}
-
--(void) setActiveWhatsTheValue
-{
-	BOOL a = [[controller playerWhatsTheValue] isPlaying];
-//    NSLog(@"setActiveWhatsTheValue: %@", a?@"YES":@"NO");
-    if(a)
-        [btnWhatsTheValue setAlpha:0.5];
-    else
-        [btnWhatsTheValue setAlpha:1.0];
-}
-
--(void) setActiveWhyShouldntThatGoStraightToTheBacklog
-{
-	BOOL a = [[controller playerWhyShouldntThatGoStraightToTheBacklog] isPlaying];
-//    NSLog(@"setActiveWhyShouldntThatGoStraightToTheBacklog: %@", a?@"YES":@"NO");
-    if(a)
-        [btnWhyShouldntThatGoStraightToTheBacklog setAlpha:0.5];
-    else
-        [btnWhyShouldntThatGoStraightToTheBacklog setAlpha:1.0];
-}
-
--(void) setActiveCanYouDelineateTheWhatFromTheHow
-{
-	BOOL a = [[controller playerCanYouDelineateTheWhatFromTheHow] isPlaying];
-//    NSLog(@"setActiveCanYouDelineateTheWhatFromTheHow: %@", a?@"YES":@"NO");
-    if(a)
-        [btnCanYouDelineateTheWhatFromTheHow setAlpha:0.5];
-    else
-        [btnCanYouDelineateTheWhatFromTheHow setAlpha:1.0];
-}
-
--(void) setActiveWhatIsTheOutput
-{
-	BOOL a = [[controller playerWhatIsTheOutput] isPlaying];
-//    NSLog(@"setActiveWhatIsTheOutput: %@", a?@"YES":@"NO");
-    if(a)
-        [btnWhatIsTheOutput setAlpha:0.5];
-    else
-        [btnWhatIsTheOutput setAlpha:1.0];
-}
-
-
-/*
- // Override initWithNibName:bundle: to load the view using a nib file then perform additional customization that is not appropriate for viewDidLoad.
- - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
- if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
- // Custom initialization
- }
- return self;
- }
- */
-
-/*
-// Implement loadView to create a view hierarchy programmatically.
--(void)loadView {
-    //	controller = [[omController alloc] init];
-}
-*/
 
 // Implement viewDidLoad to do additional setup after loading the view.
 - (void)viewDidLoad {
@@ -167,6 +83,7 @@
     if (!controller) {
         controller = [[omController alloc] init];
         [controller setViewController:self];
+        [controller initAudioPlayerButtons];
     }
 }
 

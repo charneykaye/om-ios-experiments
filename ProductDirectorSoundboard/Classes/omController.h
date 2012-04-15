@@ -9,56 +9,47 @@
 
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioToolbox.h>
-#import <AVFoundation/AVFoundation.h>
+#import "omSoundboardClip.h"
 
 @class omViewController;
 
-@interface omController : NSObject <UIPickerViewDelegate, AVAudioPlayerDelegate> {
-    
-	AVAudioPlayer	* playerWhatsTheBusinessProblem;
-	AVAudioPlayer	* playerWhatIsTheAsk;
-	AVAudioPlayer	* playerWhyDoYouReallyWantThat;
-	AVAudioPlayer	* playerWhyIsThatAPriority;
-	AVAudioPlayer	* playerWhatsTheValue;
-	AVAudioPlayer	* playerWhyShouldntThatGoStraightToTheBacklog;
-	AVAudioPlayer	* playerCanYouDelineateTheWhatFromTheHow;
-	AVAudioPlayer	* playerWhatIsTheOutput;
-	
+@interface omController : NSObject {    
 	BOOL								inBackground;
+    omViewController                    * viewController;
 }
+
+@property (nonatomic, assign)	omSoundboardClip	*player;
+
+@property (nonatomic, assign) omSoundboardClip	* playerWhatsTheBusinessProblem;
+@property (nonatomic, assign) omSoundboardClip	* playerWhatIsTheAsk;
+@property (nonatomic, assign) omSoundboardClip	* playerWhyDoYouReallyWantThat;
+@property (nonatomic, assign) omSoundboardClip	* playerWhyIsThatAPriority;
+@property (nonatomic, assign) omSoundboardClip	* playerWhatsTheValue;
+@property (nonatomic, assign) omSoundboardClip	* playerWhyShouldntThatGoStraightToTheBacklog;
+@property (nonatomic, assign) omSoundboardClip	* playerCanYouDelineateTheWhatFromTheHow;
+@property (nonatomic, assign) omSoundboardClip	* playerWhatIsTheOutput;
+
+@property (nonatomic, assign)	BOOL			inBackground;
 
 -(void) initAudio;
 -(void) initAudioPlayers;
--(AVAudioPlayer*) initGetAudioPlayerFromFile:(NSString*) f;
+-(omSoundboardClip*) initGetAudioPlayerFromFile:(NSString*) f;
+-(void)initAudioPlayerButtons;
 
--(void) playWhatsTheBusinessProblem;
--(void) playWhatIsTheAsk;
--(void) playWhyDoYouReallyWantThat;
--(void) playWhyIsThatAPriority;
--(void) playWhatsTheValue;
--(void) playWhyShouldntThatGoStraightToTheBacklog;
--(void) playCanYouDelineateTheWhatFromTheHow;
--(void) playWhatIsTheOutput;
--(BOOL) playTogglePlayer: (AVAudioPlayer *) p;
+-(omViewController*) viewController;
+-(void) setViewController: (omViewController*) vc;
 
-- (IBAction)buttonPressed:(UIButton*)sender;
+-(void) pressedWhatsTheBusinessProblem;
+-(void) pressedWhatIsTheAsk;
+-(void) pressedWhyDoYouReallyWantThat;
+-(void) pressedWhyIsThatAPriority;
+-(void) pressedWhatsTheValue;
+-(void) pressedWhyShouldntThatGoStraightToTheBacklog;
+-(void) pressedCanYouDelineateTheWhatFromTheHow;
+-(void) pressedWhatIsTheOutput;
 
 - (void)registerForBackgroundNotifications;
+- (void)setInBackgroundFlag;
+- (void)clearInBackgroundFlag;
 
-@property (nonatomic, assign)	AVAudioPlayer	*player;
-@property (nonatomic, assign)   NSURL * tempUrl;
-@property (nonatomic, assign)	NSError	* playerError;
-
-@property (nonatomic, assign)   omViewController * viewController;
-
-@property (nonatomic, assign) AVAudioPlayer	* playerWhatsTheBusinessProblem;
-@property (nonatomic, assign) AVAudioPlayer	* playerWhatIsTheAsk;
-@property (nonatomic, assign) AVAudioPlayer	* playerWhyDoYouReallyWantThat;
-@property (nonatomic, assign) AVAudioPlayer	* playerWhyIsThatAPriority;
-@property (nonatomic, assign) AVAudioPlayer	* playerWhatsTheValue;
-@property (nonatomic, assign) AVAudioPlayer	* playerWhyShouldntThatGoStraightToTheBacklog;
-@property (nonatomic, assign) AVAudioPlayer	* playerCanYouDelineateTheWhatFromTheHow;
-@property (nonatomic, assign) AVAudioPlayer	* playerWhatIsTheOutput;
-
-@property (nonatomic, assign)	BOOL			inBackground;
 @end

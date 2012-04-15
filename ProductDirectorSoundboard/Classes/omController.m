@@ -10,15 +10,11 @@
 
 #import "omController.h"
 #import "omViewController.h"
-#import <AVFoundation/AVAudioSettings.h>
+#import "omSoundboardClip.h"
 
 @implementation omController
 
 @synthesize player;
-@synthesize tempUrl;
-@synthesize playerError;
-
-@synthesize viewController;
 
 @synthesize inBackground;
 
@@ -35,66 +31,132 @@ void RouteChangeListener(	void *                  inClientData,
     return self;
 }
 
--(void) playWhatsTheBusinessProblem
+- (void)initAudio
 {
-    [self playTogglePlayer:playerWhatsTheBusinessProblem];
-    [viewController setActiveWhatsTheBusinessProblem];
+	[self registerForBackgroundNotifications];
+    [self initAudioPlayers];
+    
+	OSStatus result = AudioSessionInitialize(NULL, NULL, NULL, NULL);
+	if (result)
+		NSLog(@"Error initializing audio session! %ld", result);
+	
+	[[AVAudioSession sharedInstance] setDelegate: self];
+	NSError *setCategoryError = nil;
+	[[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error: &setCategoryError];
+	if (setCategoryError)
+		NSLog(@"Error setting category! %@", [[setCategoryError class] description]);
+	
+	result = AudioSessionAddPropertyListener (kAudioSessionProperty_AudioRouteChange, RouteChangeListener, self);
+	if (result) 
+		NSLog(@"Could not add property listener! %ld", result);
+	
 }
 
--(void) playWhatIsTheAsk
+-(void)initAudioPlayers
 {
-    [self playTogglePlayer:playerWhatIsTheAsk];
-    [viewController setActiveWhatIsTheAsk];
+//    NSLog(@"Preparing, we got viewController %@ and button %@",[[viewController class] description],[[[viewController btnWhatsTheBusinessProblem] class] description]);
+    
+	playerWhatsTheBusinessProblem = [self initGetAudioPlayerFromFile:@"WhatsTheBusinessProblem"];
+    
+	playerWhatIsTheAsk = [self initGetAudioPlayerFromFile:@"WhatIsTheAsk"];
+    
+	playerWhatIsTheOutput = [self initGetAudioPlayerFromFile:@"WhatIsTheOutput"];
+    
+	playerWhatsTheValue = [self initGetAudioPlayerFromFile:@"WhatsTheValue"];
+    
+	playerCanYouDelineateTheWhatFromTheHow = [self initGetAudioPlayerFromFile:@"CanYouDelineateTheWhatFromTheHow"];
+    
+	playerWhyDoYouReallyWantThat = [self initGetAudioPlayerFromFile:@"WhyDoYouReallyWantThat"];
+    
+	playerWhyIsThatAPriority = [self initGetAudioPlayerFromFile:@"WhyIsThatAPriority"];
+    
+	playerWhyShouldntThatGoStraightToTheBacklog = [self initGetAudioPlayerFromFile:@"WhyShouldntThatGoStraightToTheBacklog"];
 }
 
--(void) playWhyDoYouReallyWantThat
-{
-    [self playTogglePlayer:playerWhyDoYouReallyWantThat];
-    [viewController setActiveWhyDoYouReallyWantThat];
+-(omSoundboardClip*) initGetAudioPlayerFromFile:(NSString*) f {    
+//    NSLog(@"Initialized %@ from file %@.m4a",[[p class] description],f);
+    omSoundboardClip * p = [[omSoundboardClip alloc] initFromFile:f withController:self];
+    return p;
 }
 
--(void) playWhyIsThatAPriority
+-(void)initAudioPlayerButtons
 {
-    [self playTogglePlayer:playerWhyIsThatAPriority];
-    [viewController setActiveWhyIsThatAPriority];
+//    NSLog(@"Preparing, we got viewController %@ and button %@",[[viewController class] description],[[[viewController btnWhatsTheBusinessProblem] class] description]);
+    
+	[playerWhatsTheBusinessProblem setButton:[viewController btnWhatsTheBusinessProblem]];
+	[playerWhatIsTheAsk setButton:[viewController btnWhatIsTheAsk]];
+	[playerWhatIsTheOutput setButton:[viewController btnWhatIsTheOutput]];
+	[playerWhatsTheValue setButton:[viewController btnWhatsTheValue]];
+	[playerCanYouDelineateTheWhatFromTheHow setButton:[viewController btnCanYouDelineateTheWhatFromTheHow]];
+	[playerWhyDoYouReallyWantThat setButton:[viewController btnWhyDoYouReallyWantThat]];
+	[playerWhyIsThatAPriority setButton:[viewController btnWhyIsThatAPriority]];
+	[playerWhyShouldntThatGoStraightToTheBacklog setButton:[viewController btnWhyShouldntThatGoStraightToTheBacklog]];
+    
 }
 
--(void) playWhatsTheValue
+-(omViewController *) viewController
 {
-    [self playTogglePlayer:playerWhatsTheValue];
-    [viewController setActiveWhatsTheValue];
+    return viewController;
 }
 
--(void) playWhyShouldntThatGoStraightToTheBacklog
+-(void) setViewController: (omViewController*) vc
 {
-    [self playTogglePlayer:playerWhyShouldntThatGoStraightToTheBacklog];
-    [viewController setActiveWhyShouldntThatGoStraightToTheBacklog];
+//    NSLog(@"omController sets viewController to class %@",[[vc class]description]);
+    viewController = vc;
 }
 
--(void) playCanYouDelineateTheWhatFromTheHow
+-(void) setBtnStatePlaying: (UIButton*) b
 {
-    [self playTogglePlayer:playerCanYouDelineateTheWhatFromTheHow];
-    [viewController setActiveCanYouDelineateTheWhatFromTheHow];
+    [viewController setBtnStatePlaying:b];
 }
 
--(void) playWhatIsTheOutput
+-(void) setBtnStateStopped: (UIButton*) b
 {
-    [self playTogglePlayer:playerWhatIsTheOutput];
-    [viewController setActiveWhatIsTheOutput];
+    [viewController setBtnStateStopped:b];
 }
 
--(BOOL) playTogglePlayer: (AVAudioPlayer *) p
+-(void) pressedWhatsTheBusinessProblem
 {
-    if ([p isPlaying])
-        [p stop]; 
-    else {
-        [p setCurrentTime:0];
-        [p play];
-    }
-    return [p isPlaying];
+    [playerWhatsTheBusinessProblem toggle];
 }
 
--(void)updateCurrentTimeForPlayer:(AVAudioPlayer *)p
+-(void) pressedWhatIsTheAsk
+{
+    [playerWhatIsTheAsk toggle];
+}
+
+-(void) pressedWhyDoYouReallyWantThat
+{
+    [playerWhyDoYouReallyWantThat toggle];
+}
+
+-(void) pressedWhyIsThatAPriority
+{
+    [playerWhyIsThatAPriority toggle];
+}
+
+-(void) pressedWhatsTheValue
+{
+    [playerWhatsTheValue toggle];
+}
+
+-(void) pressedWhyShouldntThatGoStraightToTheBacklog
+{
+    [playerWhyShouldntThatGoStraightToTheBacklog toggle];
+}
+
+-(void) pressedCanYouDelineateTheWhatFromTheHow
+{
+    [playerCanYouDelineateTheWhatFromTheHow toggle];
+}
+
+-(void) pressedWhatIsTheOutput
+{
+    [playerWhatIsTheOutput toggle];
+}
+
+/*
+-(void)updateCurrentTimeForPlayer:(omSoundboardClip *)p
 {
 //    NSLog(@"updateCurrentTimeForPlayer");
 }
@@ -104,71 +166,28 @@ void RouteChangeListener(	void *                  inClientData,
 //    NSLog(@"updateCurrentTime");
 }
 
-- (void)updateViewForPlayerState:(AVAudioPlayer *)p
+- (void)updateViewForPlayerState:(omSoundboardClip *)p
 {
 //    NSLog(@"updateViewForPlayerState");	
 }
 
-- (void)updateViewForPlayerStateInBackground:(AVAudioPlayer *)p
+- (void)updateViewForPlayerStateInBackground:(omSoundboardClip *)p
 {
 //    NSLog(@"updateViewForPlayerStateInBackground");
 }
 
--(void)updateViewForPlayerInfo:(AVAudioPlayer*)p
+-(void)updateViewForPlayerInfo:(omSoundboardClip*)p
 {
 //    NSLog(@"updateViewForPlayerInfo");
 }
 
-
-- (void)initAudio
-{
-	[self registerForBackgroundNotifications];
-    [self initAudioPlayers];
-			
-	OSStatus result = AudioSessionInitialize(NULL, NULL, NULL, NULL);
-//	if (result)
-//		NSLog(@"Error initializing audio session! %ld", result);
-	
-	[[AVAudioSession sharedInstance] setDelegate: self];
-	NSError *setCategoryError = nil;
-	[[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error: &setCategoryError];
-//	if (setCategoryError)
-//		NSLog(@"Error setting category! %@", [[setCategoryError class] description]);
-	
-	result = AudioSessionAddPropertyListener (kAudioSessionProperty_AudioRouteChange, RouteChangeListener, self);
-//	if (result) 
-//		NSLog(@"Could not add property listener! %ld", result);
-	
-}
-
--(void)initAudioPlayers
-{
-	playerWhatsTheBusinessProblem = [self initGetAudioPlayerFromFile:@"WhatsTheBusinessProblem"];
-	playerWhatIsTheAsk = [self initGetAudioPlayerFromFile:@"WhatIsTheAsk"];
-	playerWhatIsTheOutput = [self initGetAudioPlayerFromFile:@"WhatIsTheOutput"];
-	playerWhatsTheValue = [self initGetAudioPlayerFromFile:@"WhatsTheValue"];
-	playerCanYouDelineateTheWhatFromTheHow = [self initGetAudioPlayerFromFile:@"CanYouDelineateTheWhatFromTheHow"];
-	playerWhyDoYouReallyWantThat = [self initGetAudioPlayerFromFile:@"WhyDoYouReallyWantThat"];
-	playerWhyIsThatAPriority = [self initGetAudioPlayerFromFile:@"WhyIsThatAPriority"];
-	playerWhyShouldntThatGoStraightToTheBacklog = [self initGetAudioPlayerFromFile:@"WhyShouldntThatGoStraightToTheBacklog"];
-}
-
--(AVAudioPlayer*) initGetAudioPlayerFromFile:(NSString*) f{
-    tempUrl = [[NSURL alloc] initFileURLWithPath: [[NSBundle mainBundle] pathForResource:f ofType:@"m4a"]];
-    AVAudioPlayer * p = [[AVAudioPlayer alloc] initWithContentsOfURL:tempUrl error:nil];
-    p.delegate = self;    
-    [p prepareToPlay];
-//    NSLog(@"Initialized %@ from file %@.m4a",[[p class] description],f);
-    return p;
-}
-
--(void)pausePlaybackForPlayer:(AVAudioPlayer*)p
+-(void)pausePlaybackForPlayer:(omSoundboardClip*)p
 {
 	[p pause];
 	[self updateViewForPlayerState:p];
 }
 
--(void)startPlaybackForPlayer:(AVAudioPlayer*)p
+-(void)startPlaybackForPlayer:(omSoundboardClip*)p
 {
 	if ([p play])
 	{
@@ -187,6 +206,7 @@ void RouteChangeListener(	void *                  inClientData,
 	else
 		[self startPlaybackForPlayer: player];
 }
+ */
 
 - (void)dealloc
 {
@@ -203,7 +223,7 @@ void RouteChangeListener(	void *                  inClientData,
 							UInt32                  inDataSize,
 							const void *            inData)
 {
-	omController* This = (omController*)inClientData;
+//	omController* This = (omController*)inClientData;
 	
 	if (inID == kAudioSessionProperty_AudioRouteChange) {
 		
@@ -213,50 +233,9 @@ void RouteChangeListener(	void *                  inClientData,
 		int reason = [reasonValue intValue];
 
 		if (reason == kAudioSessionRouteChangeReason_OldDeviceUnavailable) {
-
-			[This pausePlaybackForPlayer:This.player];
+//			[This pausePlaybackForPlayer:This.player];
 		}
 	}
-}
-
-#pragma mark AVAudioPlayer delegate methods
-
-- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)p successfully:(BOOL)flag
-{
-    [viewController setActiveWhatsTheBusinessProblem];
-    [viewController setActiveWhatIsTheAsk];
-    [viewController setActiveWhyDoYouReallyWantThat];
-    [viewController setActiveWhyIsThatAPriority];
-    [viewController setActiveWhatsTheValue];
-    [viewController setActiveWhyShouldntThatGoStraightToTheBacklog];
-    [viewController setActiveCanYouDelineateTheWhatFromTheHow];
-    [viewController setActiveWhatIsTheOutput];
-}
-
-- (void)playerDecodeErrorDidOccur:(AVAudioPlayer *)p error:(NSError *)error
-{
-//	NSLog(@"ERROR IN DECODE: %@\n", error); 
-}
-
-// we will only get these notifications if playback was interrupted
-- (void)audioPlayerBeginInterruption:(AVAudioPlayer *)p
-{
-//	NSLog(@"Interruption begin. Updating UI for new state");
-	// the object has already been paused,	we just need to update UI
-	if (inBackground)
-	{
-		[self updateViewForPlayerStateInBackground:p];
-	}
-	else
-	{
-		[self updateViewForPlayerState:p];
-	}
-}
-
-- (void)audioPlayerEndInterruption:(AVAudioPlayer *)p
-{
-//	NSLog(@"Interruption ended. Resuming playback");
-	[self startPlaybackForPlayer:p];
 }
 
 #pragma mark background notifications

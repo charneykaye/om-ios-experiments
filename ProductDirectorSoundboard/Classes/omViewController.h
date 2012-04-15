@@ -21,18 +21,16 @@
 #import "omController.h"
 
 @interface omViewController : UIViewController
-{
-    IBOutlet UIButton * btnCanYouDelineateTheWhatFromTheHow;
-	IBOutlet UIButton * btnWhatIsTheAsk;
-    IBOutlet UIButton * btnWhatIsTheOutput;
-    IBOutlet UIButton * btnWhatsTheBusinessProblem;
-    IBOutlet UIButton * btnWhatsTheValue;
-    IBOutlet UIButton * btnWhyDoYouReallyWantThat;
-    IBOutlet UIButton * btnWhyIsThatAPriority;
-    IBOutlet UIButton * btnWhyShouldntThatGoStraightToTheBacklog;      
-}
 
 @property (strong, nonatomic) IBOutlet omController * controller;
+@property (strong, nonatomic) IBOutlet UIButton * btnCanYouDelineateTheWhatFromTheHow;
+@property (strong, nonatomic) IBOutlet UIButton * btnWhatIsTheAsk;
+@property (strong, nonatomic) IBOutlet UIButton * btnWhatIsTheOutput;
+@property (strong, nonatomic) IBOutlet UIButton * btnWhatsTheBusinessProblem;
+@property (strong, nonatomic) IBOutlet UIButton * btnWhatsTheValue;
+@property (strong, nonatomic) IBOutlet UIButton * btnWhyDoYouReallyWantThat;
+@property (strong, nonatomic) IBOutlet UIButton * btnWhyIsThatAPriority;
+@property (strong, nonatomic) IBOutlet UIButton * btnWhyShouldntThatGoStraightToTheBacklog;      
 
 -(IBAction) btnPressWhatsTheBusinessProblem;
 -(IBAction) btnPressWhatIsTheAsk;
@@ -43,13 +41,7 @@
 -(IBAction) btnPressCanYouDelineateTheWhatFromTheHow;
 -(IBAction) btnPressWhatIsTheOutput;
 
--(void) setActiveWhatsTheBusinessProblem;
--(void) setActiveWhatIsTheAsk;
--(void) setActiveWhyDoYouReallyWantThat;
--(void) setActiveWhyIsThatAPriority;
--(void) setActiveWhatsTheValue;
--(void) setActiveWhyShouldntThatGoStraightToTheBacklog;
--(void) setActiveCanYouDelineateTheWhatFromTheHow;
--(void) setActiveWhatIsTheOutput;
+-(void) setBtnStatePlaying: (UIButton *) btn;
+-(void) setBtnStateStopped: (UIButton *) btn;
 
 @end
