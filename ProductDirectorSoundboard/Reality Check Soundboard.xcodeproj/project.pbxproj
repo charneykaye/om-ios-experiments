@@ -16,6 +16,7 @@
 		28D7ACF80DDB3853001CB0EB /* omViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* omViewController.m */; };
 		87B4EEB8153A98B900AE4740 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B4EEB7153A98B900AE4740 /* Default@2x.png */; };
 		87B4EEBA153A98BB00AE4740 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B4EEB9153A98BB00AE4740 /* Default.png */; };
+		87CFAC77153ABA4C00BA6757 /* omSoundboardClip.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFAC76153ABA4C00BA6757 /* omSoundboardClip.m */; };
 		87E9A966153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A965153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */; };
 		87E9A968153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A967153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png */; };
 		87E9A97A153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A969153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */; };
@@ -65,6 +66,8 @@
 		32CA4F630368D1EE00C91783 /* Reality Check Soundboard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reality Check Soundboard_Prefix.pch"; sourceTree = "<group>"; };
 		87B4EEB7153A98B900AE4740 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		87B4EEB9153A98BB00AE4740 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		87CFAC75153ABA4C00BA6757 /* omSoundboardClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omSoundboardClip.h; sourceTree = "<group>"; };
+		87CFAC76153ABA4C00BA6757 /* omSoundboardClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omSoundboardClip.m; sourceTree = "<group>"; };
 		87E9A965153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon@2x.png"; sourceTree = "<group>"; };
 		87E9A967153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon.png"; sourceTree = "<group>"; };
 		87E9A969153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnCanYouDelineateTheWhatFromTheHow.png; sourceTree = "<group>"; };
@@ -127,8 +130,10 @@
 				87E9A9A2153A648200994FBB /* omController.m */,
 				1D3623240D0F684500981E51 /* omAppDelegate.h */,
 				1D3623250D0F684500981E51 /* omAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* omViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* omViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* omViewController.h */,
+				87CFAC75153ABA4C00BA6757 /* omSoundboardClip.h */,
+				87CFAC76153ABA4C00BA6757 /* omSoundboardClip.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				1D3623260D0F684500981E51 /* omAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* omViewController.m in Sources */,
 				87E9A9A3153A648200994FBB /* omController.m in Sources */,
+				87CFAC77153ABA4C00BA6757 /* omSoundboardClip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Kaye";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reality Check Soundboard_Prefix.pch";
@@ -362,6 +369,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "Reality Check Soundboard";
+				PROVISIONING_PROFILE = "9FAC9F0A-3028-405F-817A-FDE7A34D0C13";
 			};
 			name = Release;
 		};
