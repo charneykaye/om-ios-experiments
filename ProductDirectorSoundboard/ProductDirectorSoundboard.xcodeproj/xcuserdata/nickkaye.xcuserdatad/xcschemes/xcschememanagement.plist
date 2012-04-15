@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ProductDirectorSoundboard.xcscheme</key>
+		<key>avTouch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>87E9A8E4153A2C9900994FBB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>87E9A905153A2C9900994FBB</key>
+		<key>1D6058900D05DD3D006BFB54</key>
 		<dict>
 			<key>primary</key>
 			<true/>

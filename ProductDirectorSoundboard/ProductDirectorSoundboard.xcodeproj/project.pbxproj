@@ -7,566 +7,402 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87E9A8EA153A2C9900994FBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8E9153A2C9900994FBB /* UIKit.framework */; };
-		87E9A8EC153A2C9900994FBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8EB153A2C9900994FBB /* Foundation.framework */; };
-		87E9A8EE153A2C9900994FBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8ED153A2C9900994FBB /* CoreGraphics.framework */; };
-		87E9A8F4153A2C9900994FBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A8F2153A2C9900994FBB /* InfoPlist.strings */; };
-		87E9A8F6153A2C9900994FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A8F5153A2C9900994FBB /* main.m */; };
-		87E9A8FA153A2C9900994FBB /* omAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A8F9153A2C9900994FBB /* omAppDelegate.m */; };
-		87E9A8FD153A2C9900994FBB /* omViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A8FC153A2C9900994FBB /* omViewController.m */; };
-		87E9A900153A2C9900994FBB /* omViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A8FE153A2C9900994FBB /* omViewController.xib */; };
-		87E9A908153A2C9900994FBB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A907153A2C9900994FBB /* SenTestingKit.framework */; };
-		87E9A909153A2C9900994FBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8E9153A2C9900994FBB /* UIKit.framework */; };
-		87E9A90A153A2C9900994FBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8EB153A2C9900994FBB /* Foundation.framework */; };
-		87E9A912153A2C9900994FBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A910153A2C9900994FBB /* InfoPlist.strings */; };
-		87E9A915153A2C9900994FBB /* ProductDirectorSoundboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A914153A2C9900994FBB /* ProductDirectorSoundboardTests.m */; };
-		87E9A91F153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A91E153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */; };
-		87E9A921153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A920153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png */; };
-		87E9A923153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A922153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg */; };
-		87E9A935153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A925153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */; };
-		87E9A936153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A926153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */; };
-		87E9A937153A4CE600994FBB /* BtnWhatIsTheAsk.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A927153A4CE600994FBB /* BtnWhatIsTheAsk.png */; };
-		87E9A938153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A928153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png */; };
-		87E9A939153A4CE600994FBB /* BtnWhatIsTheOutput.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A929153A4CE600994FBB /* BtnWhatIsTheOutput.png */; };
-		87E9A93A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png */; };
-		87E9A93B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png */; };
-		87E9A93C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png */; };
-		87E9A93D153A4CE600994FBB /* BtnWhatsTheValue.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92D153A4CE600994FBB /* BtnWhatsTheValue.png */; };
-		87E9A93E153A4CE600994FBB /* BtnWhatsTheValue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92E153A4CE600994FBB /* BtnWhatsTheValue@2x.png */; };
-		87E9A93F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png */; };
-		87E9A940153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A930153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png */; };
-		87E9A941153A4CE600994FBB /* BtnWhyIsThatAPriority.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A931153A4CE600994FBB /* BtnWhyIsThatAPriority.png */; };
-		87E9A942153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */; };
-		87E9A943153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */; };
-		87E9A944153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */; };
-		87E9A947153A556F00994FBB /* omAVSoundboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A946153A556F00994FBB /* omAVSoundboard.m */; };
-		87E9A94A153A566200994FBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A948153A564F00994FBB /* AVFoundation.framework */; };
-		87E9A953153A588E00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */; };
-		87E9A954153A588E00994FBB /* WhatIsTheAsk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */; };
-		87E9A955153A588E00994FBB /* WhatIsTheBusinessProblem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */; };
-		87E9A956153A588E00994FBB /* WhatIsTheOutput.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */; };
-		87E9A957153A588E00994FBB /* WhatsTheValue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */; };
-		87E9A958153A588E00994FBB /* WhyDoYouReallyWantThat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */; };
-		87E9A959153A588E00994FBB /* WhyIsThatAPriority.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */; };
-		87E9A95A153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */; };
+		1D3623260D0F684500981E51 /* omAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* omAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* omViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* omViewController.m */; };
+		87E9A966153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A965153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */; };
+		87E9A968153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A967153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png */; };
+		87E9A97A153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A969153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */; };
+		87E9A97B153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A96A153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */; };
+		87E9A97C153A5AD300994FBB /* BtnWhatIsTheAsk.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A96B153A5AD300994FBB /* BtnWhatIsTheAsk.png */; };
+		87E9A97D153A5AD300994FBB /* BtnWhatIsTheAsk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A96C153A5AD300994FBB /* BtnWhatIsTheAsk@2x.png */; };
+		87E9A97E153A5AD300994FBB /* BtnWhatIsTheOutput.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A96D153A5AD300994FBB /* BtnWhatIsTheOutput.png */; };
+		87E9A97F153A5AD300994FBB /* BtnWhatIsTheOutput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A96E153A5AD300994FBB /* BtnWhatIsTheOutput@2x.png */; };
+		87E9A980153A5AD300994FBB /* BtnWhatsTheBusinessProblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A96F153A5AD300994FBB /* BtnWhatsTheBusinessProblem.png */; };
+		87E9A981153A5AD300994FBB /* BtnWhatsTheBusinessProblem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A970153A5AD300994FBB /* BtnWhatsTheBusinessProblem@2x.png */; };
+		87E9A982153A5AD300994FBB /* BtnWhatsTheValue.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A971153A5AD300994FBB /* BtnWhatsTheValue.png */; };
+		87E9A983153A5AD300994FBB /* BtnWhatsTheValue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A972153A5AD300994FBB /* BtnWhatsTheValue@2x.png */; };
+		87E9A984153A5AD300994FBB /* BtnWhyDoYouReallyWantThat.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A973153A5AD300994FBB /* BtnWhyDoYouReallyWantThat.png */; };
+		87E9A985153A5AD300994FBB /* BtnWhyDoYouReallyWantThat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A974153A5AD300994FBB /* BtnWhyDoYouReallyWantThat@2x.png */; };
+		87E9A986153A5AD300994FBB /* BtnWhyIsThatAPriority.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A975153A5AD300994FBB /* BtnWhyIsThatAPriority.png */; };
+		87E9A987153A5AD300994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A976153A5AD300994FBB /* BtnWhyIsThatAPriority@2x.png */; };
+		87E9A988153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A977153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */; };
+		87E9A989153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A978153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */; };
+		87E9A98A153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A979153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg */; };
+		87E9A993153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98B153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */; };
+		87E9A994153A5AE600994FBB /* WhatIsTheAsk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98C153A5AE600994FBB /* WhatIsTheAsk.m4a */; };
+		87E9A995153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98D153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a */; };
+		87E9A996153A5AE600994FBB /* WhatIsTheOutput.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98E153A5AE600994FBB /* WhatIsTheOutput.m4a */; };
+		87E9A997153A5AE600994FBB /* WhatsTheValue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A98F153A5AE600994FBB /* WhatsTheValue.m4a */; };
+		87E9A998153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A990153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a */; };
+		87E9A999153A5AE600994FBB /* WhyIsThatAPriority.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A991153A5AE600994FBB /* WhyIsThatAPriority.m4a */; };
+		87E9A99A153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A992153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */; };
+		87E9A99C153A5B1200994FBB /* omViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A99B153A5B1100994FBB /* omViewController.xib */; };
+		F768E6710E7859DD00715E09 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E6700E7859DD00715E09 /* OpenGLES.framework */; };
+		F768E6770E7859F000715E09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768E6760E7859F000715E09 /* QuartzCore.framework */; };
+		F7BEC5F30E95414B00E56EE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BEC5F20E95414B00E56EE2 /* AVFoundation.framework */; };
+		F7C4694C0E7B12DF00A2E1ED /* omController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C4694B0E7B12DF00A2E1ED /* omController.m */; };
+		F7C81C5E1015272A00E57710 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C81C5D1015272A00E57710 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		87E9A90B153A2C9900994FBB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87E9A8DC153A2C9900994FBB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87E9A8E4153A2C9900994FBB;
-			remoteInfo = ProductDirectorSoundboard;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		87E9A8E5153A2C9900994FBB /* ProductDirectorSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductDirectorSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		87E9A8E9153A2C9900994FBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		87E9A8EB153A2C9900994FBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		87E9A8ED153A2C9900994FBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		87E9A8F1153A2C9900994FBB /* ProductDirectorSoundboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductDirectorSoundboard-Info.plist"; sourceTree = "<group>"; };
-		87E9A8F3153A2C9900994FBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		87E9A8F5153A2C9900994FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		87E9A8F7153A2C9900994FBB /* ProductDirectorSoundboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProductDirectorSoundboard-Prefix.pch"; sourceTree = "<group>"; };
-		87E9A8F8153A2C9900994FBB /* omAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = omAppDelegate.h; sourceTree = "<group>"; };
-		87E9A8F9153A2C9900994FBB /* omAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omAppDelegate.m; sourceTree = "<group>"; };
-		87E9A8FB153A2C9900994FBB /* omViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = omViewController.h; sourceTree = "<group>"; };
-		87E9A8FC153A2C9900994FBB /* omViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omViewController.m; sourceTree = "<group>"; };
-		87E9A8FF153A2C9900994FBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/omViewController.xib; sourceTree = "<group>"; };
-		87E9A906153A2C9900994FBB /* ProductDirectorSoundboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductDirectorSoundboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87E9A907153A2C9900994FBB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		87E9A90F153A2C9900994FBB /* ProductDirectorSoundboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductDirectorSoundboardTests-Info.plist"; sourceTree = "<group>"; };
-		87E9A911153A2C9900994FBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		87E9A913153A2C9900994FBB /* ProductDirectorSoundboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductDirectorSoundboardTests.h; sourceTree = "<group>"; };
-		87E9A914153A2C9900994FBB /* ProductDirectorSoundboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductDirectorSoundboardTests.m; sourceTree = "<group>"; };
-		87E9A91E153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon@2x.png"; sourceTree = "<group>"; };
-		87E9A920153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon.png"; sourceTree = "<group>"; };
-		87E9A922153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ProductDirectorSoundboard-Background.jpg"; path = "ProductDirectorSoundboard/assets/ProductDirectorSoundboard-Background.jpg"; sourceTree = "<group>"; };
-		87E9A925153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnCanYouDelineateTheWhatFromTheHow.png; path = ProductDirectorSoundboard/assets/BtnCanYouDelineateTheWhatFromTheHow.png; sourceTree = "<group>"; };
-		87E9A926153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnCanYouDelineateTheWhatFromTheHow@2x.png"; path = "ProductDirectorSoundboard/assets/BtnCanYouDelineateTheWhatFromTheHow@2x.png"; sourceTree = "<group>"; };
-		87E9A927153A4CE600994FBB /* BtnWhatIsTheAsk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatIsTheAsk.png; path = ProductDirectorSoundboard/assets/BtnWhatIsTheAsk.png; sourceTree = "<group>"; };
-		87E9A928153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatIsTheAsk@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatIsTheAsk@2x.png"; sourceTree = "<group>"; };
-		87E9A929153A4CE600994FBB /* BtnWhatIsTheOutput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatIsTheOutput.png; path = ProductDirectorSoundboard/assets/BtnWhatIsTheOutput.png; sourceTree = "<group>"; };
-		87E9A92A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatIsTheOutput@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatIsTheOutput@2x.png"; sourceTree = "<group>"; };
-		87E9A92B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatsTheBusinessProblem.png; path = ProductDirectorSoundboard/assets/BtnWhatsTheBusinessProblem.png; sourceTree = "<group>"; };
-		87E9A92C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatsTheBusinessProblem@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatsTheBusinessProblem@2x.png"; sourceTree = "<group>"; };
-		87E9A92D153A4CE600994FBB /* BtnWhatsTheValue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatsTheValue.png; path = ProductDirectorSoundboard/assets/BtnWhatsTheValue.png; sourceTree = "<group>"; };
-		87E9A92E153A4CE600994FBB /* BtnWhatsTheValue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatsTheValue@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatsTheValue@2x.png"; sourceTree = "<group>"; };
-		87E9A92F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhyDoYouReallyWantThat.png; path = ProductDirectorSoundboard/assets/BtnWhyDoYouReallyWantThat.png; sourceTree = "<group>"; };
-		87E9A930153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyDoYouReallyWantThat@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyDoYouReallyWantThat@2x.png"; sourceTree = "<group>"; };
-		87E9A931153A4CE600994FBB /* BtnWhyIsThatAPriority.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhyIsThatAPriority.png; path = ProductDirectorSoundboard/assets/BtnWhyIsThatAPriority.png; sourceTree = "<group>"; };
-		87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyIsThatAPriority@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyIsThatAPriority@2x.png"; sourceTree = "<group>"; };
-		87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhyShouldntThatGoStraightToTheBacklog.png; path = ProductDirectorSoundboard/assets/BtnWhyShouldntThatGoStraightToTheBacklog.png; sourceTree = "<group>"; };
-		87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyShouldntThatGoStraightToTheBacklog@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyShouldntThatGoStraightToTheBacklog@2x.png"; sourceTree = "<group>"; };
-		87E9A945153A556E00994FBB /* omAVSoundboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omAVSoundboard.h; sourceTree = "<group>"; };
-		87E9A946153A556F00994FBB /* omAVSoundboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omAVSoundboard.m; sourceTree = "<group>"; };
-		87E9A948153A564F00994FBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = CanYouDelineateTheWhatFromTheHow.m4a; path = ProductDirectorSoundboard/assets/CanYouDelineateTheWhatFromTheHow.m4a; sourceTree = "<group>"; };
-		87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheAsk.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheAsk.m4a; sourceTree = "<group>"; };
-		87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheBusinessProblem.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheBusinessProblem.m4a; sourceTree = "<group>"; };
-		87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheOutput.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheOutput.m4a; sourceTree = "<group>"; };
-		87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatsTheValue.m4a; path = ProductDirectorSoundboard/assets/WhatsTheValue.m4a; sourceTree = "<group>"; };
-		87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyDoYouReallyWantThat.m4a; path = ProductDirectorSoundboard/assets/WhyDoYouReallyWantThat.m4a; sourceTree = "<group>"; };
-		87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyIsThatAPriority.m4a; path = ProductDirectorSoundboard/assets/WhyIsThatAPriority.m4a; sourceTree = "<group>"; };
-		87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyShouldntThatGoStraightToTheBacklog.m4a; path = ProductDirectorSoundboard/assets/WhyShouldntThatGoStraightToTheBacklog.m4a; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* omAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* omAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ProductDirectorSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductDirectorSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* omViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* omViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ProductDirectorSoundboard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDirectorSoundboard_Prefix.pch; sourceTree = "<group>"; };
+		87E9A965153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon@2x.png"; sourceTree = "<group>"; };
+		87E9A967153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon.png"; sourceTree = "<group>"; };
+		87E9A969153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnCanYouDelineateTheWhatFromTheHow.png; sourceTree = "<group>"; };
+		87E9A96A153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnCanYouDelineateTheWhatFromTheHow@2x.png"; sourceTree = "<group>"; };
+		87E9A96B153A5AD300994FBB /* BtnWhatIsTheAsk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnWhatIsTheAsk.png; sourceTree = "<group>"; };
+		87E9A96C153A5AD300994FBB /* BtnWhatIsTheAsk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnWhatIsTheAsk@2x.png"; sourceTree = "<group>"; };
+		87E9A96D153A5AD300994FBB /* BtnWhatIsTheOutput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnWhatIsTheOutput.png; sourceTree = "<group>"; };
+		87E9A96E153A5AD300994FBB /* BtnWhatIsTheOutput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnWhatIsTheOutput@2x.png"; sourceTree = "<group>"; };
+		87E9A96F153A5AD300994FBB /* BtnWhatsTheBusinessProblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnWhatsTheBusinessProblem.png; sourceTree = "<group>"; };
+		87E9A970153A5AD300994FBB /* BtnWhatsTheBusinessProblem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnWhatsTheBusinessProblem@2x.png"; sourceTree = "<group>"; };
+		87E9A971153A5AD300994FBB /* BtnWhatsTheValue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnWhatsTheValue.png; sourceTree = "<group>"; };
+		87E9A972153A5AD300994FBB /* BtnWhatsTheValue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnWhatsTheValue@2x.png"; sourceTree = "<group>"; };
+		87E9A973153A5AD300994FBB /* BtnWhyDoYouReallyWantThat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnWhyDoYouReallyWantThat.png; sourceTree = "<group>"; };
+		87E9A974153A5AD300994FBB /* BtnWhyDoYouReallyWantThat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnWhyDoYouReallyWantThat@2x.png"; sourceTree = "<group>"; };
+		87E9A975153A5AD300994FBB /* BtnWhyIsThatAPriority.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnWhyIsThatAPriority.png; sourceTree = "<group>"; };
+		87E9A976153A5AD300994FBB /* BtnWhyIsThatAPriority@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnWhyIsThatAPriority@2x.png"; sourceTree = "<group>"; };
+		87E9A977153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnWhyShouldntThatGoStraightToTheBacklog.png; sourceTree = "<group>"; };
+		87E9A978153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BtnWhyShouldntThatGoStraightToTheBacklog@2x.png"; sourceTree = "<group>"; };
+		87E9A979153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ProductDirectorSoundboard-Background.jpg"; sourceTree = "<group>"; };
+		87E9A98B153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = CanYouDelineateTheWhatFromTheHow.m4a; path = audio/CanYouDelineateTheWhatFromTheHow.m4a; sourceTree = "<group>"; };
+		87E9A98C153A5AE600994FBB /* WhatIsTheAsk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheAsk.m4a; path = audio/WhatIsTheAsk.m4a; sourceTree = "<group>"; };
+		87E9A98D153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheBusinessProblem.m4a; path = audio/WhatIsTheBusinessProblem.m4a; sourceTree = "<group>"; };
+		87E9A98E153A5AE600994FBB /* WhatIsTheOutput.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheOutput.m4a; path = audio/WhatIsTheOutput.m4a; sourceTree = "<group>"; };
+		87E9A98F153A5AE600994FBB /* WhatsTheValue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatsTheValue.m4a; path = audio/WhatsTheValue.m4a; sourceTree = "<group>"; };
+		87E9A990153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyDoYouReallyWantThat.m4a; path = audio/WhyDoYouReallyWantThat.m4a; sourceTree = "<group>"; };
+		87E9A991153A5AE600994FBB /* WhyIsThatAPriority.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyIsThatAPriority.m4a; path = audio/WhyIsThatAPriority.m4a; sourceTree = "<group>"; };
+		87E9A992153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyShouldntThatGoStraightToTheBacklog.m4a; path = audio/WhyShouldntThatGoStraightToTheBacklog.m4a; sourceTree = "<group>"; };
+		87E9A99B153A5B1100994FBB /* omViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = omViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F768E6700E7859DD00715E09 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F768E6760E7859F000715E09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F77554350E771B2200A99FCA /* omController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omController.h; sourceTree = "<group>"; };
+		F7BEC5F20E95414B00E56EE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F7C4694B0E7B12DF00A2E1ED /* omController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omController.m; sourceTree = "<group>"; };
+		F7C81C5D1015272A00E57710 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		87E9A8E2153A2C9900994FBB /* Frameworks */ = {
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87E9A8EA153A2C9900994FBB /* UIKit.framework in Frameworks */,
-				87E9A8EC153A2C9900994FBB /* Foundation.framework in Frameworks */,
-				87E9A94A153A566200994FBB /* AVFoundation.framework in Frameworks */,
-				87E9A8EE153A2C9900994FBB /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87E9A902153A2C9900994FBB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87E9A908153A2C9900994FBB /* SenTestingKit.framework in Frameworks */,
-				87E9A909153A2C9900994FBB /* UIKit.framework in Frameworks */,
-				87E9A90A153A2C9900994FBB /* Foundation.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F768E6710E7859DD00715E09 /* OpenGLES.framework in Frameworks */,
+				F768E6770E7859F000715E09 /* QuartzCore.framework in Frameworks */,
+				F7BEC5F30E95414B00E56EE2 /* AVFoundation.framework in Frameworks */,
+				F7C81C5E1015272A00E57710 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		87E9A8DA153A2C9900994FBB = {
+		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				87E9A924153A3D5E00994FBB /* assets */,
-				87E9A8EF153A2C9900994FBB /* ProductDirectorSoundboard */,
-				87E9A90D153A2C9900994FBB /* ProductDirectorSoundboardTests */,
-				87E9A8E8153A2C9900994FBB /* Frameworks */,
-				87E9A8E6153A2C9900994FBB /* Products */,
+				1D3623240D0F684500981E51 /* omAppDelegate.h */,
+				1D3623250D0F684500981E51 /* omAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* omViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* omViewController.m */,
+				F77554350E771B2200A99FCA /* omController.h */,
+				F7C4694B0E7B12DF00A2E1ED /* omController.m */,
 			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		87E9A8E6153A2C9900994FBB /* Products */ = {
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87E9A8E5153A2C9900994FBB /* ProductDirectorSoundboard.app */,
-				87E9A906153A2C9900994FBB /* ProductDirectorSoundboardTests.octest */,
+				1D6058910D05DD3D006BFB54 /* ProductDirectorSoundboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87E9A8E8153A2C9900994FBB /* Frameworks */ = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				87E9A948153A564F00994FBB /* AVFoundation.framework */,
-				87E9A8E9153A2C9900994FBB /* UIKit.framework */,
-				87E9A8EB153A2C9900994FBB /* Foundation.framework */,
-				87E9A8ED153A2C9900994FBB /* CoreGraphics.framework */,
-				87E9A907153A2C9900994FBB /* SenTestingKit.framework */,
+				87E9A967153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png */,
+				87E9A965153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ProductDirectorSoundboard_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F775554C0E77297300A99FCA /* audio */,
+				F775553A0E77272200A99FCA /* images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				87E9A99B153A5B1100994FBB /* omViewController.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C81C5D1015272A00E57710 /* AudioToolbox.framework */,
+				F7BEC5F20E95414B00E56EE2 /* AVFoundation.framework */,
+				F768E6760E7859F000715E09 /* QuartzCore.framework */,
+				F768E6700E7859DD00715E09 /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		87E9A8EF153A2C9900994FBB /* ProductDirectorSoundboard */ = {
+		F775553A0E77272200A99FCA /* images */ = {
 			isa = PBXGroup;
 			children = (
-				87E9A8F8153A2C9900994FBB /* omAppDelegate.h */,
-				87E9A8F9153A2C9900994FBB /* omAppDelegate.m */,
-				87E9A8FB153A2C9900994FBB /* omViewController.h */,
-				87E9A8FC153A2C9900994FBB /* omViewController.m */,
-				87E9A8FE153A2C9900994FBB /* omViewController.xib */,
-				87E9A945153A556E00994FBB /* omAVSoundboard.h */,
-				87E9A946153A556F00994FBB /* omAVSoundboard.m */,
-				87E9A8F0153A2C9900994FBB /* Supporting Files */,
+				87E9A969153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */,
+				87E9A96A153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */,
+				87E9A96B153A5AD300994FBB /* BtnWhatIsTheAsk.png */,
+				87E9A96C153A5AD300994FBB /* BtnWhatIsTheAsk@2x.png */,
+				87E9A96D153A5AD300994FBB /* BtnWhatIsTheOutput.png */,
+				87E9A96E153A5AD300994FBB /* BtnWhatIsTheOutput@2x.png */,
+				87E9A96F153A5AD300994FBB /* BtnWhatsTheBusinessProblem.png */,
+				87E9A970153A5AD300994FBB /* BtnWhatsTheBusinessProblem@2x.png */,
+				87E9A971153A5AD300994FBB /* BtnWhatsTheValue.png */,
+				87E9A972153A5AD300994FBB /* BtnWhatsTheValue@2x.png */,
+				87E9A973153A5AD300994FBB /* BtnWhyDoYouReallyWantThat.png */,
+				87E9A974153A5AD300994FBB /* BtnWhyDoYouReallyWantThat@2x.png */,
+				87E9A975153A5AD300994FBB /* BtnWhyIsThatAPriority.png */,
+				87E9A976153A5AD300994FBB /* BtnWhyIsThatAPriority@2x.png */,
+				87E9A977153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */,
+				87E9A978153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */,
+				87E9A979153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg */,
 			);
-			path = ProductDirectorSoundboard;
+			path = images;
 			sourceTree = "<group>";
 		};
-		87E9A8F0153A2C9900994FBB /* Supporting Files */ = {
+		F775554C0E77297300A99FCA /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				87E9A8F1153A2C9900994FBB /* ProductDirectorSoundboard-Info.plist */,
-				87E9A8F2153A2C9900994FBB /* InfoPlist.strings */,
-				87E9A8F5153A2C9900994FBB /* main.m */,
-				87E9A8F7153A2C9900994FBB /* ProductDirectorSoundboard-Prefix.pch */,
+				87E9A98B153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */,
+				87E9A98C153A5AE600994FBB /* WhatIsTheAsk.m4a */,
+				87E9A98D153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a */,
+				87E9A98E153A5AE600994FBB /* WhatIsTheOutput.m4a */,
+				87E9A98F153A5AE600994FBB /* WhatsTheValue.m4a */,
+				87E9A990153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a */,
+				87E9A991153A5AE600994FBB /* WhyIsThatAPriority.m4a */,
+				87E9A992153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		87E9A90D153A2C9900994FBB /* ProductDirectorSoundboardTests */ = {
-			isa = PBXGroup;
-			children = (
-				87E9A913153A2C9900994FBB /* ProductDirectorSoundboardTests.h */,
-				87E9A914153A2C9900994FBB /* ProductDirectorSoundboardTests.m */,
-				87E9A90E153A2C9900994FBB /* Supporting Files */,
-			);
-			path = ProductDirectorSoundboardTests;
-			sourceTree = "<group>";
-		};
-		87E9A90E153A2C9900994FBB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				87E9A90F153A2C9900994FBB /* ProductDirectorSoundboardTests-Info.plist */,
-				87E9A910153A2C9900994FBB /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		87E9A924153A3D5E00994FBB /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */,
-				87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */,
-				87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */,
-				87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */,
-				87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */,
-				87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */,
-				87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */,
-				87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */,
-				87E9A925153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */,
-				87E9A926153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */,
-				87E9A927153A4CE600994FBB /* BtnWhatIsTheAsk.png */,
-				87E9A928153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png */,
-				87E9A929153A4CE600994FBB /* BtnWhatIsTheOutput.png */,
-				87E9A92A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png */,
-				87E9A92B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png */,
-				87E9A92C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png */,
-				87E9A92D153A4CE600994FBB /* BtnWhatsTheValue.png */,
-				87E9A92E153A4CE600994FBB /* BtnWhatsTheValue@2x.png */,
-				87E9A92F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png */,
-				87E9A930153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png */,
-				87E9A931153A4CE600994FBB /* BtnWhyIsThatAPriority.png */,
-				87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */,
-				87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */,
-				87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */,
-				87E9A920153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png */,
-				87E9A922153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg */,
-				87E9A91E153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */,
-			);
-			name = assets;
+			name = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87E9A8E4153A2C9900994FBB /* ProductDirectorSoundboard */ = {
+		1D6058900D05DD3D006BFB54 /* ProductDirectorSoundboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87E9A918153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboard" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboard" */;
 			buildPhases = (
-				87E9A8E1153A2C9900994FBB /* Sources */,
-				87E9A8E2153A2C9900994FBB /* Frameworks */,
-				87E9A8E3153A2C9900994FBB /* Resources */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ProductDirectorSoundboard;
-			productName = ProductDirectorSoundboard;
-			productReference = 87E9A8E5153A2C9900994FBB /* ProductDirectorSoundboard.app */;
+			productName = avTouch;
+			productReference = 1D6058910D05DD3D006BFB54 /* ProductDirectorSoundboard.app */;
 			productType = "com.apple.product-type.application";
-		};
-		87E9A905153A2C9900994FBB /* ProductDirectorSoundboardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87E9A91B153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboardTests" */;
-			buildPhases = (
-				87E9A901153A2C9900994FBB /* Sources */,
-				87E9A902153A2C9900994FBB /* Frameworks */,
-				87E9A903153A2C9900994FBB /* Resources */,
-				87E9A904153A2C9900994FBB /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				87E9A90C153A2C9900994FBB /* PBXTargetDependency */,
-			);
-			name = ProductDirectorSoundboardTests;
-			productName = ProductDirectorSoundboardTests;
-			productReference = 87E9A906153A2C9900994FBB /* ProductDirectorSoundboardTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		87E9A8DC153A2C9900994FBB /* Project object */ = {
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = om;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Outright Mental";
 			};
-			buildConfigurationList = 87E9A8DF153A2C9900994FBB /* Build configuration list for PBXProject "ProductDirectorSoundboard" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ProductDirectorSoundboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
-			hasScannedForEncodings = 0;
+			hasScannedForEncodings = 1;
 			knownRegions = (
-				en,
+				English,
+				Japanese,
+				French,
+				German,
 			);
-			mainGroup = 87E9A8DA153A2C9900994FBB;
-			productRefGroup = 87E9A8E6153A2C9900994FBB /* Products */;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87E9A8E4153A2C9900994FBB /* ProductDirectorSoundboard */,
-				87E9A905153A2C9900994FBB /* ProductDirectorSoundboardTests */,
+				1D6058900D05DD3D006BFB54 /* ProductDirectorSoundboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		87E9A8E3153A2C9900994FBB /* Resources */ = {
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87E9A8F4153A2C9900994FBB /* InfoPlist.strings in Resources */,
-				87E9A900153A2C9900994FBB /* omViewController.xib in Resources */,
-				87E9A91F153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png in Resources */,
-				87E9A921153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png in Resources */,
-				87E9A923153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */,
-				87E9A935153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png in Resources */,
-				87E9A936153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png in Resources */,
-				87E9A937153A4CE600994FBB /* BtnWhatIsTheAsk.png in Resources */,
-				87E9A938153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png in Resources */,
-				87E9A939153A4CE600994FBB /* BtnWhatIsTheOutput.png in Resources */,
-				87E9A93A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png in Resources */,
-				87E9A93B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png in Resources */,
-				87E9A93C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png in Resources */,
-				87E9A93D153A4CE600994FBB /* BtnWhatsTheValue.png in Resources */,
-				87E9A93E153A4CE600994FBB /* BtnWhatsTheValue@2x.png in Resources */,
-				87E9A93F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png in Resources */,
-				87E9A940153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png in Resources */,
-				87E9A941153A4CE600994FBB /* BtnWhyIsThatAPriority.png in Resources */,
-				87E9A942153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */,
-				87E9A943153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */,
-				87E9A944153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */,
-				87E9A953153A588E00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */,
-				87E9A954153A588E00994FBB /* WhatIsTheAsk.m4a in Resources */,
-				87E9A955153A588E00994FBB /* WhatIsTheBusinessProblem.m4a in Resources */,
-				87E9A956153A588E00994FBB /* WhatIsTheOutput.m4a in Resources */,
-				87E9A957153A588E00994FBB /* WhatsTheValue.m4a in Resources */,
-				87E9A958153A588E00994FBB /* WhyDoYouReallyWantThat.m4a in Resources */,
-				87E9A959153A588E00994FBB /* WhyIsThatAPriority.m4a in Resources */,
-				87E9A95A153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87E9A903153A2C9900994FBB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87E9A912153A2C9900994FBB /* InfoPlist.strings in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				87E9A966153A59F700994FBB /* ProductDirectorSoundboard-AppIcon@2x.png in Resources */,
+				87E9A968153A59F900994FBB /* ProductDirectorSoundboard-AppIcon.png in Resources */,
+				87E9A97A153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png in Resources */,
+				87E9A97B153A5AD300994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png in Resources */,
+				87E9A97C153A5AD300994FBB /* BtnWhatIsTheAsk.png in Resources */,
+				87E9A97D153A5AD300994FBB /* BtnWhatIsTheAsk@2x.png in Resources */,
+				87E9A97E153A5AD300994FBB /* BtnWhatIsTheOutput.png in Resources */,
+				87E9A97F153A5AD300994FBB /* BtnWhatIsTheOutput@2x.png in Resources */,
+				87E9A980153A5AD300994FBB /* BtnWhatsTheBusinessProblem.png in Resources */,
+				87E9A981153A5AD300994FBB /* BtnWhatsTheBusinessProblem@2x.png in Resources */,
+				87E9A982153A5AD300994FBB /* BtnWhatsTheValue.png in Resources */,
+				87E9A983153A5AD300994FBB /* BtnWhatsTheValue@2x.png in Resources */,
+				87E9A984153A5AD300994FBB /* BtnWhyDoYouReallyWantThat.png in Resources */,
+				87E9A985153A5AD300994FBB /* BtnWhyDoYouReallyWantThat@2x.png in Resources */,
+				87E9A986153A5AD300994FBB /* BtnWhyIsThatAPriority.png in Resources */,
+				87E9A987153A5AD300994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */,
+				87E9A988153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */,
+				87E9A989153A5AD300994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */,
+				87E9A98A153A5AD300994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */,
+				87E9A993153A5AE600994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */,
+				87E9A994153A5AE600994FBB /* WhatIsTheAsk.m4a in Resources */,
+				87E9A995153A5AE600994FBB /* WhatIsTheBusinessProblem.m4a in Resources */,
+				87E9A996153A5AE600994FBB /* WhatIsTheOutput.m4a in Resources */,
+				87E9A997153A5AE600994FBB /* WhatsTheValue.m4a in Resources */,
+				87E9A998153A5AE600994FBB /* WhyDoYouReallyWantThat.m4a in Resources */,
+				87E9A999153A5AE600994FBB /* WhyIsThatAPriority.m4a in Resources */,
+				87E9A99A153A5AE600994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */,
+				87E9A99C153A5B1200994FBB /* omViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		87E9A904153A2C9900994FBB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		87E9A8E1153A2C9900994FBB /* Sources */ = {
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87E9A8F6153A2C9900994FBB /* main.m in Sources */,
-				87E9A8FA153A2C9900994FBB /* omAppDelegate.m in Sources */,
-				87E9A8FD153A2C9900994FBB /* omViewController.m in Sources */,
-				87E9A947153A556F00994FBB /* omAVSoundboard.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87E9A901153A2C9900994FBB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87E9A915153A2C9900994FBB /* ProductDirectorSoundboardTests.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* omAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* omViewController.m in Sources */,
+				F7C4694C0E7B12DF00A2E1ED /* omController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		87E9A90C153A2C9900994FBB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 87E9A8E4153A2C9900994FBB /* ProductDirectorSoundboard */;
-			targetProxy = 87E9A90B153A2C9900994FBB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		87E9A8F2153A2C9900994FBB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87E9A8F3153A2C9900994FBB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		87E9A8FE153A2C9900994FBB /* omViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87E9A8FF153A2C9900994FBB /* en */,
-			);
-			name = omViewController.xib;
-			sourceTree = "<group>";
-		};
-		87E9A910153A2C9900994FBB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87E9A911153A2C9900994FBB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		87E9A916153A2C9900994FBB /* Debug */ = {
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProductDirectorSoundboard_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ProductDirectorSoundboard;
 			};
 			name = Debug;
 		};
-		87E9A917153A2C9900994FBB /* Release */ = {
+		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ProductDirectorSoundboard_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ProductDirectorSoundboard;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		87E9A919153A2C9900994FBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
-				INFOPLIST_FILE = "ProductDirectorSoundboard/ProductDirectorSoundboard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		87E9A91A153A2C9900994FBB /* Release */ = {
+		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
-				INFOPLIST_FILE = "ProductDirectorSoundboard/ProductDirectorSoundboard-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		87E9A91C153A2C9900994FBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProductDirectorSoundboard.app/ProductDirectorSoundboard";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
-				INFOPLIST_FILE = "ProductDirectorSoundboardTests/ProductDirectorSoundboardTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		87E9A91D153A2C9900994FBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProductDirectorSoundboard.app/ProductDirectorSoundboard";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
-				INFOPLIST_FILE = "ProductDirectorSoundboardTests/ProductDirectorSoundboardTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87E9A8DF153A2C9900994FBB /* Build configuration list for PBXProject "ProductDirectorSoundboard" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87E9A916153A2C9900994FBB /* Debug */,
-				87E9A917153A2C9900994FBB /* Release */,
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87E9A918153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboard" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ProductDirectorSoundboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87E9A919153A2C9900994FBB /* Debug */,
-				87E9A91A153A2C9900994FBB /* Release */,
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		87E9A91B153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87E9A91C153A2C9900994FBB /* Debug */,
-				87E9A91D153A2C9900994FBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 87E9A8DC153A2C9900994FBB /* Project object */;
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }

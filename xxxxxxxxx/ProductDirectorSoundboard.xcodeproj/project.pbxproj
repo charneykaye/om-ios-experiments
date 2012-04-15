@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E9A8EA153A2C9900994FBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8E9153A2C9900994FBB /* UIKit.framework */; };
+		87E9A8EC153A2C9900994FBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8EB153A2C9900994FBB /* Foundation.framework */; };
+		87E9A8EE153A2C9900994FBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8ED153A2C9900994FBB /* CoreGraphics.framework */; };
+		87E9A8F4153A2C9900994FBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A8F2153A2C9900994FBB /* InfoPlist.strings */; };
+		87E9A8F6153A2C9900994FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A8F5153A2C9900994FBB /* main.m */; };
+		87E9A8FA153A2C9900994FBB /* omAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A8F9153A2C9900994FBB /* omAppDelegate.m */; };
+		87E9A8FD153A2C9900994FBB /* omViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A8FC153A2C9900994FBB /* omViewController.m */; };
+		87E9A900153A2C9900994FBB /* omViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A8FE153A2C9900994FBB /* omViewController.xib */; };
+		87E9A908153A2C9900994FBB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A907153A2C9900994FBB /* SenTestingKit.framework */; };
+		87E9A909153A2C9900994FBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8E9153A2C9900994FBB /* UIKit.framework */; };
+		87E9A90A153A2C9900994FBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A8EB153A2C9900994FBB /* Foundation.framework */; };
+		87E9A912153A2C9900994FBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A910153A2C9900994FBB /* InfoPlist.strings */; };
+		87E9A915153A2C9900994FBB /* ProductDirectorSoundboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A914153A2C9900994FBB /* ProductDirectorSoundboardTests.m */; };
+		87E9A91F153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A91E153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */; };
+		87E9A921153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A920153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png */; };
+		87E9A923153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A922153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg */; };
+		87E9A935153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A925153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */; };
+		87E9A936153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A926153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */; };
+		87E9A937153A4CE600994FBB /* BtnWhatIsTheAsk.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A927153A4CE600994FBB /* BtnWhatIsTheAsk.png */; };
+		87E9A938153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A928153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png */; };
+		87E9A939153A4CE600994FBB /* BtnWhatIsTheOutput.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A929153A4CE600994FBB /* BtnWhatIsTheOutput.png */; };
+		87E9A93A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png */; };
+		87E9A93B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png */; };
+		87E9A93C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png */; };
+		87E9A93D153A4CE600994FBB /* BtnWhatsTheValue.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92D153A4CE600994FBB /* BtnWhatsTheValue.png */; };
+		87E9A93E153A4CE600994FBB /* BtnWhatsTheValue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92E153A4CE600994FBB /* BtnWhatsTheValue@2x.png */; };
+		87E9A93F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A92F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png */; };
+		87E9A940153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A930153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png */; };
+		87E9A941153A4CE600994FBB /* BtnWhyIsThatAPriority.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A931153A4CE600994FBB /* BtnWhyIsThatAPriority.png */; };
+		87E9A942153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */; };
+		87E9A943153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */; };
+		87E9A944153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */; };
+		87E9A947153A556F00994FBB /* omAVSoundboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A946153A556F00994FBB /* omAVSoundboard.m */; };
+		87E9A94A153A566200994FBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A948153A564F00994FBB /* AVFoundation.framework */; };
+		87E9A953153A588E00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */; };
+		87E9A954153A588E00994FBB /* WhatIsTheAsk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */; };
+		87E9A955153A588E00994FBB /* WhatIsTheBusinessProblem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */; };
+		87E9A956153A588E00994FBB /* WhatIsTheOutput.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */; };
+		87E9A957153A588E00994FBB /* WhatsTheValue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */; };
+		87E9A958153A588E00994FBB /* WhyDoYouReallyWantThat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */; };
+		87E9A959153A588E00994FBB /* WhyIsThatAPriority.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */; };
+		87E9A95A153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87E9A90B153A2C9900994FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87E9A8DC153A2C9900994FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E9A8E4153A2C9900994FBB;
+			remoteInfo = ProductDirectorSoundboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87E9A8E5153A2C9900994FBB /* ProductDirectorSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductDirectorSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E9A8E9153A2C9900994FBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87E9A8EB153A2C9900994FBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87E9A8ED153A2C9900994FBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87E9A8F1153A2C9900994FBB /* ProductDirectorSoundboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductDirectorSoundboard-Info.plist"; sourceTree = "<group>"; };
+		87E9A8F3153A2C9900994FBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87E9A8F5153A2C9900994FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87E9A8F7153A2C9900994FBB /* ProductDirectorSoundboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProductDirectorSoundboard-Prefix.pch"; sourceTree = "<group>"; };
+		87E9A8F8153A2C9900994FBB /* omAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = omAppDelegate.h; sourceTree = "<group>"; };
+		87E9A8F9153A2C9900994FBB /* omAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omAppDelegate.m; sourceTree = "<group>"; };
+		87E9A8FB153A2C9900994FBB /* omViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = omViewController.h; sourceTree = "<group>"; };
+		87E9A8FC153A2C9900994FBB /* omViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omViewController.m; sourceTree = "<group>"; };
+		87E9A8FF153A2C9900994FBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/omViewController.xib; sourceTree = "<group>"; };
+		87E9A906153A2C9900994FBB /* ProductDirectorSoundboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductDirectorSoundboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E9A907153A2C9900994FBB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		87E9A90F153A2C9900994FBB /* ProductDirectorSoundboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductDirectorSoundboardTests-Info.plist"; sourceTree = "<group>"; };
+		87E9A911153A2C9900994FBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87E9A913153A2C9900994FBB /* ProductDirectorSoundboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductDirectorSoundboardTests.h; sourceTree = "<group>"; };
+		87E9A914153A2C9900994FBB /* ProductDirectorSoundboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductDirectorSoundboardTests.m; sourceTree = "<group>"; };
+		87E9A91E153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon@2x.png"; sourceTree = "<group>"; };
+		87E9A920153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProductDirectorSoundboard-AppIcon.png"; sourceTree = "<group>"; };
+		87E9A922153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ProductDirectorSoundboard-Background.jpg"; path = "ProductDirectorSoundboard/assets/ProductDirectorSoundboard-Background.jpg"; sourceTree = "<group>"; };
+		87E9A925153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnCanYouDelineateTheWhatFromTheHow.png; path = ProductDirectorSoundboard/assets/BtnCanYouDelineateTheWhatFromTheHow.png; sourceTree = "<group>"; };
+		87E9A926153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnCanYouDelineateTheWhatFromTheHow@2x.png"; path = "ProductDirectorSoundboard/assets/BtnCanYouDelineateTheWhatFromTheHow@2x.png"; sourceTree = "<group>"; };
+		87E9A927153A4CE600994FBB /* BtnWhatIsTheAsk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatIsTheAsk.png; path = ProductDirectorSoundboard/assets/BtnWhatIsTheAsk.png; sourceTree = "<group>"; };
+		87E9A928153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatIsTheAsk@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatIsTheAsk@2x.png"; sourceTree = "<group>"; };
+		87E9A929153A4CE600994FBB /* BtnWhatIsTheOutput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatIsTheOutput.png; path = ProductDirectorSoundboard/assets/BtnWhatIsTheOutput.png; sourceTree = "<group>"; };
+		87E9A92A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatIsTheOutput@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatIsTheOutput@2x.png"; sourceTree = "<group>"; };
+		87E9A92B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatsTheBusinessProblem.png; path = ProductDirectorSoundboard/assets/BtnWhatsTheBusinessProblem.png; sourceTree = "<group>"; };
+		87E9A92C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatsTheBusinessProblem@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatsTheBusinessProblem@2x.png"; sourceTree = "<group>"; };
+		87E9A92D153A4CE600994FBB /* BtnWhatsTheValue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhatsTheValue.png; path = ProductDirectorSoundboard/assets/BtnWhatsTheValue.png; sourceTree = "<group>"; };
+		87E9A92E153A4CE600994FBB /* BtnWhatsTheValue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhatsTheValue@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhatsTheValue@2x.png"; sourceTree = "<group>"; };
+		87E9A92F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhyDoYouReallyWantThat.png; path = ProductDirectorSoundboard/assets/BtnWhyDoYouReallyWantThat.png; sourceTree = "<group>"; };
+		87E9A930153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyDoYouReallyWantThat@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyDoYouReallyWantThat@2x.png"; sourceTree = "<group>"; };
+		87E9A931153A4CE600994FBB /* BtnWhyIsThatAPriority.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhyIsThatAPriority.png; path = ProductDirectorSoundboard/assets/BtnWhyIsThatAPriority.png; sourceTree = "<group>"; };
+		87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyIsThatAPriority@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyIsThatAPriority@2x.png"; sourceTree = "<group>"; };
+		87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhyShouldntThatGoStraightToTheBacklog.png; path = ProductDirectorSoundboard/assets/BtnWhyShouldntThatGoStraightToTheBacklog.png; sourceTree = "<group>"; };
+		87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyShouldntThatGoStraightToTheBacklog@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyShouldntThatGoStraightToTheBacklog@2x.png"; sourceTree = "<group>"; };
+		87E9A945153A556E00994FBB /* omAVSoundboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omAVSoundboard.h; sourceTree = "<group>"; };
+		87E9A946153A556F00994FBB /* omAVSoundboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omAVSoundboard.m; sourceTree = "<group>"; };
+		87E9A948153A564F00994FBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = CanYouDelineateTheWhatFromTheHow.m4a; path = ProductDirectorSoundboard/assets/CanYouDelineateTheWhatFromTheHow.m4a; sourceTree = "<group>"; };
+		87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheAsk.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheAsk.m4a; sourceTree = "<group>"; };
+		87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheBusinessProblem.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheBusinessProblem.m4a; sourceTree = "<group>"; };
+		87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheOutput.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheOutput.m4a; sourceTree = "<group>"; };
+		87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatsTheValue.m4a; path = ProductDirectorSoundboard/assets/WhatsTheValue.m4a; sourceTree = "<group>"; };
+		87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyDoYouReallyWantThat.m4a; path = ProductDirectorSoundboard/assets/WhyDoYouReallyWantThat.m4a; sourceTree = "<group>"; };
+		87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyIsThatAPriority.m4a; path = ProductDirectorSoundboard/assets/WhyIsThatAPriority.m4a; sourceTree = "<group>"; };
+		87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyShouldntThatGoStraightToTheBacklog.m4a; path = ProductDirectorSoundboard/assets/WhyShouldntThatGoStraightToTheBacklog.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E9A8E2153A2C9900994FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A8EA153A2C9900994FBB /* UIKit.framework in Frameworks */,
+				87E9A8EC153A2C9900994FBB /* Foundation.framework in Frameworks */,
+				87E9A94A153A566200994FBB /* AVFoundation.framework in Frameworks */,
+				87E9A8EE153A2C9900994FBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E9A902153A2C9900994FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A908153A2C9900994FBB /* SenTestingKit.framework in Frameworks */,
+				87E9A909153A2C9900994FBB /* UIKit.framework in Frameworks */,
+				87E9A90A153A2C9900994FBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87E9A8DA153A2C9900994FBB = {
+			isa = PBXGroup;
+			children = (
+				87E9A924153A3D5E00994FBB /* assets */,
+				87E9A8EF153A2C9900994FBB /* ProductDirectorSoundboard */,
+				87E9A90D153A2C9900994FBB /* ProductDirectorSoundboardTests */,
+				87E9A8E8153A2C9900994FBB /* Frameworks */,
+				87E9A8E6153A2C9900994FBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87E9A8E6153A2C9900994FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A8E5153A2C9900994FBB /* ProductDirectorSoundboard.app */,
+				87E9A906153A2C9900994FBB /* ProductDirectorSoundboardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E9A8E8153A2C9900994FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A948153A564F00994FBB /* AVFoundation.framework */,
+				87E9A8E9153A2C9900994FBB /* UIKit.framework */,
+				87E9A8EB153A2C9900994FBB /* Foundation.framework */,
+				87E9A8ED153A2C9900994FBB /* CoreGraphics.framework */,
+				87E9A907153A2C9900994FBB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E9A8EF153A2C9900994FBB /* ProductDirectorSoundboard */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A8F8153A2C9900994FBB /* omAppDelegate.h */,
+				87E9A8F9153A2C9900994FBB /* omAppDelegate.m */,
+				87E9A8FB153A2C9900994FBB /* omViewController.h */,
+				87E9A8FC153A2C9900994FBB /* omViewController.m */,
+				87E9A8FE153A2C9900994FBB /* omViewController.xib */,
+				87E9A945153A556E00994FBB /* omAVSoundboard.h */,
+				87E9A946153A556F00994FBB /* omAVSoundboard.m */,
+				87E9A8F0153A2C9900994FBB /* Supporting Files */,
+			);
+			path = ProductDirectorSoundboard;
+			sourceTree = "<group>";
+		};
+		87E9A8F0153A2C9900994FBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A8F1153A2C9900994FBB /* ProductDirectorSoundboard-Info.plist */,
+				87E9A8F2153A2C9900994FBB /* InfoPlist.strings */,
+				87E9A8F5153A2C9900994FBB /* main.m */,
+				87E9A8F7153A2C9900994FBB /* ProductDirectorSoundboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E9A90D153A2C9900994FBB /* ProductDirectorSoundboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A913153A2C9900994FBB /* ProductDirectorSoundboardTests.h */,
+				87E9A914153A2C9900994FBB /* ProductDirectorSoundboardTests.m */,
+				87E9A90E153A2C9900994FBB /* Supporting Files */,
+			);
+			path = ProductDirectorSoundboardTests;
+			sourceTree = "<group>";
+		};
+		87E9A90E153A2C9900994FBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A90F153A2C9900994FBB /* ProductDirectorSoundboardTests-Info.plist */,
+				87E9A910153A2C9900994FBB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E9A924153A3D5E00994FBB /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */,
+				87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */,
+				87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */,
+				87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */,
+				87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */,
+				87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */,
+				87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */,
+				87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */,
+				87E9A925153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */,
+				87E9A926153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */,
+				87E9A927153A4CE600994FBB /* BtnWhatIsTheAsk.png */,
+				87E9A928153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png */,
+				87E9A929153A4CE600994FBB /* BtnWhatIsTheOutput.png */,
+				87E9A92A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png */,
+				87E9A92B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png */,
+				87E9A92C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png */,
+				87E9A92D153A4CE600994FBB /* BtnWhatsTheValue.png */,
+				87E9A92E153A4CE600994FBB /* BtnWhatsTheValue@2x.png */,
+				87E9A92F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png */,
+				87E9A930153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png */,
+				87E9A931153A4CE600994FBB /* BtnWhyIsThatAPriority.png */,
+				87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */,
+				87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */,
+				87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */,
+				87E9A920153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png */,
+				87E9A922153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg */,
+				87E9A91E153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E9A8E4153A2C9900994FBB /* ProductDirectorSoundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E9A918153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboard" */;
+			buildPhases = (
+				87E9A8E1153A2C9900994FBB /* Sources */,
+				87E9A8E2153A2C9900994FBB /* Frameworks */,
+				87E9A8E3153A2C9900994FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProductDirectorSoundboard;
+			productName = ProductDirectorSoundboard;
+			productReference = 87E9A8E5153A2C9900994FBB /* ProductDirectorSoundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87E9A905153A2C9900994FBB /* ProductDirectorSoundboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E9A91B153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboardTests" */;
+			buildPhases = (
+				87E9A901153A2C9900994FBB /* Sources */,
+				87E9A902153A2C9900994FBB /* Frameworks */,
+				87E9A903153A2C9900994FBB /* Resources */,
+				87E9A904153A2C9900994FBB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E9A90C153A2C9900994FBB /* PBXTargetDependency */,
+			);
+			name = ProductDirectorSoundboardTests;
+			productName = ProductDirectorSoundboardTests;
+			productReference = 87E9A906153A2C9900994FBB /* ProductDirectorSoundboardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E9A8DC153A2C9900994FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = om;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 87E9A8DF153A2C9900994FBB /* Build configuration list for PBXProject "ProductDirectorSoundboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87E9A8DA153A2C9900994FBB;
+			productRefGroup = 87E9A8E6153A2C9900994FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E9A8E4153A2C9900994FBB /* ProductDirectorSoundboard */,
+				87E9A905153A2C9900994FBB /* ProductDirectorSoundboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87E9A8E3153A2C9900994FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A8F4153A2C9900994FBB /* InfoPlist.strings in Resources */,
+				87E9A900153A2C9900994FBB /* omViewController.xib in Resources */,
+				87E9A91F153A33B500994FBB /* ProductDirectorSoundboard-AppIcon@2x.png in Resources */,
+				87E9A921153A33B800994FBB /* ProductDirectorSoundboard-AppIcon.png in Resources */,
+				87E9A923153A3D5B00994FBB /* ProductDirectorSoundboard-Background.jpg in Resources */,
+				87E9A935153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png in Resources */,
+				87E9A936153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png in Resources */,
+				87E9A937153A4CE600994FBB /* BtnWhatIsTheAsk.png in Resources */,
+				87E9A938153A4CE600994FBB /* BtnWhatIsTheAsk@2x.png in Resources */,
+				87E9A939153A4CE600994FBB /* BtnWhatIsTheOutput.png in Resources */,
+				87E9A93A153A4CE600994FBB /* BtnWhatIsTheOutput@2x.png in Resources */,
+				87E9A93B153A4CE600994FBB /* BtnWhatsTheBusinessProblem.png in Resources */,
+				87E9A93C153A4CE600994FBB /* BtnWhatsTheBusinessProblem@2x.png in Resources */,
+				87E9A93D153A4CE600994FBB /* BtnWhatsTheValue.png in Resources */,
+				87E9A93E153A4CE600994FBB /* BtnWhatsTheValue@2x.png in Resources */,
+				87E9A93F153A4CE600994FBB /* BtnWhyDoYouReallyWantThat.png in Resources */,
+				87E9A940153A4CE600994FBB /* BtnWhyDoYouReallyWantThat@2x.png in Resources */,
+				87E9A941153A4CE600994FBB /* BtnWhyIsThatAPriority.png in Resources */,
+				87E9A942153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */,
+				87E9A943153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */,
+				87E9A944153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */,
+				87E9A953153A588E00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */,
+				87E9A954153A588E00994FBB /* WhatIsTheAsk.m4a in Resources */,
+				87E9A955153A588E00994FBB /* WhatIsTheBusinessProblem.m4a in Resources */,
+				87E9A956153A588E00994FBB /* WhatIsTheOutput.m4a in Resources */,
+				87E9A957153A588E00994FBB /* WhatsTheValue.m4a in Resources */,
+				87E9A958153A588E00994FBB /* WhyDoYouReallyWantThat.m4a in Resources */,
+				87E9A959153A588E00994FBB /* WhyIsThatAPriority.m4a in Resources */,
+				87E9A95A153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E9A903153A2C9900994FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A912153A2C9900994FBB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87E9A904153A2C9900994FBB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E9A8E1153A2C9900994FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A8F6153A2C9900994FBB /* main.m in Sources */,
+				87E9A8FA153A2C9900994FBB /* omAppDelegate.m in Sources */,
+				87E9A8FD153A2C9900994FBB /* omViewController.m in Sources */,
+				87E9A947153A556F00994FBB /* omAVSoundboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E9A901153A2C9900994FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A915153A2C9900994FBB /* ProductDirectorSoundboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87E9A90C153A2C9900994FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E9A8E4153A2C9900994FBB /* ProductDirectorSoundboard */;
+			targetProxy = 87E9A90B153A2C9900994FBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87E9A8F2153A2C9900994FBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E9A8F3153A2C9900994FBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87E9A8FE153A2C9900994FBB /* omViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E9A8FF153A2C9900994FBB /* en */,
+			);
+			name = omViewController.xib;
+			sourceTree = "<group>";
+		};
+		87E9A910153A2C9900994FBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E9A911153A2C9900994FBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87E9A916153A2C9900994FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87E9A917153A2C9900994FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87E9A919153A2C9900994FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
+				INFOPLIST_FILE = "ProductDirectorSoundboard/ProductDirectorSoundboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87E9A91A153A2C9900994FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
+				INFOPLIST_FILE = "ProductDirectorSoundboard/ProductDirectorSoundboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87E9A91C153A2C9900994FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProductDirectorSoundboard.app/ProductDirectorSoundboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
+				INFOPLIST_FILE = "ProductDirectorSoundboardTests/ProductDirectorSoundboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		87E9A91D153A2C9900994FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProductDirectorSoundboard.app/ProductDirectorSoundboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductDirectorSoundboard/ProductDirectorSoundboard-Prefix.pch";
+				INFOPLIST_FILE = "ProductDirectorSoundboardTests/ProductDirectorSoundboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E9A8DF153A2C9900994FBB /* Build configuration list for PBXProject "ProductDirectorSoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E9A916153A2C9900994FBB /* Debug */,
+				87E9A917153A2C9900994FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E9A918153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E9A919153A2C9900994FBB /* Debug */,
+				87E9A91A153A2C9900994FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87E9A91B153A2C9900994FBB /* Build configuration list for PBXNativeTarget "ProductDirectorSoundboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E9A91C153A2C9900994FBB /* Debug */,
+				87E9A91D153A2C9900994FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87E9A8DC153A2C9900994FBB /* Project object */;
+}
