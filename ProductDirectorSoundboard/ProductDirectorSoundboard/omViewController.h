@@ -10,4 +10,8 @@
 
 @interface omViewController : UIViewController
 
+// @property (strong, nonatomic) IBOutlet UILabel * display;
+
+-(IBAction) btnPressed:(id)sender;
+
 @end

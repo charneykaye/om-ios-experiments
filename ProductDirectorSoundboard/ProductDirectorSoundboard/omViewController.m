@@ -8,11 +8,15 @@
 
 #import "omViewController.h"
 
-@interface omViewController ()
-
-@end
-
 @implementation omViewController
+
+// @synthesize display;
+
+-(IBAction)btnPressed:(id)sender
+{
+    if (![sender isKindOfClass:[UIButton class]])
+    NSLog(@"btnPressed sent a %@ class object",[[sender class] description]);
+}
 
 - (void)viewDidLoad
 {
@@ -26,9 +30,9 @@
     // Release any retained subviews of the main view.
 }
 
--(void)btnWasPressed:(NS
+-(void)btnWasPressed
 {
-    
+    NSLog(@"That shit got pressed");
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

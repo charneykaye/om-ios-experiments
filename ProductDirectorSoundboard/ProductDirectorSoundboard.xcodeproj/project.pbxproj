@@ -39,6 +39,16 @@
 		87E9A942153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */; };
 		87E9A943153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */; };
 		87E9A944153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */; };
+		87E9A947153A556F00994FBB /* omAVSoundboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A946153A556F00994FBB /* omAVSoundboard.m */; };
+		87E9A94A153A566200994FBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A948153A564F00994FBB /* AVFoundation.framework */; };
+		87E9A953153A588E00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */; };
+		87E9A954153A588E00994FBB /* WhatIsTheAsk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */; };
+		87E9A955153A588E00994FBB /* WhatIsTheBusinessProblem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */; };
+		87E9A956153A588E00994FBB /* WhatIsTheOutput.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */; };
+		87E9A957153A588E00994FBB /* WhatsTheValue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */; };
+		87E9A958153A588E00994FBB /* WhyDoYouReallyWantThat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */; };
+		87E9A959153A588E00994FBB /* WhyIsThatAPriority.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */; };
+		87E9A95A153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +100,17 @@
 		87E9A932153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyIsThatAPriority@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyIsThatAPriority@2x.png"; sourceTree = "<group>"; };
 		87E9A933153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnWhyShouldntThatGoStraightToTheBacklog.png; path = ProductDirectorSoundboard/assets/BtnWhyShouldntThatGoStraightToTheBacklog.png; sourceTree = "<group>"; };
 		87E9A934153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnWhyShouldntThatGoStraightToTheBacklog@2x.png"; path = "ProductDirectorSoundboard/assets/BtnWhyShouldntThatGoStraightToTheBacklog@2x.png"; sourceTree = "<group>"; };
+		87E9A945153A556E00994FBB /* omAVSoundboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = omAVSoundboard.h; sourceTree = "<group>"; };
+		87E9A946153A556F00994FBB /* omAVSoundboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = omAVSoundboard.m; sourceTree = "<group>"; };
+		87E9A948153A564F00994FBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = CanYouDelineateTheWhatFromTheHow.m4a; path = ProductDirectorSoundboard/assets/CanYouDelineateTheWhatFromTheHow.m4a; sourceTree = "<group>"; };
+		87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheAsk.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheAsk.m4a; sourceTree = "<group>"; };
+		87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheBusinessProblem.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheBusinessProblem.m4a; sourceTree = "<group>"; };
+		87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatIsTheOutput.m4a; path = ProductDirectorSoundboard/assets/WhatIsTheOutput.m4a; sourceTree = "<group>"; };
+		87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatsTheValue.m4a; path = ProductDirectorSoundboard/assets/WhatsTheValue.m4a; sourceTree = "<group>"; };
+		87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyDoYouReallyWantThat.m4a; path = ProductDirectorSoundboard/assets/WhyDoYouReallyWantThat.m4a; sourceTree = "<group>"; };
+		87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyIsThatAPriority.m4a; path = ProductDirectorSoundboard/assets/WhyIsThatAPriority.m4a; sourceTree = "<group>"; };
+		87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhyShouldntThatGoStraightToTheBacklog.m4a; path = ProductDirectorSoundboard/assets/WhyShouldntThatGoStraightToTheBacklog.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +120,7 @@
 			files = (
 				87E9A8EA153A2C9900994FBB /* UIKit.framework in Frameworks */,
 				87E9A8EC153A2C9900994FBB /* Foundation.framework in Frameworks */,
+				87E9A94A153A566200994FBB /* AVFoundation.framework in Frameworks */,
 				87E9A8EE153A2C9900994FBB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +161,7 @@
 		87E9A8E8153A2C9900994FBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87E9A948153A564F00994FBB /* AVFoundation.framework */,
 				87E9A8E9153A2C9900994FBB /* UIKit.framework */,
 				87E9A8EB153A2C9900994FBB /* Foundation.framework */,
 				87E9A8ED153A2C9900994FBB /* CoreGraphics.framework */,
@@ -155,6 +178,8 @@
 				87E9A8FB153A2C9900994FBB /* omViewController.h */,
 				87E9A8FC153A2C9900994FBB /* omViewController.m */,
 				87E9A8FE153A2C9900994FBB /* omViewController.xib */,
+				87E9A945153A556E00994FBB /* omAVSoundboard.h */,
+				87E9A946153A556F00994FBB /* omAVSoundboard.m */,
 				87E9A8F0153A2C9900994FBB /* Supporting Files */,
 			);
 			path = ProductDirectorSoundboard;
@@ -193,6 +218,14 @@
 		87E9A924153A3D5E00994FBB /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				87E9A94B153A588D00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a */,
+				87E9A94C153A588D00994FBB /* WhatIsTheAsk.m4a */,
+				87E9A94D153A588D00994FBB /* WhatIsTheBusinessProblem.m4a */,
+				87E9A94E153A588D00994FBB /* WhatIsTheOutput.m4a */,
+				87E9A94F153A588D00994FBB /* WhatsTheValue.m4a */,
+				87E9A950153A588D00994FBB /* WhyDoYouReallyWantThat.m4a */,
+				87E9A951153A588E00994FBB /* WhyIsThatAPriority.m4a */,
+				87E9A952153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a */,
 				87E9A925153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow.png */,
 				87E9A926153A4CE600994FBB /* BtnCanYouDelineateTheWhatFromTheHow@2x.png */,
 				87E9A927153A4CE600994FBB /* BtnWhatIsTheAsk.png */,
@@ -309,6 +342,14 @@
 				87E9A942153A4CE600994FBB /* BtnWhyIsThatAPriority@2x.png in Resources */,
 				87E9A943153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog.png in Resources */,
 				87E9A944153A4CE600994FBB /* BtnWhyShouldntThatGoStraightToTheBacklog@2x.png in Resources */,
+				87E9A953153A588E00994FBB /* CanYouDelineateTheWhatFromTheHow.m4a in Resources */,
+				87E9A954153A588E00994FBB /* WhatIsTheAsk.m4a in Resources */,
+				87E9A955153A588E00994FBB /* WhatIsTheBusinessProblem.m4a in Resources */,
+				87E9A956153A588E00994FBB /* WhatIsTheOutput.m4a in Resources */,
+				87E9A957153A588E00994FBB /* WhatsTheValue.m4a in Resources */,
+				87E9A958153A588E00994FBB /* WhyDoYouReallyWantThat.m4a in Resources */,
+				87E9A959153A588E00994FBB /* WhyIsThatAPriority.m4a in Resources */,
+				87E9A95A153A588E00994FBB /* WhyShouldntThatGoStraightToTheBacklog.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +387,7 @@
 				87E9A8F6153A2C9900994FBB /* main.m in Sources */,
 				87E9A8FA153A2C9900994FBB /* omAppDelegate.m in Sources */,
 				87E9A8FD153A2C9900994FBB /* omViewController.m in Sources */,
+				87E9A947153A556F00994FBB /* omAVSoundboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
