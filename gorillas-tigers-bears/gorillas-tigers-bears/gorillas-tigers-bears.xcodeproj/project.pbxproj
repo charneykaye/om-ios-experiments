@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874BC7BB154248F3003A7CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874BC7BA154248F3003A7CEB /* Foundation.framework */; };
+		874BC7BE154248F3003A7CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874BC7BD154248F3003A7CEB /* main.m */; };
+		874BC7C2154248F3003A7CEB /* gorillas_tigers_bears.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 874BC7C1154248F3003A7CEB /* gorillas_tigers_bears.1 */; };
+		874BC7CA15424936003A7CEB /* OMGenerateConditionMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 874BC7C915424936003A7CEB /* OMGenerateConditionMatrix.m */; };
+		874BC7CE15424CDD003A7CEB /* OMFightCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 874BC7CD15424CDD003A7CEB /* OMFightCondition.m */; };
+		874BC7D515428DF1003A7CEB /* OMCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 874BC7D415428DF1003A7CEB /* OMCharacter.m */; };
+		874BC7D815428E3A003A7CEB /* OMStage.m in Sources */ = {isa = PBXBuildFile; fileRef = 874BC7D715428E3A003A7CEB /* OMStage.m */; };
+		874BC7DB15428F9C003A7CEB /* OMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 874BC7DA15428F9C003A7CEB /* OMAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		874BC7B4154248F3003A7CEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				874BC7C2154248F3003A7CEB /* gorillas_tigers_bears.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		874BC7B6154248F3003A7CEB /* gorillas-tigers-bears */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gorillas-tigers-bears"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874BC7BA154248F3003A7CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		874BC7BD154248F3003A7CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874BC7C0154248F3003A7CEB /* gorillas-tigers-bears-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gorillas-tigers-bears-Prefix.pch"; sourceTree = "<group>"; };
+		874BC7C1154248F3003A7CEB /* gorillas_tigers_bears.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gorillas_tigers_bears.1; sourceTree = "<group>"; };
+		874BC7C815424936003A7CEB /* OMGenerateConditionMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMGenerateConditionMatrix.h; path = "gorillas-tigers-bears/OMGenerateConditionMatrix.h"; sourceTree = "<group>"; };
+		874BC7C915424936003A7CEB /* OMGenerateConditionMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMGenerateConditionMatrix.m; path = "gorillas-tigers-bears/OMGenerateConditionMatrix.m"; sourceTree = "<group>"; };
+		874BC7CB15424AA8003A7CEB /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		874BC7CC15424CDD003A7CEB /* OMFightCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMFightCondition.h; path = "gorillas-tigers-bears/OMFightCondition.h"; sourceTree = "<group>"; };
+		874BC7CD15424CDD003A7CEB /* OMFightCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMFightCondition.m; path = "gorillas-tigers-bears/OMFightCondition.m"; sourceTree = "<group>"; };
+		874BC7D315428DF1003A7CEB /* OMCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCharacter.h; path = "gorillas-tigers-bears/OMCharacter.h"; sourceTree = "<group>"; };
+		874BC7D415428DF1003A7CEB /* OMCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMCharacter.m; path = "gorillas-tigers-bears/OMCharacter.m"; sourceTree = "<group>"; };
+		874BC7D615428E3A003A7CEB /* OMStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMStage.h; path = "gorillas-tigers-bears/OMStage.h"; sourceTree = "<group>"; };
+		874BC7D715428E3A003A7CEB /* OMStage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMStage.m; path = "gorillas-tigers-bears/OMStage.m"; sourceTree = "<group>"; };
+		874BC7D915428F9C003A7CEB /* OMAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAction.h; path = "gorillas-tigers-bears/OMAction.h"; sourceTree = "<group>"; };
+		874BC7DA15428F9C003A7CEB /* OMAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMAction.m; path = "gorillas-tigers-bears/OMAction.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874BC7B3154248F3003A7CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874BC7BB154248F3003A7CEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874BC7AB154248F3003A7CEB = {
+			isa = PBXGroup;
+			children = (
+				874BC7BC154248F3003A7CEB /* Main */,
+				874BC7CF15424CE4003A7CEB /* Classes */,
+				874BC7B9154248F3003A7CEB /* Frameworks */,
+				874BC7B7154248F3003A7CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874BC7B7154248F3003A7CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874BC7B6154248F3003A7CEB /* gorillas-tigers-bears */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874BC7B9154248F3003A7CEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874BC7BA154248F3003A7CEB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874BC7BC154248F3003A7CEB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				874BC7BF154248F3003A7CEB /* Supporting Files */,
+				874BC7CB15424AA8003A7CEB /* global.h */,
+				874BC7BD154248F3003A7CEB /* main.m */,
+				874BC7C1154248F3003A7CEB /* gorillas_tigers_bears.1 */,
+			);
+			name = Main;
+			path = "gorillas-tigers-bears";
+			sourceTree = "<group>";
+		};
+		874BC7BF154248F3003A7CEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874BC7C0154248F3003A7CEB /* gorillas-tigers-bears-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		874BC7CF15424CE4003A7CEB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				874BC7CC15424CDD003A7CEB /* OMFightCondition.h */,
+				874BC7CD15424CDD003A7CEB /* OMFightCondition.m */,
+				874BC7C815424936003A7CEB /* OMGenerateConditionMatrix.h */,
+				874BC7C915424936003A7CEB /* OMGenerateConditionMatrix.m */,
+				874BC7D315428DF1003A7CEB /* OMCharacter.h */,
+				874BC7D415428DF1003A7CEB /* OMCharacter.m */,
+				874BC7D615428E3A003A7CEB /* OMStage.h */,
+				874BC7D715428E3A003A7CEB /* OMStage.m */,
+				874BC7D915428F9C003A7CEB /* OMAction.h */,
+				874BC7DA15428F9C003A7CEB /* OMAction.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874BC7B5154248F3003A7CEB /* gorillas-tigers-bears */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874BC7C5154248F3003A7CEB /* Build configuration list for PBXNativeTarget "gorillas-tigers-bears" */;
+			buildPhases = (
+				874BC7B2154248F3003A7CEB /* Sources */,
+				874BC7B3154248F3003A7CEB /* Frameworks */,
+				874BC7B4154248F3003A7CEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gorillas-tigers-bears";
+			productName = "gorillas-tigers-bears";
+			productReference = 874BC7B6154248F3003A7CEB /* gorillas-tigers-bears */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874BC7AD154248F3003A7CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 874BC7B0154248F3003A7CEB /* Build configuration list for PBXProject "gorillas-tigers-bears" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 874BC7AB154248F3003A7CEB;
+			productRefGroup = 874BC7B7154248F3003A7CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874BC7B5154248F3003A7CEB /* gorillas-tigers-bears */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874BC7B2154248F3003A7CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874BC7BE154248F3003A7CEB /* main.m in Sources */,
+				874BC7CA15424936003A7CEB /* OMGenerateConditionMatrix.m in Sources */,
+				874BC7CE15424CDD003A7CEB /* OMFightCondition.m in Sources */,
+				874BC7D515428DF1003A7CEB /* OMCharacter.m in Sources */,
+				874BC7D815428E3A003A7CEB /* OMStage.m in Sources */,
+				874BC7DB15428F9C003A7CEB /* OMAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		874BC7C3154248F3003A7CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		874BC7C4154248F3003A7CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		874BC7C6154248F3003A7CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gorillas-tigers-bears/gorillas-tigers-bears-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		874BC7C7154248F3003A7CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gorillas-tigers-bears/gorillas-tigers-bears-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874BC7B0154248F3003A7CEB /* Build configuration list for PBXProject "gorillas-tigers-bears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874BC7C3154248F3003A7CEB /* Debug */,
+				874BC7C4154248F3003A7CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874BC7C5154248F3003A7CEB /* Build configuration list for PBXNativeTarget "gorillas-tigers-bears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874BC7C6154248F3003A7CEB /* Debug */,
+				874BC7C7154248F3003A7CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874BC7AD154248F3003A7CEB /* Project object */;
+}
