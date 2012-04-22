@@ -10,4 +10,9 @@
 
 @interface omWindowModalEventCreateViewController : UIViewController
 
+#pragma mark action handler methods
+-(void) cancelWasPressed:(id)sender;
+-(void) saveWasPressed:(id)sender;
+
+
 @end

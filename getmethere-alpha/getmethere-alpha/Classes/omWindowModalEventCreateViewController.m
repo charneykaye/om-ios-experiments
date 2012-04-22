@@ -6,13 +6,14 @@
 //  Copyright (c) 2012 Outright Mental. All rights reserved.
 //
 
+#import "global.h"
 #import "omWindowModalEventCreateViewController.h"
 
-@interface omWindowModalEventCreateViewController ()
-
-@end
-
 @implementation omWindowModalEventCreateViewController
+
+/*
+ */
+#pragma mark initializer
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,10 +24,33 @@
     return self;
 }
 
+/*
+ */
+#pragma mark action handler methods
+-(void) cancelWasPressed:(id)sender
+{
+    omLog(@"Cancel was pressed.");
+}
+
+-(void) saveWasPressed:(id)sender
+{
+    omLog(@"Save was pressed.");
+}
+
+/*
+ */
+#pragma core view delegates
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.title = @"Create Event";
+    
+    UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelWasPressed:)];
+    self.navigationItem.leftBarButtonItem = cancelButton;
+    
+    UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(saveWasPressed:)];
+    self.navigationItem.rightBarButtonItem = saveButton;    
 }
 
 - (void)viewDidUnload

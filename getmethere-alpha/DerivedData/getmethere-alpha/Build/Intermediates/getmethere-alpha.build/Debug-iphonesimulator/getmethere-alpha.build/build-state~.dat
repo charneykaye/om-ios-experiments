@@ -1,0 +1,360 @@
+Tgetmethere-alpha
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/Info.plist getmethere-alpha/getmethere-alpha-Info.plist
+cDataModelVersionCompile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethereAlpha.momd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld
+cProcessPCH /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.pth getmethere-alpha/getmethere-alpha-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha normal i386
+cGenerateDSYMFile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha
+cCompileXIB /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omFlipsideViewController.xib
+cCompileXIB /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omMainViewController.xib
+cCopyStringsFile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/InfoPlist.strings getmethere-alpha/Resources/../en.lproj/InfoPlist.strings
+cTouch /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004F6C129A00000000002DEF20
+t1332482714
+s3010336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F6C129A0000000000244490
+t1332482714
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F6C129E0000000000353830
+t1332482718
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F6C12AC0000000000905E40
+t1332482732
+s9461312
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.pth
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/getmethere-alpha.LinkFileList
+c000000004F9395380000000000000532
+t1335072056
+s1330
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/Info.plist
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/InfoPlist.strings
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/PkgInfo
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethereAlpha.momd
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/omFlipsideViewController.nib
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/omMainViewController.nib
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m
+c000000004F9394220000000000002182
+t1335071778
+s8578
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m
+c000000004F937E3000000000000000D8
+t1335066160
+s216
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m
+c000000004F937E300000000000001C7C
+t1335066160
+s7292
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.m
+c000000004F937E30000000000000041D
+t1335066160
+s1053
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m
+c000000004F937E3000000000000004E6
+t1335066160
+s1254
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m
+c000000004F937E30000000000000015F
+t1335066160
+s351
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/../en.lproj/InfoPlist.strings
+c000000004F932D4A000000000000002D
+t1335045450
+s45
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld
+c000000004F93952A0000000000000088
+t1335072042
+s136
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omFlipsideViewController.xib
+c000000004F932D4A000000000000233E
+t1335045450
+s9022
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omMainViewController.xib
+c000000004F932D4A0000000000001C84
+t1335045450
+s7300
+
+N/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/getmethere-alpha-Prefix.pch
+c000000004F937E300000000000000171
+t1335066160
+s369
+
+Ngetmethere-alpha/getmethere-alpha-Info.plist
+c000000004F932D4A0000000000000497
+t1335045450
+s1175
+
+CBuild AST from /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m
+r0
+
+CBuild AST from /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m
+r0
+
+CBuild AST from /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m
+r0
+
+CBuild AST from /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.m
+r0
+
+CBuild AST from /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m
+r0
+
+CBuild AST from /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0186adb8cc43b541^76c6c3b8cc43b541^---0#1#0#--18"Check dependencies36"01F20FB0-9A5B-47F6-82AB-6A4A424C7EB2-
+
+CCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356764857.647779
+e356764857.823201
+r1
+xCompileC
+xDerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.o
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m091ba6b9cc43b541^2dccd2b9cc43b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m0000000000000000^4352"CompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.o getmethere-alpha/Main/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-generated-files.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-own-target-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-all-target-headers.hmap -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-project-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/include -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources/i386 -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -include /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch -MMD -MT dependencies -MF /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.dia -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Main/main.m -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/main.o36"82460D93-8FDA-4A12-AC8C-E5DAD271E818-
+
+CCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356764857.647918
+e356764857.860109
+r1
+xCompileC
+xDerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.o
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m6519a6b9cc43b541^d72fdcb9cc43b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m0000000000000000^4412"CompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.o getmethere-alpha/Classes/omAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-generated-files.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-own-target-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-all-target-headers.hmap -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-project-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/include -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources/i386 -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -include /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch -MMD -MT dependencies -MF /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.d --serialize-diagnostics /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.dia -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omAppDelegate.m -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omAppDelegate.o36"AE036264-FB7E-4314-AA18-74ACDDB28910-
+
+CCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356764857.936098
+e356764857.989802
+r1
+xCompileC
+xDerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.o
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m42d2efb9cc43b541^2e74fdb9cc43b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m0000000000000000^4376"CompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.o getmethere-alpha/Classes/omEvent.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-generated-files.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-own-target-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-all-target-headers.hmap -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-project-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/include -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources/i386 -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -include /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch -MMD -MT dependencies -MF /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.d --serialize-diagnostics /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.dia -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEvent.m -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEvent.o36"E320E821-161C-482F-9393-3917C2A39524-
+
+CCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356764857.982278
+e356764858.099465
+r1
+xCompileC
+xDerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.o
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m83a4fbb9cc43b541^107719bacc43b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m0000000000000000^4490"CompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.o getmethere-alpha/Classes/omEventTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-generated-files.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-own-target-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-all-target-headers.hmap -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-project-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/include -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources/i386 -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -include /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch -MMD -MT dependencies -MF /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.d --serialize-diagnostics /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.dia -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omEventTableViewController.m -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omEventTableViewController.o36"456F273E-ADD1-406D-8480-33605F3F9934-
+
+CCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356764857.875338
+e356764857.980864
+r1
+xCompileC
+xDerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.o
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.mb536e1b9cc43b541^232ffbb9cc43b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.m0000000000000000^4478"CompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.o getmethere-alpha/Classes/omFlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-generated-files.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-own-target-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-all-target-headers.hmap -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-project-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/include -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources/i386 -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -include /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch -MMD -MT dependencies -MF /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.d --serialize-diagnostics /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.dia -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omFlipsideViewController.m -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omFlipsideViewController.o36"1A1F7393-7B7C-4B2E-AE79-0E7A6596C50D-
+
+CCompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356764857.824572
+e356764857.934768
+r1
+xCompileC
+xDerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.o
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m4949d3b9cc43b541^054defb9cc43b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m0000000000000000^4454"CompileC DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.o getmethere-alpha/Classes/omMainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-generated-files.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-own-target-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-all-target-headers.hmap -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-project-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/include -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources/i386 -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -include /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch -MMD -MT dependencies -MF /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.d --serialize-diagnostics /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.dia -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Classes/omMainViewController.m -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/omMainViewController.o36"679BD233-2C92-40D5-80D7-7101442C39F6-
+
+CCompileXIB /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omFlipsideViewController.xib
+s356764858.508800
+e356764859.683969
+r1
+xCompileXIB
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omFlipsideViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compiling /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omFlipsideViewController.xib306782bacc43b541^902dafbbcc43b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omFlipsideViewController.xib0000000000000000^1038"CompileXIB getmethere-alpha/Resources/omFlipsideViewController.xib    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/omFlipsideViewController.nib /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omFlipsideViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"8B291A77-1A5B-4DE7-9432-F0C7A378ED9B-
+
+CCompileXIB /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omMainViewController.xib
+s356764858.509860
+e356764858.601608
+r1
+xCompileXIB
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omMainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compiling /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omMainViewController.xibe59a82bacc43b541^7b109abacc43b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omMainViewController.xib0000000000000000^1026"CompileXIB getmethere-alpha/Resources/omMainViewController.xib    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/omMainViewController.nib /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/omMainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"893E93E1-AA83-4A84-B30F-DACA08EF27CA-
+
+CCopyStringsFile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/InfoPlist.strings getmethere-alpha/Resources/../en.lproj/InfoPlist.strings
+s356764858.602968
+e356764858.607636
+r1
+xCopyStringsFile
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/InfoPlist.strings
+xgetmethere-alpha/Resources/../en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy getmethere-alpha/Resources/../en.lproj/InfoPlist.strings077c9abacc43b541^569b9bbacc43b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/../en.lproj/InfoPlist.strings0000000000000000^749"CopyStringsFile DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/InfoPlist.strings getmethere-alpha/Resources/../en.lproj/InfoPlist.strings    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app -- getmethere-alpha/Resources/../en.lproj/InfoPlist.strings36"118FD720-2652-447C-9D0E-0A56DBC88CF7-
+
+CDataModelVersionCompile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethereAlpha.momd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld
+s356764856.791156
+e356764857.388610
+r1
+xDataModelVersionCompile
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethereAlpha.momd
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection187"DataModelVersionCompile DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethereAlpha.momd getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld3717cbb8cc43b541^e17b63b9cc43b541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld/0000000000000000^1063"DataModelVersionCompile DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethereAlpha.momd getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -XD_MOMC_IOS_TARGET_VERSION=5.1 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/Resources/getmethereAlpha.xcdatamodeld /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethereAlpha.momd36"3C5C2F8E-2262-4BF0-BC50-B2D95C92F8B2-
+
+CGenerateDSYMFile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha
+s356764858.439108
+e356764858.500009
+r1
+xGenerateDSYMFile
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection168"Generating /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM7b8670bacc43b541^b90080bacc43b541^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM000000000080d041^921"GenerateDSYMFile DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app.dSYM36"B91EEDD9-6067-44E1-A941-23464627728C-
+
+CLd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha normal i386
+s356764858.107248
+e356764858.431418
+r1
+xLd
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Link /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha61a41bbacc43b541^ef716ebacc43b541^---0#0#0#--1574"Ld DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha normal i386    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator -filelist /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/Objects-normal/i386/getmethere-alpha.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -framework CoreData -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/getmethere-alpha36"818DA43A-FD11-4D47-8017-393E4F7640FE-
+
+CProcessInfoPlistFile /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/Info.plist getmethere-alpha/getmethere-alpha-Info.plist
+s356764856.769767
+e356764856.778956
+r1
+xProcessInfoPlistFile
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/Info.plist
+xgetmethere-alpha/getmethere-alpha-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process getmethere-alpha/getmethere-alpha-Info.plista052c5b8cc43b541^637dc7b8cc43b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/getmethere-alpha-Info.plist0000000000000000^908"ProcessInfoPlistFile DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/Info.plist getmethere-alpha/getmethere-alpha-Info.plist    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility getmethere-alpha/getmethere-alpha-Info.plist -genpkginfo /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app/Info.plist36"6008AA7F-F510-46CA-9B0B-D2CA75A2F7AE-
+
+CProcessPCH /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.pth getmethere-alpha/getmethere-alpha-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356764856.791561
+e356764857.640070
+r1
+xProcessPCH
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.pth
+xgetmethere-alpha/getmethere-alpha-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile getmethere-alpha/getmethere-alpha-Prefix.pch7842cbb8cc43b541^3cdba3b9cc43b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/getmethere-alpha-Prefix.pch0000000000000000^4201"ProcessPCH DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.pth getmethere-alpha/getmethere-alpha-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-generated-files.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-own-target-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-all-target-headers.hmap -iquote /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/getmethere-alpha-project-headers.hmap -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/include -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources/i386 -I/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/getmethere-alpha.build/Debug-iphonesimulator/getmethere-alpha.build/DerivedSources -F/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.dia -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/getmethere-alpha/getmethere-alpha-Prefix.pch -o /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.pth -MMD -MT dependencies -MF /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Intermediates/PrecompiledHeaders/getmethere-alpha-Prefix-ezmxvrhmmvnnytfkkpocropxexkn/getmethere-alpha-Prefix.pch.d36"8563EB21-2654-4B0E-9582-E1C90A0423FA-
+
+CProcessPCH /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Index/PrecompiledHeaders/getmethere-alpha-Prefix-ghgshuvjjbanuwbjavihibumbnvm_ast/getmethere-alpha-Prefix.pch.pth getmethere-alpha/getmethere-alpha-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app
+s356764859.693090
+e356764859.705421
+r1
+xTouch
+x/Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Touch /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.appd68bb1bbcc43b541^50a7b4bbcc43b541^---0#0#0#--536"Touch DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app    cd /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nickkaye/XCodeProjects/om-ios-experiments/getmethere-alpha/DerivedData/getmethere-alpha/Build/Products/Debug-iphonesimulator/getmethere-alpha.app36"2490F043-0ABB-4E60-8FB5-70038670A5BB-
+
