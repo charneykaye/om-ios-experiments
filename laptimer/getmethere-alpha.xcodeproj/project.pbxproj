@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8754D5D8154364CA00FA6AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D5D7154364CA00FA6AB3 /* UIKit.framework */; };
+		8754D5DA154364CA00FA6AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D5D9154364CA00FA6AB3 /* Foundation.framework */; };
+		8754D5DC154364CA00FA6AB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D5DB154364CA00FA6AB3 /* CoreGraphics.framework */; };
+		8754D5DE154364CA00FA6AB3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D5DD154364CA00FA6AB3 /* CoreData.framework */; };
+		8754D5E4154364CA00FA6AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8754D5E2154364CA00FA6AB3 /* InfoPlist.strings */; };
+		8754D5E6154364CA00FA6AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8754D5E5154364CA00FA6AB3 /* main.m */; };
+		8754D5EA154364CA00FA6AB3 /* omAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8754D5E9154364CA00FA6AB3 /* omAppDelegate.m */; };
+		8754D5ED154364CA00FA6AB3 /* laptimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8754D5EB154364CA00FA6AB3 /* laptimer.xcdatamodeld */; };
+		8754D5F0154364CA00FA6AB3 /* omMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8754D5EF154364CA00FA6AB3 /* omMainViewController.m */; };
+		8754D5F3154364CA00FA6AB3 /* omFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8754D5F2154364CA00FA6AB3 /* omFlipsideViewController.m */; };
+		8754D5F6154364CA00FA6AB3 /* omMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8754D5F4154364CA00FA6AB3 /* omMainViewController.xib */; };
+		8754D5F9154364CA00FA6AB3 /* omFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8754D5F7154364CA00FA6AB3 /* omFlipsideViewController.xib */; };
+		8754D601154364CA00FA6AB3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D600154364CA00FA6AB3 /* SenTestingKit.framework */; };
+		8754D602154364CA00FA6AB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D5D7154364CA00FA6AB3 /* UIKit.framework */; };
+		8754D603154364CA00FA6AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D5D9154364CA00FA6AB3 /* Foundation.framework */; };
+		8754D604154364CA00FA6AB3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8754D5DD154364CA00FA6AB3 /* CoreData.framework */; };
+		8754D60C154364CA00FA6AB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8754D60A154364CA00FA6AB3 /* InfoPlist.strings */; };
+		8754D60F154364CA00FA6AB3 /* laptimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8754D60E154364CA00FA6AB3 /* laptimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8754D605154364CA00FA6AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8754D5CA154364C900FA6AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8754D5D2154364CA00FA6AB3;
+			remoteInfo = laptimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8754D5D3154364CA00FA6AB3 /* laptimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laptimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8754D5D7154364CA00FA6AB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8754D5D9154364CA00FA6AB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8754D5DB154364CA00FA6AB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8754D5DD154364CA00FA6AB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8754D5E1154364CA00FA6AB3 /* laptimer-Info.plist */ = {isa = PBXFileReference; path = "laptimer-Info.plist"; sourceTree = "<group>"; };
+		8754D5E3154364CA00FA6AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8754D5E5154364CA00FA6AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8754D5E7154364CA00FA6AB3 /* laptimer-Prefix.pch */ = {isa = PBXFileReference; path = "laptimer-Prefix.pch"; sourceTree = "<group>"; };
+		8754D5E8154364CA00FA6AB3 /* omAppDelegate.h */ = {isa = PBXFileReference; path = omAppDelegate.h; sourceTree = "<group>"; };
+		8754D5E9154364CA00FA6AB3 /* omAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omAppDelegate.m; sourceTree = "<group>"; };
+		8754D5EC154364CA00FA6AB3 /* laptimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = laptimer.xcdatamodel; sourceTree = "<group>"; };
+		8754D5EE154364CA00FA6AB3 /* omMainViewController.h */ = {isa = PBXFileReference; path = omMainViewController.h; sourceTree = "<group>"; };
+		8754D5EF154364CA00FA6AB3 /* omMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omMainViewController.m; sourceTree = "<group>"; };
+		8754D5F1154364CA00FA6AB3 /* omFlipsideViewController.h */ = {isa = PBXFileReference; path = omFlipsideViewController.h; sourceTree = "<group>"; };
+		8754D5F2154364CA00FA6AB3 /* omFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omFlipsideViewController.m; sourceTree = "<group>"; };
+		8754D5F5154364CA00FA6AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/omMainViewController.xib; sourceTree = "<group>"; };
+		8754D5F8154364CA00FA6AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/omFlipsideViewController.xib; sourceTree = "<group>"; };
+		8754D5FF154364CA00FA6AB3 /* laptimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laptimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8754D600154364CA00FA6AB3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8754D609154364CA00FA6AB3 /* laptimerTests-Info.plist */ = {isa = PBXFileReference; path = "laptimerTests-Info.plist"; sourceTree = "<group>"; };
+		8754D60B154364CA00FA6AB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8754D60D154364CA00FA6AB3 /* laptimerTests.h */ = {isa = PBXFileReference; path = laptimerTests.h; sourceTree = "<group>"; };
+		8754D60E154364CA00FA6AB3 /* laptimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laptimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8754D5D0154364CA00FA6AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8754D5D8154364CA00FA6AB3 /* UIKit.framework in Frameworks */,
+				8754D5DA154364CA00FA6AB3 /* Foundation.framework in Frameworks */,
+				8754D5DC154364CA00FA6AB3 /* CoreGraphics.framework in Frameworks */,
+				8754D5DE154364CA00FA6AB3 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8754D5FB154364CA00FA6AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8754D601154364CA00FA6AB3 /* SenTestingKit.framework in Frameworks */,
+				8754D602154364CA00FA6AB3 /* UIKit.framework in Frameworks */,
+				8754D603154364CA00FA6AB3 /* Foundation.framework in Frameworks */,
+				8754D604154364CA00FA6AB3 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8754D5C8154364C900FA6AB3 = {
+			isa = PBXGroup;
+			children = (
+				8754D5DF154364CA00FA6AB3 /* laptimer */,
+				8754D607154364CA00FA6AB3 /* laptimerTests */,
+				8754D5D6154364CA00FA6AB3 /* Frameworks */,
+				8754D5D4154364CA00FA6AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8754D5D4154364CA00FA6AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8754D5D3154364CA00FA6AB3 /* laptimer.app */,
+				8754D5FF154364CA00FA6AB3 /* laptimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8754D5D6154364CA00FA6AB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8754D5D7154364CA00FA6AB3 /* UIKit.framework */,
+				8754D5D9154364CA00FA6AB3 /* Foundation.framework */,
+				8754D5DB154364CA00FA6AB3 /* CoreGraphics.framework */,
+				8754D5DD154364CA00FA6AB3 /* CoreData.framework */,
+				8754D600154364CA00FA6AB3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8754D5DF154364CA00FA6AB3 /* laptimer */ = {
+			isa = PBXGroup;
+			children = (
+				8754D5E8154364CA00FA6AB3 /* omAppDelegate.h */,
+				8754D5E9154364CA00FA6AB3 /* omAppDelegate.m */,
+				8754D5EE154364CA00FA6AB3 /* omMainViewController.h */,
+				8754D5EF154364CA00FA6AB3 /* omMainViewController.m */,
+				8754D5F1154364CA00FA6AB3 /* omFlipsideViewController.h */,
+				8754D5F2154364CA00FA6AB3 /* omFlipsideViewController.m */,
+				8754D5F4154364CA00FA6AB3 /* omMainViewController.xib */,
+				8754D5F7154364CA00FA6AB3 /* omFlipsideViewController.xib */,
+				8754D5EB154364CA00FA6AB3 /* laptimer.xcdatamodeld */,
+				8754D5E0154364CA00FA6AB3 /* Supporting Files */,
+			);
+			path = laptimer;
+			sourceTree = "<group>";
+		};
+		8754D5E0154364CA00FA6AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8754D5E1154364CA00FA6AB3 /* laptimer-Info.plist */,
+				8754D5E2154364CA00FA6AB3 /* InfoPlist.strings */,
+				8754D5E5154364CA00FA6AB3 /* main.m */,
+				8754D5E7154364CA00FA6AB3 /* laptimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8754D607154364CA00FA6AB3 /* laptimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8754D60D154364CA00FA6AB3 /* laptimerTests.h */,
+				8754D60E154364CA00FA6AB3 /* laptimerTests.m */,
+				8754D608154364CA00FA6AB3 /* Supporting Files */,
+			);
+			path = laptimerTests;
+			sourceTree = "<group>";
+		};
+		8754D608154364CA00FA6AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8754D609154364CA00FA6AB3 /* laptimerTests-Info.plist */,
+				8754D60A154364CA00FA6AB3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8754D5D2154364CA00FA6AB3 /* laptimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8754D612154364CA00FA6AB3 /* Build configuration list for PBXNativeTarget "laptimer" */;
+			buildPhases = (
+				8754D5CF154364CA00FA6AB3 /* Sources */,
+				8754D5D0154364CA00FA6AB3 /* Frameworks */,
+				8754D5D1154364CA00FA6AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laptimer;
+			productName = laptimer;
+			productReference = 8754D5D3154364CA00FA6AB3 /* laptimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8754D5FE154364CA00FA6AB3 /* laptimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8754D615154364CA00FA6AB3 /* Build configuration list for PBXNativeTarget "laptimerTests" */;
+			buildPhases = (
+				8754D5FA154364CA00FA6AB3 /* Sources */,
+				8754D5FB154364CA00FA6AB3 /* Frameworks */,
+				8754D5FC154364CA00FA6AB3 /* Resources */,
+				8754D5FD154364CA00FA6AB3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8754D606154364CA00FA6AB3 /* PBXTargetDependency */,
+			);
+			name = laptimerTests;
+			productName = laptimerTests;
+			productReference = 8754D5FF154364CA00FA6AB3 /* laptimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8754D5CA154364C900FA6AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = om;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 8754D5CD154364CA00FA6AB3 /* Build configuration list for PBXProject "laptimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8754D5C8154364C900FA6AB3;
+			productRefGroup = 8754D5D4154364CA00FA6AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8754D5D2154364CA00FA6AB3 /* laptimer */,
+				8754D5FE154364CA00FA6AB3 /* laptimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8754D5D1154364CA00FA6AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8754D5E4154364CA00FA6AB3 /* InfoPlist.strings in Resources */,
+				8754D5F6154364CA00FA6AB3 /* omMainViewController.xib in Resources */,
+				8754D5F9154364CA00FA6AB3 /* omFlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8754D5FC154364CA00FA6AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8754D60C154364CA00FA6AB3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8754D5FD154364CA00FA6AB3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8754D5CF154364CA00FA6AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8754D5E6154364CA00FA6AB3 /* main.m in Sources */,
+				8754D5EA154364CA00FA6AB3 /* omAppDelegate.m in Sources */,
+				8754D5ED154364CA00FA6AB3 /* laptimer.xcdatamodeld in Sources */,
+				8754D5F0154364CA00FA6AB3 /* omMainViewController.m in Sources */,
+				8754D5F3154364CA00FA6AB3 /* omFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8754D5FA154364CA00FA6AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8754D60F154364CA00FA6AB3 /* laptimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8754D606154364CA00FA6AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8754D5D2154364CA00FA6AB3 /* laptimer */;
+			targetProxy = 8754D605154364CA00FA6AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8754D5E2154364CA00FA6AB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8754D5E3154364CA00FA6AB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8754D5F4154364CA00FA6AB3 /* omMainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8754D5F5154364CA00FA6AB3 /* en */,
+			);
+			name = omMainViewController.xib;
+			sourceTree = "<group>";
+		};
+		8754D5F7154364CA00FA6AB3 /* omFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8754D5F8154364CA00FA6AB3 /* en */,
+			);
+			name = omFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+		8754D60A154364CA00FA6AB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8754D60B154364CA00FA6AB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8754D610154364CA00FA6AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8754D611154364CA00FA6AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8754D613154364CA00FA6AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laptimer/laptimer-Prefix.pch";
+				INFOPLIST_FILE = "laptimer/laptimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8754D614154364CA00FA6AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laptimer/laptimer-Prefix.pch";
+				INFOPLIST_FILE = "laptimer/laptimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8754D616154364CA00FA6AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laptimer.app/laptimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laptimer/laptimer-Prefix.pch";
+				INFOPLIST_FILE = "laptimerTests/laptimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8754D617154364CA00FA6AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laptimer.app/laptimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laptimer/laptimer-Prefix.pch";
+				INFOPLIST_FILE = "laptimerTests/laptimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8754D5CD154364CA00FA6AB3 /* Build configuration list for PBXProject "laptimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8754D610154364CA00FA6AB3 /* Debug */,
+				8754D611154364CA00FA6AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8754D612154364CA00FA6AB3 /* Build configuration list for PBXNativeTarget "laptimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8754D613154364CA00FA6AB3 /* Debug */,
+				8754D614154364CA00FA6AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8754D615154364CA00FA6AB3 /* Build configuration list for PBXNativeTarget "laptimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8754D616154364CA00FA6AB3 /* Debug */,
+				8754D617154364CA00FA6AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8754D5EB154364CA00FA6AB3 /* laptimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8754D5EC154364CA00FA6AB3 /* laptimer.xcdatamodel */,
+			);
+			currentVersion = 8754D5EC154364CA00FA6AB3 /* laptimer.xcdatamodel */;
+			path = laptimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8754D5CA154364C900FA6AB3 /* Project object */;
+}
