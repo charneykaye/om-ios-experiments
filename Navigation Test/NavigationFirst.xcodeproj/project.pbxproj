@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87FB69DB1546202D005BF197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FB69DA1546202D005BF197 /* UIKit.framework */; };
+		87FB69DD1546202D005BF197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FB69DC1546202D005BF197 /* Foundation.framework */; };
+		87FB69DF1546202D005BF197 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FB69DE1546202D005BF197 /* CoreGraphics.framework */; };
+		87FB69E51546202D005BF197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FB69E31546202D005BF197 /* InfoPlist.strings */; };
+		87FB69E71546202D005BF197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FB69E61546202D005BF197 /* main.m */; };
+		87FB69EB1546202D005BF197 /* OMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FB69EA1546202D005BF197 /* OMAppDelegate.m */; };
+		87FB69EE1546202D005BF197 /* OMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FB69ED1546202D005BF197 /* OMViewController.m */; };
+		87FB69F11546202D005BF197 /* OMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87FB69EF1546202D005BF197 /* OMViewController.xib */; };
+		87FB69F91546202D005BF197 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FB69F81546202D005BF197 /* SenTestingKit.framework */; };
+		87FB69FA1546202D005BF197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FB69DA1546202D005BF197 /* UIKit.framework */; };
+		87FB69FB1546202D005BF197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FB69DC1546202D005BF197 /* Foundation.framework */; };
+		87FB6A031546202D005BF197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FB6A011546202D005BF197 /* InfoPlist.strings */; };
+		87FB6A061546202D005BF197 /* Navigation_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FB6A051546202D005BF197 /* Navigation_TestTests.m */; };
+		87FB6A181546239A005BF197 /* bucket.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FB6A161546239A005BF197 /* bucket.png */; };
+		87FB6A191546239A005BF197 /* bucket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FB6A171546239A005BF197 /* bucket@2x.png */; };
+		87FB6A1D154624CF005BF197 /* OMBucketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FB6A1B154624CF005BF197 /* OMBucketViewController.m */; };
+		87FB6A1E154624CF005BF197 /* OMBucketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87FB6A1C154624CF005BF197 /* OMBucketViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87FB69FC1546202D005BF197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FB69CD1546202D005BF197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FB69D51546202D005BF197;
+			remoteInfo = "Navigation Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87FB69D61546202D005BF197 /* NavigationFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FB69DA1546202D005BF197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87FB69DC1546202D005BF197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87FB69DE1546202D005BF197 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87FB69E21546202D005BF197 /* NavigationFirst-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationFirst-Info.plist"; sourceTree = "<group>"; };
+		87FB69E41546202D005BF197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87FB69E61546202D005BF197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87FB69E81546202D005BF197 /* NavigationFirst-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationFirst-Prefix.pch"; sourceTree = "<group>"; };
+		87FB69E91546202D005BF197 /* OMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAppDelegate.h; sourceTree = "<group>"; };
+		87FB69EA1546202D005BF197 /* OMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMAppDelegate.m; sourceTree = "<group>"; };
+		87FB69EC1546202D005BF197 /* OMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMViewController.h; sourceTree = "<group>"; };
+		87FB69ED1546202D005BF197 /* OMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMViewController.m; sourceTree = "<group>"; };
+		87FB69F01546202D005BF197 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OMViewController.xib; sourceTree = "<group>"; };
+		87FB69F71546202D005BF197 /* NavigationFirstTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationFirstTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FB69F81546202D005BF197 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		87FB6A001546202D005BF197 /* NavigationFirstTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationFirstTests-Info.plist"; sourceTree = "<group>"; };
+		87FB6A021546202D005BF197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87FB6A041546202D005BF197 /* Navigation_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navigation_TestTests.h; sourceTree = "<group>"; };
+		87FB6A051546202D005BF197 /* Navigation_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navigation_TestTests.m; sourceTree = "<group>"; };
+		87FB6A161546239A005BF197 /* bucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bucket.png; path = Assets/bucket.png; sourceTree = "<group>"; };
+		87FB6A171546239A005BF197 /* bucket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bucket@2x.png"; path = "Assets/bucket@2x.png"; sourceTree = "<group>"; };
+		87FB6A1A154624CF005BF197 /* OMBucketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMBucketViewController.h; sourceTree = "<group>"; };
+		87FB6A1B154624CF005BF197 /* OMBucketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMBucketViewController.m; sourceTree = "<group>"; };
+		87FB6A1C154624CF005BF197 /* OMBucketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OMBucketViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FB69D31546202D005BF197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FB69DB1546202D005BF197 /* UIKit.framework in Frameworks */,
+				87FB69DD1546202D005BF197 /* Foundation.framework in Frameworks */,
+				87FB69DF1546202D005BF197 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FB69F31546202D005BF197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FB69F91546202D005BF197 /* SenTestingKit.framework in Frameworks */,
+				87FB69FA1546202D005BF197 /* UIKit.framework in Frameworks */,
+				87FB69FB1546202D005BF197 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87FB69CB1546202D005BF197 = {
+			isa = PBXGroup;
+			children = (
+				87FB69E01546202D005BF197 /* NavigationFirst */,
+				87FB69FE1546202D005BF197 /* NavigationFirst */,
+				87FB69D91546202D005BF197 /* Frameworks */,
+				87FB69D71546202D005BF197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87FB69D71546202D005BF197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87FB69D61546202D005BF197 /* NavigationFirst.app */,
+				87FB69F71546202D005BF197 /* NavigationFirstTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87FB69D91546202D005BF197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FB69DA1546202D005BF197 /* UIKit.framework */,
+				87FB69DC1546202D005BF197 /* Foundation.framework */,
+				87FB69DE1546202D005BF197 /* CoreGraphics.framework */,
+				87FB69F81546202D005BF197 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87FB69E01546202D005BF197 /* NavigationFirst */ = {
+			isa = PBXGroup;
+			children = (
+				87FB6A1F154624E7005BF197 /* ViewControllers */,
+				87FB6A151546238F005BF197 /* Assets */,
+				87FB69E91546202D005BF197 /* OMAppDelegate.h */,
+				87FB69EA1546202D005BF197 /* OMAppDelegate.m */,
+				87FB69E11546202D005BF197 /* Supporting Files */,
+			);
+			name = NavigationFirst;
+			path = "Navigation Test";
+			sourceTree = "<group>";
+		};
+		87FB69E11546202D005BF197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FB69E21546202D005BF197 /* NavigationFirst-Info.plist */,
+				87FB69E31546202D005BF197 /* InfoPlist.strings */,
+				87FB69E61546202D005BF197 /* main.m */,
+				87FB69E81546202D005BF197 /* NavigationFirst-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87FB69FE1546202D005BF197 /* NavigationFirst */ = {
+			isa = PBXGroup;
+			children = (
+				87FB6A041546202D005BF197 /* Navigation_TestTests.h */,
+				87FB6A051546202D005BF197 /* Navigation_TestTests.m */,
+				87FB69FF1546202D005BF197 /* Supporting Files */,
+			);
+			name = NavigationFirst;
+			path = "Navigation TestTests";
+			sourceTree = "<group>";
+		};
+		87FB69FF1546202D005BF197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FB6A001546202D005BF197 /* NavigationFirstTests-Info.plist */,
+				87FB6A011546202D005BF197 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87FB6A151546238F005BF197 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				87FB6A161546239A005BF197 /* bucket.png */,
+				87FB6A171546239A005BF197 /* bucket@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		87FB6A1F154624E7005BF197 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				87FB69EC1546202D005BF197 /* OMViewController.h */,
+				87FB69ED1546202D005BF197 /* OMViewController.m */,
+				87FB69EF1546202D005BF197 /* OMViewController.xib */,
+				87FB6A1A154624CF005BF197 /* OMBucketViewController.h */,
+				87FB6A1B154624CF005BF197 /* OMBucketViewController.m */,
+				87FB6A1C154624CF005BF197 /* OMBucketViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87FB69D51546202D005BF197 /* NavigationFirst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FB6A091546202D005BF197 /* Build configuration list for PBXNativeTarget "NavigationFirst" */;
+			buildPhases = (
+				87FB69D21546202D005BF197 /* Sources */,
+				87FB69D31546202D005BF197 /* Frameworks */,
+				87FB69D41546202D005BF197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationFirst;
+			productName = "Navigation Test";
+			productReference = 87FB69D61546202D005BF197 /* NavigationFirst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87FB69F61546202D005BF197 /* NavigationFirstTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FB6A0C1546202D005BF197 /* Build configuration list for PBXNativeTarget "NavigationFirstTests" */;
+			buildPhases = (
+				87FB69F21546202D005BF197 /* Sources */,
+				87FB69F31546202D005BF197 /* Frameworks */,
+				87FB69F41546202D005BF197 /* Resources */,
+				87FB69F51546202D005BF197 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FB69FD1546202D005BF197 /* PBXTargetDependency */,
+			);
+			name = NavigationFirstTests;
+			productName = "Navigation TestTests";
+			productReference = 87FB69F71546202D005BF197 /* NavigationFirstTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87FB69CD1546202D005BF197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 87FB69D01546202D005BF197 /* Build configuration list for PBXProject "NavigationFirst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87FB69CB1546202D005BF197;
+			productRefGroup = 87FB69D71546202D005BF197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87FB69D51546202D005BF197 /* NavigationFirst */,
+				87FB69F61546202D005BF197 /* NavigationFirstTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87FB69D41546202D005BF197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FB69E51546202D005BF197 /* InfoPlist.strings in Resources */,
+				87FB69F11546202D005BF197 /* OMViewController.xib in Resources */,
+				87FB6A181546239A005BF197 /* bucket.png in Resources */,
+				87FB6A191546239A005BF197 /* bucket@2x.png in Resources */,
+				87FB6A1E154624CF005BF197 /* OMBucketViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FB69F41546202D005BF197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FB6A031546202D005BF197 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87FB69F51546202D005BF197 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87FB69D21546202D005BF197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FB69E71546202D005BF197 /* main.m in Sources */,
+				87FB69EB1546202D005BF197 /* OMAppDelegate.m in Sources */,
+				87FB69EE1546202D005BF197 /* OMViewController.m in Sources */,
+				87FB6A1D154624CF005BF197 /* OMBucketViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FB69F21546202D005BF197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FB6A061546202D005BF197 /* Navigation_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87FB69FD1546202D005BF197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87FB69D51546202D005BF197 /* NavigationFirst */;
+			targetProxy = 87FB69FC1546202D005BF197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87FB69E31546202D005BF197 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FB69E41546202D005BF197 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87FB69EF1546202D005BF197 /* OMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FB69F01546202D005BF197 /* en */,
+			);
+			name = OMViewController.xib;
+			sourceTree = "<group>";
+		};
+		87FB6A011546202D005BF197 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FB6A021546202D005BF197 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87FB6A071546202D005BF197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87FB6A081546202D005BF197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87FB6A0A1546202D005BF197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Test/NavigationFirst-Prefix.pch";
+				INFOPLIST_FILE = "Navigation Test/NavigationFirst-Info.plist";
+				PRODUCT_NAME = NavigationFirst;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87FB6A0B1546202D005BF197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Test/NavigationFirst-Prefix.pch";
+				INFOPLIST_FILE = "Navigation Test/NavigationFirst-Info.plist";
+				PRODUCT_NAME = NavigationFirst;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87FB6A0D1546202D005BF197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Navigation Test.app/Navigation Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Test/Navigation Test-Prefix.pch";
+				INFOPLIST_FILE = "Navigation TestTests/NavigationFirstTests-Info.plist";
+				PRODUCT_NAME = NavigationFirstTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		87FB6A0E1546202D005BF197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Navigation Test.app/Navigation Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Test/Navigation Test-Prefix.pch";
+				INFOPLIST_FILE = "Navigation TestTests/NavigationFirstTests-Info.plist";
+				PRODUCT_NAME = NavigationFirstTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87FB69D01546202D005BF197 /* Build configuration list for PBXProject "NavigationFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FB6A071546202D005BF197 /* Debug */,
+				87FB6A081546202D005BF197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FB6A091546202D005BF197 /* Build configuration list for PBXNativeTarget "NavigationFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FB6A0A1546202D005BF197 /* Debug */,
+				87FB6A0B1546202D005BF197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FB6A0C1546202D005BF197 /* Build configuration list for PBXNativeTarget "NavigationFirstTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FB6A0D1546202D005BF197 /* Debug */,
+				87FB6A0E1546202D005BF197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87FB69CD1546202D005BF197 /* Project object */;
+}
