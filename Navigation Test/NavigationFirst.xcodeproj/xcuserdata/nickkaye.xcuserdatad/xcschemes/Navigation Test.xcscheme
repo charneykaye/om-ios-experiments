@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "87FB69D51546202D005BF197"
-               BuildableName = "Navigation Test.app"
+               BuildableName = "NavigationFirst.app"
                BlueprintName = "NavigationFirst"
                ReferencedContainer = "container:NavigationFirst.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "87FB69F61546202D005BF197"
-               BuildableName = "Navigation TestTests.octest"
+               BuildableName = "NavigationFirstTests.octest"
                BlueprintName = "NavigationFirstTests"
                ReferencedContainer = "container:NavigationFirst.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87FB69D51546202D005BF197"
-            BuildableName = "Navigation Test.app"
+            BuildableName = "NavigationFirst.app"
             BlueprintName = "NavigationFirst"
             ReferencedContainer = "container:NavigationFirst.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87FB69D51546202D005BF197"
-            BuildableName = "Navigation Test.app"
+            BuildableName = "NavigationFirst.app"
             BlueprintName = "NavigationFirst"
             ReferencedContainer = "container:NavigationFirst.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87FB69D51546202D005BF197"
-            BuildableName = "Navigation Test.app"
+            BuildableName = "NavigationFirst.app"
             BlueprintName = "NavigationFirst"
             ReferencedContainer = "container:NavigationFirst.xcodeproj">
          </BuildableReference>
