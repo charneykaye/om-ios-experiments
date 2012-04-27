@@ -1,14 +1,14 @@
 //
-//  StoryboardmojoTests.m
-//  StoryboardmojoTests
+//  OntimeTests.m
+//  OntimeTests
 //
 //  Created by Nick Kaye on 4/26/12.
 //  Copyright (c) 2012 Outright Mental. All rights reserved.
 //
 
-#import "StoryboardmojoTests.h"
+#import "OntimeTests.h"
 
-@implementation StoryboardmojoTests
+@implementation OntimeTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in StoryboardmojoTests");
+    STFail(@"Unit tests are not implemented yet in OntimeTests");
 }
 
 @end

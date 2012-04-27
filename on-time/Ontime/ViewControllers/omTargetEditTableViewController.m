@@ -46,28 +46,166 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+/*
+ */
+#pragma mark action handler methods
+
+- (IBAction)doTouchCancel:(id)sender {
+    OTLogDev(@"cancel");
+}
+
+- (IBAction)doTouchSave:(id)sender {
+    OTLogDev(@"save");
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
+-(void) doEditRepeat
+{
+    OTLogDev(@"repeat");
+//    [self.destinationEditFieldViewController setupFieldRepeat];
+//    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
+}
+
+-(void) doEditLocation
+{
+    OTLogDev(@"location");
+//    [self.destinationEditFieldViewController setupFieldLocation];
+//    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
+}
+
+-(void) doEditLabel
+{
+    OTLogDev(@"label");
+//    [self.destinationEditFieldViewController setupFieldLabel];
+//    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
+}
+
+-(void) doEditTbdTwo
+{
+    OTLogDev(@"tbd");
+//    [self.destinationEditFieldViewController setupFieldTbd];
+//    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 3;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath { 
     
-    // Configure the cell...
+    switch(indexPath.row)
+    {
+        case 0:
+            return [self tableCellRepeat: tableView];
+            break;
+        case 1:
+            return [self tableCellLocation: tableView];
+            break;
+        case 2:
+            return [self tableCellLabel: tableView];
+            break;
+        case 3:
+            return [self tableCellTbdTwo: tableView];
+            break;
+    }
+    
+    return nil;
+    /*
+     
+     static NSString *CellIdentifier, *CellTextLabel, *CellDetailTextLabel;
+     
+     OTLogDev(@"%i",indexPath.row);
+     
+     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier]; 
+     
+     if (cell == nil)
+     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
+     
+     [cell.textLabel setText: CellTextLabel]; 
+     [cell.detailTextLabel setText: CellDetailTextLabel];
+     
+     return cell;     
+     */
+}
+
+#pragma mark - Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch(indexPath.row)
+    {
+        case 0:
+            [self doEditRepeat];
+            break;
+        case 1:
+            [self doEditLocation];
+            break;
+        case 2:
+            [self doEditLabel];
+            break;
+        case 3:
+            [self doEditTbdTwo];
+            break;
+    }    
+}
+
+
+-(UITableViewCell *) tableCellRepeat: (UITableView *)tableView
+{
+    UITableViewCell *cell = [self tableCellInit:tableView withIdentifier:@"Repeat"];
+    [cell.textLabel setText: @"Repeat"]; 
+    [cell.detailTextLabel setText: @"Whenever"];    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    return cell;         
+}
+
+-(UITableViewCell *) tableCellLocation: (UITableView *)tableView
+{
+    UITableViewCell *cell = [self tableCellInit:tableView withIdentifier:@"Location"];
+    [cell.textLabel setText: @"Location"]; 
+    [cell.detailTextLabel setText: @"Wherever"];    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    return cell;             
+}
+
+-(UITableViewCell *) tableCellLabel: (UITableView *)tableView
+{
+    UITableViewCell *cell = [self tableCellInit:tableView withIdentifier:@"Label"];
+    [cell.textLabel setText: @"Label"]; 
+    [cell.detailTextLabel setText: @"Whatever"];    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    return cell;         
+}
+
+-(UITableViewCell *) tableCellTbdTwo: (UITableView *)tableView
+{
+    UITableViewCell *cell = [self tableCellInit:tableView withIdentifier:@"T.B.D."];
+    [cell.textLabel setText: @"T.B.D."]; 
+    [cell.detailTextLabel setText: @"T.B.D."];    
+    return cell;         
+}
+
+-(UITableViewCell *) tableCellInit: (UITableView *)tableView withIdentifier: (NSString *)CellIdentifier
+{
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier]; 
+    
+    if (cell == nil)
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier]; 
     
     return cell;
 }
@@ -111,17 +249,5 @@
 }
 */
 
-#pragma mark - Table view delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
-}
 
 @end

@@ -17,7 +17,7 @@
 		017512541549DC4600EACA59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0175123A1549DC4600EACA59 /* UIKit.framework */; };
 		017512551549DC4600EACA59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0175123C1549DC4600EACA59 /* Foundation.framework */; };
 		0175125D1549DC4600EACA59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0175125B1549DC4600EACA59 /* InfoPlist.strings */; };
-		017512601549DC4700EACA59 /* StoryboardmojoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0175125F1549DC4700EACA59 /* StoryboardmojoTests.m */; };
+		017512601549DC4700EACA59 /* OntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0175125F1549DC4700EACA59 /* OntimeTests.m */; };
 		0175126A1549DC6B00EACA59 /* Ontime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017512691549DC6B00EACA59 /* Ontime.storyboard */; };
 		0175126E1549DF1B00EACA59 /* bucket.png in Resources */ = {isa = PBXBuildFile; fileRef = 0175126C1549DF1B00EACA59 /* bucket.png */; };
 		0175126F1549DF1B00EACA59 /* bucket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0175126D1549DF1B00EACA59 /* bucket@2x.png */; };
@@ -32,6 +32,15 @@
 		017512811549E59300EACA59 /* tabBarIcon-Target@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512781549E59300EACA59 /* tabBarIcon-Target@2x.png */; };
 		0175128E1549EBE700EACA59 /* omTargetRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0175128D1549EBE700EACA59 /* omTargetRootViewController.m */; };
 		017512911549EE8900EACA59 /* omTargetEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512901549EE8900EACA59 /* omTargetEditViewController.m */; };
+		01751294154A031400EACA59 /* omTargetListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01751293154A031400EACA59 /* omTargetListTableViewController.m */; };
+		017512AB154A6F5F00EACA59 /* omTargetEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512AA154A6F5F00EACA59 /* omTargetEditTableViewController.m */; };
+		017512B0154A6FAD00EACA59 /* ontime.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 017512AF154A6FAD00EACA59 /* ontime.xcdatamodel */; };
+		017512B1154A6FAD00EACA59 /* ontime.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 017512AF154A6FAD00EACA59 /* ontime.xcdatamodel */; };
+		017512B4154A6FBD00EACA59 /* OTDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512B3154A6FBD00EACA59 /* OTDataManager.m */; };
+		017512B5154A6FBD00EACA59 /* OTDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512B3154A6FBD00EACA59 /* OTDataManager.m */; };
+		017512B8154A717A00EACA59 /* OTEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512B7154A717A00EACA59 /* OTEvent.m */; };
+		017512B9154A717A00EACA59 /* OTEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512B7154A717A00EACA59 /* OTEvent.m */; };
+		017512BE154A71CB00EACA59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017512BD154A71CB00EACA59 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +68,9 @@
 		017512521549DC4600EACA59 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0175125A1549DC4600EACA59 /* ontimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ontimeTests-Info.plist"; sourceTree = "<group>"; };
 		0175125C1549DC4600EACA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0175125E1549DC4700EACA59 /* StoryboardmojoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryboardmojoTests.h; sourceTree = "<group>"; };
-		0175125F1549DC4700EACA59 /* StoryboardmojoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardmojoTests.m; sourceTree = "<group>"; };
-		017512691549DC6B00EACA59 /* Ontime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ontime.storyboard; sourceTree = "<group>"; };
+		0175125E1549DC4700EACA59 /* OntimeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OntimeTests.h; sourceTree = "<group>"; };
+		0175125F1549DC4700EACA59 /* OntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OntimeTests.m; sourceTree = "<group>"; };
+		017512691549DC6B00EACA59 /* Ontime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ontime.storyboard; sourceTree = SOURCE_ROOT; };
 		0175126C1549DF1B00EACA59 /* bucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucket.png; sourceTree = "<group>"; };
 		0175126D1549DF1B00EACA59 /* bucket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bucket@2x.png"; sourceTree = "<group>"; };
 		017512701549E59300EACA59 /* OnTime-Icon-1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnTime-Icon-1024px.png"; sourceTree = "<group>"; };
@@ -77,6 +86,17 @@
 		0175128D1549EBE700EACA59 /* omTargetRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omTargetRootViewController.m; path = ViewControllers/omTargetRootViewController.m; sourceTree = "<group>"; };
 		0175128F1549EE8900EACA59 /* omTargetEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omTargetEditViewController.h; path = ViewControllers/omTargetEditViewController.h; sourceTree = "<group>"; };
 		017512901549EE8900EACA59 /* omTargetEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omTargetEditViewController.m; path = ViewControllers/omTargetEditViewController.m; sourceTree = "<group>"; };
+		01751292154A031400EACA59 /* omTargetListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omTargetListTableViewController.h; path = ViewControllers/omTargetListTableViewController.h; sourceTree = "<group>"; };
+		01751293154A031400EACA59 /* omTargetListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omTargetListTableViewController.m; path = ViewControllers/omTargetListTableViewController.m; sourceTree = "<group>"; };
+		017512A9154A6F5F00EACA59 /* omTargetEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omTargetEditTableViewController.h; path = ViewControllers/omTargetEditTableViewController.h; sourceTree = "<group>"; };
+		017512AA154A6F5F00EACA59 /* omTargetEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omTargetEditTableViewController.m; path = ViewControllers/omTargetEditTableViewController.m; sourceTree = "<group>"; };
+		017512AD154A6F8B00EACA59 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		017512AF154A6FAD00EACA59 /* ontime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ontime.xcdatamodel; sourceTree = "<group>"; };
+		017512B2154A6FBD00EACA59 /* OTDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDataManager.h; sourceTree = "<group>"; };
+		017512B3154A6FBD00EACA59 /* OTDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDataManager.m; sourceTree = "<group>"; };
+		017512B6154A717A00EACA59 /* OTEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTEvent.h; sourceTree = "<group>"; };
+		017512B7154A717A00EACA59 /* OTEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTEvent.m; sourceTree = "<group>"; };
+		017512BD154A71CB00EACA59 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017512BE154A71CB00EACA59 /* CoreData.framework in Frameworks */,
 				0175123B1549DC4600EACA59 /* UIKit.framework in Frameworks */,
 				0175123D1549DC4600EACA59 /* Foundation.framework in Frameworks */,
 				0175123F1549DC4600EACA59 /* CoreGraphics.framework in Frameworks */,
@@ -106,7 +127,6 @@
 		0175122B1549DC4600EACA59 = {
 			isa = PBXGroup;
 			children = (
-				017512691549DC6B00EACA59 /* Ontime.storyboard */,
 				017512401549DC4600EACA59 /* Ontime */,
 				017512581549DC4600EACA59 /* OntimeTests */,
 				017512391549DC4600EACA59 /* Frameworks */,
@@ -126,6 +146,7 @@
 		017512391549DC4600EACA59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				017512BD154A71CB00EACA59 /* CoreData.framework */,
 				0175123A1549DC4600EACA59 /* UIKit.framework */,
 				0175123C1549DC4600EACA59 /* Foundation.framework */,
 				0175123E1549DC4600EACA59 /* CoreGraphics.framework */,
@@ -137,10 +158,9 @@
 		017512401549DC4600EACA59 /* Ontime */ = {
 			isa = PBXGroup;
 			children = (
-				0175128B1549EBB800EACA59 /* ViewControllers */,
+				017512AE154A6FA500EACA59 /* Resources */,
 				0175126B1549DF1B00EACA59 /* Assets */,
-				017512491549DC4600EACA59 /* omAppDelegate.h */,
-				0175124A1549DC4600EACA59 /* omAppDelegate.m */,
+				017512BC154A719900EACA59 /* Classes */,
 				017512411549DC4600EACA59 /* Supporting Files */,
 			);
 			path = Ontime;
@@ -160,8 +180,8 @@
 		017512581549DC4600EACA59 /* OntimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				0175125E1549DC4700EACA59 /* StoryboardmojoTests.h */,
-				0175125F1549DC4700EACA59 /* StoryboardmojoTests.m */,
+				0175125E1549DC4700EACA59 /* OntimeTests.h */,
+				0175125F1549DC4700EACA59 /* OntimeTests.m */,
 				017512591549DC4600EACA59 /* Supporting Files */,
 			);
 			path = OntimeTests;
@@ -170,6 +190,7 @@
 		017512591549DC4600EACA59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				017512AD154A6F8B00EACA59 /* global.h */,
 				0175125A1549DC4600EACA59 /* ontimeTests-Info.plist */,
 				0175125B1549DC4600EACA59 /* InfoPlist.strings */,
 			);
@@ -199,10 +220,45 @@
 			children = (
 				0175128C1549EBE700EACA59 /* omTargetRootViewController.h */,
 				0175128D1549EBE700EACA59 /* omTargetRootViewController.m */,
+				01751292154A031400EACA59 /* omTargetListTableViewController.h */,
+				01751293154A031400EACA59 /* omTargetListTableViewController.m */,
 				0175128F1549EE8900EACA59 /* omTargetEditViewController.h */,
 				017512901549EE8900EACA59 /* omTargetEditViewController.m */,
+				017512A9154A6F5F00EACA59 /* omTargetEditTableViewController.h */,
+				017512AA154A6F5F00EACA59 /* omTargetEditTableViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		017512AE154A6FA500EACA59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				017512691549DC6B00EACA59 /* Ontime.storyboard */,
+				017512AF154A6FAD00EACA59 /* ontime.xcdatamodel */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		017512BA154A717D00EACA59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				017512B6154A717A00EACA59 /* OTEvent.h */,
+				017512B7154A717A00EACA59 /* OTEvent.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		017512BC154A719900EACA59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				017512BA154A717D00EACA59 /* Models */,
+				0175128B1549EBB800EACA59 /* ViewControllers */,
+				017512491549DC4600EACA59 /* omAppDelegate.h */,
+				0175124A1549DC4600EACA59 /* omAppDelegate.m */,
+				017512B2154A6FBD00EACA59 /* OTDataManager.h */,
+				017512B3154A6FBD00EACA59 /* OTDataManager.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +384,11 @@
 				0175124B1549DC4600EACA59 /* omAppDelegate.m in Sources */,
 				0175128E1549EBE700EACA59 /* omTargetRootViewController.m in Sources */,
 				017512911549EE8900EACA59 /* omTargetEditViewController.m in Sources */,
+				01751294154A031400EACA59 /* omTargetListTableViewController.m in Sources */,
+				017512AB154A6F5F00EACA59 /* omTargetEditTableViewController.m in Sources */,
+				017512B0154A6FAD00EACA59 /* ontime.xcdatamodel in Sources */,
+				017512B4154A6FBD00EACA59 /* OTDataManager.m in Sources */,
+				017512B8154A717A00EACA59 /* OTEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +396,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017512601549DC4700EACA59 /* StoryboardmojoTests.m in Sources */,
+				017512601549DC4700EACA59 /* OntimeTests.m in Sources */,
+				017512B1154A6FAD00EACA59 /* ontime.xcdatamodel in Sources */,
+				017512B5154A6FBD00EACA59 /* OTDataManager.m in Sources */,
+				017512B9154A717A00EACA59 /* OTEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +503,14 @@
 		017512671549DC4700EACA59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Storyboardmojo.app/Storyboardmojo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ontime.app/Ontime";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Storyboardmojo/Storyboardmojo-Prefix.pch";
-				INFOPLIST_FILE = "StoryboardmojoTests/ontimeTests-Info.plist";
+				INFOPLIST_FILE = "OntimeTests/ontimeTests-Info.plist";
 				PRODUCT_NAME = OntimeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -456,14 +520,14 @@
 		017512681549DC4700EACA59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Storyboardmojo.app/Storyboardmojo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ontime.app/Ontime";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Storyboardmojo/Storyboardmojo-Prefix.pch";
-				INFOPLIST_FILE = "StoryboardmojoTests/ontimeTests-Info.plist";
+				INFOPLIST_FILE = "OntimeTests/ontimeTests-Info.plist";
 				PRODUCT_NAME = OntimeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;

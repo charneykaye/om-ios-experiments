@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "017512351549DC4600EACA59"
-               BuildableName = "ontime.app"
+               BuildableName = "Ontime.app"
                BlueprintName = "Ontime"
                ReferencedContainer = "container:Ontime.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "017512501549DC4600EACA59"
-               BuildableName = "ontimeTests.octest"
+               BuildableName = "OntimeTests.octest"
                BlueprintName = "OntimeTests"
                ReferencedContainer = "container:Ontime.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "017512351549DC4600EACA59"
-            BuildableName = "ontime.app"
+            BuildableName = "Ontime.app"
             BlueprintName = "Ontime"
             ReferencedContainer = "container:Ontime.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "017512351549DC4600EACA59"
-            BuildableName = "ontime.app"
+            BuildableName = "Ontime.app"
             BlueprintName = "Ontime"
             ReferencedContainer = "container:Ontime.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "017512351549DC4600EACA59"
-            BuildableName = "ontime.app"
+            BuildableName = "Ontime.app"
             BlueprintName = "Ontime"
             ReferencedContainer = "container:Ontime.xcodeproj">
          </BuildableReference>
