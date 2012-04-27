@@ -14,6 +14,16 @@
 
 @implementation omTargetEditTableViewController
 
+/*
+ */
+#pragma mark properties
+
+@synthesize delegate;
+
+/*
+ */
+#pragma view delegate
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -51,11 +61,13 @@
 #pragma mark action handler methods
 
 - (IBAction)doTouchCancel:(id)sender {
-    OTLogDev(@"cancel");
+    omLogDev(@"cancel");
+    [self.delegate omTargetEditTableViewControllerDidCancel:self];
 }
 
 - (IBAction)doTouchSave:(id)sender {
-    OTLogDev(@"save");
+    omLogDev(@"save");
+    [self.delegate omTargetEditTableViewControllerDidSave:self];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
@@ -65,28 +77,28 @@
 
 -(void) doEditRepeat
 {
-    OTLogDev(@"repeat");
+    omLogDev(@"repeat");
 //    [self.destinationEditFieldViewController setupFieldRepeat];
 //    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
 }
 
 -(void) doEditLocation
 {
-    OTLogDev(@"location");
+    omLogDev(@"location");
 //    [self.destinationEditFieldViewController setupFieldLocation];
 //    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
 }
 
 -(void) doEditLabel
 {
-    OTLogDev(@"label");
+    omLogDev(@"label");
 //    [self.destinationEditFieldViewController setupFieldLabel];
 //    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
 }
 
 -(void) doEditTbdTwo
 {
-    OTLogDev(@"tbd");
+    omLogDev(@"tbd");
 //    [self.destinationEditFieldViewController setupFieldTbd];
 //    [self.navigationController pushViewController:self.destinationEditFieldViewController animated:YES];
 }
@@ -128,7 +140,7 @@
      
      static NSString *CellIdentifier, *CellTextLabel, *CellDetailTextLabel;
      
-     OTLogDev(@"%i",indexPath.row);
+     omLogDev(@"%i",indexPath.row);
      
      UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier]; 
      

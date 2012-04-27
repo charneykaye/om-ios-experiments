@@ -9,8 +9,17 @@
 #import "global.h"
 #import <UIKit/UIKit.h>
 
-@interface omTargetListTableViewController : UITableViewController
+#pragma mark - omTargetListTableViewDelegate protocol
+@class omTargetListTableViewController;
+@protocol omTargetListTableViewDelegate <NSObject>
+- (void)omTargetEditTableViewControllerDidCancel: (omTargetListTableViewController *) controller;
+- (void)omTargetEditTableViewControllerDidSave: (omTargetListTableViewController *) controller;
+@end
 
+#pragma mark interface
+@interface omTargetListTableViewController : UITableViewController <omTargetListTableViewDelegate>
+
+#pragma mark table cells
 -(UITableViewCell *) tableCellGeneric: (UITableView *)tableView;
 -(UITableViewCell *) tableCellInit: (UITableView *)tableView withIdentifier: (NSString *)CellIdentifier;
 

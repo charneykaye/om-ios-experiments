@@ -7,12 +7,52 @@
 //
 
 #import "omTargetListTableViewController.h"
+#import "omTargetEditTableViewController.h"
 
 @interface omTargetListTableViewController ()
 
 @end
 
 @implementation omTargetListTableViewController
+
+/*
+ */
+#pragma mark properties
+
+/*
+ */
+#pragma mark navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+	if ([segue.identifier isEqualToString:@"TargetAdd"])
+	{
+        omLogDev(@"Target ADDDD");
+         UINavigationController *navigationController = segue.destinationViewController;
+         omTargetEditTableViewController * targetEditTableViewController = [[navigationController viewControllers]objectAtIndex:0];
+         [targetEditTableViewController setDelegate:self];
+	}
+}
+
+/*
+ */
+#pragma mark - PlayerDetailsViewControllerDelegate
+
+- (void)omTargetEditTableViewControllerDidCancel:(omTargetListTableViewController *)controller
+{
+	[self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)omTargetEditTableViewControllerDidSave:(omTargetListTableViewController *)controller
+{
+	[self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+
+/*
+ */
+#pragma mark view delegate
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -51,13 +91,13 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 0;
+    return 50;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

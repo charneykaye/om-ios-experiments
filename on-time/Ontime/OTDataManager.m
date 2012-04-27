@@ -115,11 +115,11 @@ static id __instance;
     __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     
     /*
-    OTLogDev(@"Managed Object Model: %@",__managedObjectModel);
+    omLogDev(@"Managed Object Model: %@",__managedObjectModel);
      NSString *logAll = @"Managed Object Model Entities:\n";
      for ( omEvent *event in __managedObjectModel.entities)
      logAll = [logAll stringByAppendingFormat: @"%@\n", event];
-     OTLogDev(logAll);
+     omLogDev(logAll);
      */
     
     return __managedObjectModel;
@@ -138,7 +138,7 @@ static id __instance;
     NSError *error = nil;
     __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
     if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
-        OTLogDev(@"FAILED to obtain the persistent store coordinator!");
+        omLogDev(@"FAILED to obtain the persistent store coordinator!");
         /*
          Replace this implementation with code to handle the error appropriately.
          

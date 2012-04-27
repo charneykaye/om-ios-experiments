@@ -30,8 +30,6 @@
 		0175127F1549E59300EACA59 /* tabBarIcon-Gotothere@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512761549E59300EACA59 /* tabBarIcon-Gotothere@2x.png */; };
 		017512801549E59300EACA59 /* tabBarIcon-Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512771549E59300EACA59 /* tabBarIcon-Target.png */; };
 		017512811549E59300EACA59 /* tabBarIcon-Target@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512781549E59300EACA59 /* tabBarIcon-Target@2x.png */; };
-		0175128E1549EBE700EACA59 /* omTargetRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0175128D1549EBE700EACA59 /* omTargetRootViewController.m */; };
-		017512911549EE8900EACA59 /* omTargetEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512901549EE8900EACA59 /* omTargetEditViewController.m */; };
 		01751294154A031400EACA59 /* omTargetListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01751293154A031400EACA59 /* omTargetListTableViewController.m */; };
 		017512AB154A6F5F00EACA59 /* omTargetEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512AA154A6F5F00EACA59 /* omTargetEditTableViewController.m */; };
 		017512B0154A6FAD00EACA59 /* ontime.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 017512AF154A6FAD00EACA59 /* ontime.xcdatamodel */; };
@@ -82,10 +80,6 @@
 		017512761549E59300EACA59 /* tabBarIcon-Gotothere@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarIcon-Gotothere@2x.png"; sourceTree = "<group>"; };
 		017512771549E59300EACA59 /* tabBarIcon-Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarIcon-Target.png"; sourceTree = "<group>"; };
 		017512781549E59300EACA59 /* tabBarIcon-Target@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarIcon-Target@2x.png"; sourceTree = "<group>"; };
-		0175128C1549EBE700EACA59 /* omTargetRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omTargetRootViewController.h; path = ViewControllers/omTargetRootViewController.h; sourceTree = "<group>"; };
-		0175128D1549EBE700EACA59 /* omTargetRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omTargetRootViewController.m; path = ViewControllers/omTargetRootViewController.m; sourceTree = "<group>"; };
-		0175128F1549EE8900EACA59 /* omTargetEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omTargetEditViewController.h; path = ViewControllers/omTargetEditViewController.h; sourceTree = "<group>"; };
-		017512901549EE8900EACA59 /* omTargetEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omTargetEditViewController.m; path = ViewControllers/omTargetEditViewController.m; sourceTree = "<group>"; };
 		01751292154A031400EACA59 /* omTargetListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omTargetListTableViewController.h; path = ViewControllers/omTargetListTableViewController.h; sourceTree = "<group>"; };
 		01751293154A031400EACA59 /* omTargetListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = omTargetListTableViewController.m; path = ViewControllers/omTargetListTableViewController.m; sourceTree = "<group>"; };
 		017512A9154A6F5F00EACA59 /* omTargetEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omTargetEditTableViewController.h; path = ViewControllers/omTargetEditTableViewController.h; sourceTree = "<group>"; };
@@ -218,12 +212,8 @@
 		0175128B1549EBB800EACA59 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0175128C1549EBE700EACA59 /* omTargetRootViewController.h */,
-				0175128D1549EBE700EACA59 /* omTargetRootViewController.m */,
 				01751292154A031400EACA59 /* omTargetListTableViewController.h */,
 				01751293154A031400EACA59 /* omTargetListTableViewController.m */,
-				0175128F1549EE8900EACA59 /* omTargetEditViewController.h */,
-				017512901549EE8900EACA59 /* omTargetEditViewController.m */,
 				017512A9154A6F5F00EACA59 /* omTargetEditTableViewController.h */,
 				017512AA154A6F5F00EACA59 /* omTargetEditTableViewController.m */,
 			);
@@ -382,8 +372,6 @@
 			files = (
 				017512471549DC4600EACA59 /* main.m in Sources */,
 				0175124B1549DC4600EACA59 /* omAppDelegate.m in Sources */,
-				0175128E1549EBE700EACA59 /* omTargetRootViewController.m in Sources */,
-				017512911549EE8900EACA59 /* omTargetEditViewController.m in Sources */,
 				01751294154A031400EACA59 /* omTargetListTableViewController.m in Sources */,
 				017512AB154A6F5F00EACA59 /* omTargetEditTableViewController.m in Sources */,
 				017512B0154A6FAD00EACA59 /* ontime.xcdatamodel in Sources */,

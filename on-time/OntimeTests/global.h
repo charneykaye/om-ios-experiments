@@ -12,9 +12,9 @@
 #define DEBUG 1
 
 #ifdef DEBUG
-#define OTLogDev(...) printf("%s [Line %d] %s\n",__PRETTY_FUNCTION__, __LINE__,[[NSString stringWithFormat:__VA_ARGS__] UTF8String])
+#define omLogDev(...) printf("%s [Line %d] %s\n",__PRETTY_FUNCTION__, __LINE__,[[NSString stringWithFormat:__VA_ARGS__] UTF8String])
 #else
-#define OTLogDev(...) do{}while(0)
+#define omLogDev(...) do{}while(0)
 #endif
 
 #endif

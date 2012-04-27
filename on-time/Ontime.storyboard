@@ -6,11 +6,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Targets-->
+        <!--Om Target List Table View Controller - Targets-->
         <scene sceneID="GEy-qk-z5l">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tku-cD-QbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="7Cg-aD-P4w" sceneMemberID="viewController">
+                <tableViewController id="7Cg-aD-P4w" customClass="omTargetListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="v8C-sS-Lt2">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +30,7 @@
                     <navigationItem key="navigationItem" title="Targets" id="oFP-cs-MkI">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="kMI-HF-jHG">
                             <connections>
-                                <segue destination="E2L-d0-2kh" kind="modal" id="9or-rg-frO"/>
+                                <segue destination="E2L-d0-2kh" kind="modal" identifier="TargetAdd" id="9or-rg-frO"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -62,7 +62,18 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Set Target" id="9tE-Rz-RPa"/>
+                    <navigationItem key="navigationItem" title="Set Target" id="9tE-Rz-RPa">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="aMg-ts-SwB">
+                            <connections>
+                                <action selector="doTouchCancel:" destination="g1K-ge-5YL" id="yaU-yv-T2d"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="3Rp-pV-KRG">
+                            <connections>
+                                <action selector="doTouchSave:" destination="g1K-ge-5YL" id="Lv6-bv-v3C"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="1223" y="-1956"/>
@@ -152,15 +163,6 @@
         <image name="tabBarIcon-Gotothere.png" width="30" height="30"/>
         <image name="tabBarIcon-Target.png" width="30" height="30"/>
     </resources>
-    <classes>
-        <class className="omTargetEditTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/omTargetEditTableViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doTouchCancel:"/>
-                <relationship kind="action" name="doTouchSave:"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

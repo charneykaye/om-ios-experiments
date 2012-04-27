@@ -8,8 +8,12 @@
 
 #import "global.h"
 #import <UIKit/UIKit.h>
+#import "omTargetListTableViewController.h"
 
 @interface omTargetEditTableViewController : UITableViewController
+
+#pragma mark properties
+@property (nonatomic, weak) id <omTargetListTableViewDelegate> delegate;
 
 #pragma mark action handler methods
 -(IBAction) doTouchCancel:(id)sender;
