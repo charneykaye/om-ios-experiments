@@ -39,6 +39,10 @@
 		017512B8154A717A00EACA59 /* OTEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512B7154A717A00EACA59 /* OTEvent.m */; };
 		017512B9154A717A00EACA59 /* OTEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 017512B7154A717A00EACA59 /* OTEvent.m */; };
 		017512BE154A71CB00EACA59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017512BD154A71CB00EACA59 /* CoreData.framework */; };
+		017512C0154A79B300EACA59 /* OnTime-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512BF154A79B300EACA59 /* OnTime-Icon.png */; };
+		017512C2154A79D100EACA59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512C1154A79D100EACA59 /* Default.png */; };
+		017512C4154A79D400EACA59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512C3154A79D300EACA59 /* Default@2x.png */; };
+		017512C6154A79E000EACA59 /* OnTime-Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 017512C5154A79E000EACA59 /* OnTime-Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,10 @@
 		017512B6154A717A00EACA59 /* OTEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTEvent.h; sourceTree = "<group>"; };
 		017512B7154A717A00EACA59 /* OTEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTEvent.m; sourceTree = "<group>"; };
 		017512BD154A71CB00EACA59 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		017512BF154A79B300EACA59 /* OnTime-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnTime-Icon.png"; sourceTree = "<group>"; };
+		017512C1154A79D100EACA59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		017512C3154A79D300EACA59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		017512C5154A79E000EACA59 /* OnTime-Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnTime-Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 		0175122B1549DC4600EACA59 = {
 			isa = PBXGroup;
 			children = (
+				017512C5154A79E000EACA59 /* OnTime-Icon@2x.png */,
+				017512C3154A79D300EACA59 /* Default@2x.png */,
+				017512C1154A79D100EACA59 /* Default.png */,
+				017512BF154A79B300EACA59 /* OnTime-Icon.png */,
 				017512401549DC4600EACA59 /* Ontime */,
 				017512581549DC4600EACA59 /* OntimeTests */,
 				017512391549DC4600EACA59 /* Frameworks */,
@@ -336,6 +348,10 @@
 				0175127F1549E59300EACA59 /* tabBarIcon-Gotothere@2x.png in Resources */,
 				017512801549E59300EACA59 /* tabBarIcon-Target.png in Resources */,
 				017512811549E59300EACA59 /* tabBarIcon-Target@2x.png in Resources */,
+				017512C0154A79B300EACA59 /* OnTime-Icon.png in Resources */,
+				017512C2154A79D100EACA59 /* Default.png in Resources */,
+				017512C4154A79D400EACA59 /* Default@2x.png in Resources */,
+				017512C6154A79E000EACA59 /* OnTime-Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +488,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ontime/ontime-Prefix.pch";
 				INFOPLIST_FILE = "Ontime/ontime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Ontime;
 				WRAPPER_EXTENSION = app;
 			};
@@ -483,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ontime/ontime-Prefix.pch";
 				INFOPLIST_FILE = "Ontime/ontime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Ontime;
 				WRAPPER_EXTENSION = app;
 			};

@@ -163,6 +163,18 @@
         <image name="tabBarIcon-Gotothere.png" width="30" height="30"/>
         <image name="tabBarIcon-Target.png" width="30" height="30"/>
     </resources>
+    <classes>
+        <class className="omTargetEditTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/omTargetEditTableViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doTouchCancel:"/>
+                <relationship kind="action" name="doTouchSave:"/>
+            </relationships>
+        </class>
+        <class className="omTargetListTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/omTargetListTableViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
