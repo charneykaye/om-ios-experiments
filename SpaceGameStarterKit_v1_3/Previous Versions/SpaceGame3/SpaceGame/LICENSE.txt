@@ -1,0 +1,9 @@
+The Space Game Starter Kit has the following license:
+
+  * You are allowed to use and/or modify the source code in the Space Game Starter Kit in as many games that you want, with no attribution required.
+
+  * You are allowed to use and/or modify all art, music, and sound effects that are included in the Space Game Starter Kit in as many games as you want, but must attribute Vicki Wenderlich of http://www.vickiwenderlich.com.
+
+  * The source code included in this Space Game Starter Kit is for your own personal use only.  You are NOT allowed to distribute or sell the source code in the Space Game Starter Kit without prior authorization.
+  * Likewise, the tutorials in this guide are for your own personal use only.  You are NOT allowed to distribute or sell the tutorials in this guide without prior authorization.
+All materials provided in this starter kit is provided on an “as is” basis, without warranty of any kind, express or impled, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.  In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
