@@ -116,18 +116,18 @@
 		010943A61556C40E00EB86E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010943A51556C40E00EB86E9 /* AppDelegate.m */; };
 		010943A91556C40E00EB86E9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010943A81556C40E00EB86E9 /* RootViewController.m */; };
 		010943AC1556C40E00EB86E9 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 010943AB1556C40E00EB86E9 /* HelloWorldLayer.m */; };
-		0110CD941556EBAD006D7C3F /* gem-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CD8E1556EBAD006D7C3F /* gem-A.png */; };
-		0110CD951556EBAD006D7C3F /* gem-A@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CD8F1556EBAD006D7C3F /* gem-A@2x.png */; };
-		0110CD961556EBAD006D7C3F /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CD901556EBAD006D7C3F /* ninja.png */; };
-		0110CD971556EBAD006D7C3F /* ninja@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CD911556EBAD006D7C3F /* ninja@2x.png */; };
-		0110CD981556EBAD006D7C3F /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CD921556EBAD006D7C3F /* target.png */; };
-		0110CD991556EBAD006D7C3F /* target@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CD931556EBAD006D7C3F /* target@2x.png */; };
 		0110CD9C1556FBB4006D7C3F /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0110CD9B1556FBB4006D7C3F /* background-music-aac.caf */; };
 		0110CD9F1556FFC3006D7C3F /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110CD9E1556FFC3006D7C3F /* GameOverScene.m */; };
 		0110CDA215570085006D7C3F /* hit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0110CDA015570085006D7C3F /* hit.caf */; };
 		0110CDA315570085006D7C3F /* shoot.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0110CDA115570085006D7C3F /* shoot.caf */; };
 		0110CDB11557041D006D7C3F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CDB01557041D006D7C3F /* Icon.png */; };
 		0110CDB315570421006D7C3F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0110CDB215570421006D7C3F /* Icon@2x.png */; };
+		01D4779F15570C6500488CB2 /* gem-A.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D4779915570C6500488CB2 /* gem-A.png */; };
+		01D477A115570C6500488CB2 /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D4779B15570C6500488CB2 /* ninja.png */; };
+		01D477A315570C6500488CB2 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D4779D15570C6500488CB2 /* target.png */; };
+		01D477B31557159400488CB2 /* gem-A-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D477B01557159400488CB2 /* gem-A-hd.png */; };
+		01D477B41557159400488CB2 /* ninja-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D477B11557159400488CB2 /* ninja-hd.png */; };
+		01D477B51557159400488CB2 /* target-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D477B21557159400488CB2 /* target-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -360,12 +360,6 @@
 		010943AA1556C40E00EB86E9 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		010943AB1556C40E00EB86E9 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		010943AD1556C40E00EB86E9 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
-		0110CD8E1556EBAD006D7C3F /* gem-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gem-A.png"; sourceTree = "<group>"; };
-		0110CD8F1556EBAD006D7C3F /* gem-A@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gem-A@2x.png"; sourceTree = "<group>"; };
-		0110CD901556EBAD006D7C3F /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja.png; sourceTree = "<group>"; };
-		0110CD911556EBAD006D7C3F /* ninja@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ninja@2x.png"; sourceTree = "<group>"; };
-		0110CD921556EBAD006D7C3F /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
-		0110CD931556EBAD006D7C3F /* target@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "target@2x.png"; sourceTree = "<group>"; };
 		0110CD9B1556FBB4006D7C3F /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		0110CD9D1556FFC3006D7C3F /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		0110CD9E1556FFC3006D7C3F /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
@@ -373,6 +367,12 @@
 		0110CDA115570085006D7C3F /* shoot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shoot.caf; sourceTree = "<group>"; };
 		0110CDB01557041D006D7C3F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		0110CDB215570421006D7C3F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		01D4779915570C6500488CB2 /* gem-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gem-A.png"; sourceTree = "<group>"; };
+		01D4779B15570C6500488CB2 /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja.png; sourceTree = "<group>"; };
+		01D4779D15570C6500488CB2 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		01D477B01557159400488CB2 /* gem-A-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gem-A-hd.png"; sourceTree = "<group>"; };
+		01D477B11557159400488CB2 /* ninja-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ninja-hd.png"; sourceTree = "<group>"; };
+		01D477B21557159400488CB2 /* target-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "target-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,12 +437,12 @@
 				010943A81556C40E00EB86E9 /* RootViewController.m */,
 				010943AA1556C40E00EB86E9 /* HelloWorldLayer.h */,
 				010943AB1556C40E00EB86E9 /* HelloWorldLayer.m */,
+				0110CD9D1556FFC3006D7C3F /* GameOverScene.h */,
+				0110CD9E1556FFC3006D7C3F /* GameOverScene.m */,
 				010943AD1556C40E00EB86E9 /* GameConfig.h */,
 				010942531556C40A00EB86E9 /* Resources */,
 				010942671556C40A00EB86E9 /* libs */,
 				010943A01556C40E00EB86E9 /* Supporting Files */,
-				0110CD9D1556FFC3006D7C3F /* GameOverScene.h */,
-				0110CD9E1556FFC3006D7C3F /* GameOverScene.m */,
 			);
 			name = ningems;
 			path = ninjems;
@@ -451,15 +451,15 @@
 		010942531556C40A00EB86E9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				01D477B01557159400488CB2 /* gem-A-hd.png */,
+				01D477B11557159400488CB2 /* ninja-hd.png */,
+				01D477B21557159400488CB2 /* target-hd.png */,
+				01D4779915570C6500488CB2 /* gem-A.png */,
+				01D4779B15570C6500488CB2 /* ninja.png */,
+				01D4779D15570C6500488CB2 /* target.png */,
 				0110CDA015570085006D7C3F /* hit.caf */,
 				0110CDA115570085006D7C3F /* shoot.caf */,
 				0110CD9B1556FBB4006D7C3F /* background-music-aac.caf */,
-				0110CD8E1556EBAD006D7C3F /* gem-A.png */,
-				0110CD8F1556EBAD006D7C3F /* gem-A@2x.png */,
-				0110CD901556EBAD006D7C3F /* ninja.png */,
-				0110CD911556EBAD006D7C3F /* ninja@2x.png */,
-				0110CD921556EBAD006D7C3F /* target.png */,
-				0110CD931556EBAD006D7C3F /* target@2x.png */,
 				010942541556C40A00EB86E9 /* Default.png */,
 				010942561556C40A00EB86E9 /* fps_images.png */,
 				010942641556C40A00EB86E9 /* Info.plist */,
@@ -833,17 +833,17 @@
 				010942551556C40A00EB86E9 /* Default.png in Resources */,
 				010942571556C40A00EB86E9 /* fps_images.png in Resources */,
 				010942661556C40A00EB86E9 /* iTunesArtwork in Resources */,
-				0110CD941556EBAD006D7C3F /* gem-A.png in Resources */,
-				0110CD951556EBAD006D7C3F /* gem-A@2x.png in Resources */,
-				0110CD961556EBAD006D7C3F /* ninja.png in Resources */,
-				0110CD971556EBAD006D7C3F /* ninja@2x.png in Resources */,
-				0110CD981556EBAD006D7C3F /* target.png in Resources */,
-				0110CD991556EBAD006D7C3F /* target@2x.png in Resources */,
 				0110CD9C1556FBB4006D7C3F /* background-music-aac.caf in Resources */,
 				0110CDA215570085006D7C3F /* hit.caf in Resources */,
 				0110CDA315570085006D7C3F /* shoot.caf in Resources */,
 				0110CDB11557041D006D7C3F /* Icon.png in Resources */,
 				0110CDB315570421006D7C3F /* Icon@2x.png in Resources */,
+				01D4779F15570C6500488CB2 /* gem-A.png in Resources */,
+				01D477A115570C6500488CB2 /* ninja.png in Resources */,
+				01D477A315570C6500488CB2 /* target.png in Resources */,
+				01D477B31557159400488CB2 /* gem-A-hd.png in Resources */,
+				01D477B41557159400488CB2 /* ninja-hd.png in Resources */,
+				01D477B51557159400488CB2 /* target-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,6 +1004,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ninjems/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = ninjems/Resources/Info.plist;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = ninjems;
@@ -1019,6 +1020,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ninjems/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = ninjems/Resources/Info.plist;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = ninjems;
@@ -1054,6 +1056,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ninjems/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = ninjems/Resources/Info.plist;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = ninjems;

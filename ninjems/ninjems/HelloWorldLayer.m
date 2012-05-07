@@ -41,7 +41,7 @@ static BOOL __isMusicPlaying;
     if (sprite.tag == 1) { // target
         [_targets removeObject:sprite];
         GameOverScene *gameOverScene = [GameOverScene node];
-        [gameOverScene.layer.label setString:@"You Lose :["];
+        [gameOverScene.layer.label setString:@"womp :["];
         [[CCDirector sharedDirector] replaceScene:gameOverScene];        
     } else if (sprite.tag == 2) { // projectile
         [_projectiles removeObject:sprite];
@@ -54,18 +54,18 @@ static BOOL __isMusicPlaying;
     NSMutableArray *projectilesToDelete = [[NSMutableArray alloc] init];
     for (CCSprite *projectile in _projectiles) {
         CGRect projectileRect = CGRectMake(
-                                           projectile.position.x - (projectile.contentSize.width/6), 
-                                           projectile.position.y - (projectile.contentSize.height/6), 
-                                           projectile.contentSize.width/3, 
-                                           projectile.contentSize.height/3);
+                                           projectile.position.x - (projectile.contentSize.width/4), 
+                                           projectile.position.y - (projectile.contentSize.height/4), 
+                                           projectile.contentSize.width/2, 
+                                           projectile.contentSize.height/2);
         
         NSMutableArray *targetsToDelete = [[NSMutableArray alloc] init];
         for (CCSprite *target in _targets) {
             CGRect targetRect = CGRectMake(
-                                           target.position.x - (target.contentSize.width/6), 
-                                           target.position.y - (target.contentSize.height/6), 
-                                           target.contentSize.width/3, 
-                                           target.contentSize.height/3);
+                                           target.position.x - (target.contentSize.width/4), 
+                                           target.position.y - (target.contentSize.height/4), 
+                                           target.contentSize.width/2, 
+                                           target.contentSize.height/2);
             
             if (CGRectIntersectsRect(projectileRect, targetRect)) {
                 [targetsToDelete addObject:target];				
@@ -100,7 +100,7 @@ static BOOL __isMusicPlaying;
 
 -(void)addTarget {
     
-    CCSprite *target = [CCSprite spriteWithFile:@"Target.png" 
+    CCSprite *target = [CCSprite spriteWithFile:@"target.png" 
                                            rect:CGRectMake(0, 0, 24, 64)]; 
     
     // Determine where to spawn the target along the Y axis
